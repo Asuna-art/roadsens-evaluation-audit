@@ -1,0 +1,31 @@
+{
+  "version": 8,
+  "date": "2026-11-02",
+  "status": "compiled_numeric_tables_and_links_verified_visual_review_passed",
+  "repository": "https://github.com/Asuna-art/roadsens-evaluation-audit",
+  "code_snapshot": "66eb1995a61460c866581122fa86ea908d08b640",
+  "documents": {
+    "main": {
+      "pages": 22,
+      "pdf_sha256": "d8a02b2e88acde6549321ebc17baf9140b0d4c97b75bb14f766e51847a2c7907",
+      "tex_sha256": "5feb1058a5cc8f93d756c92ce7af2091250e9c046bd24561e2bf9ad76dd1df83",
+      "out_of_page_spans": 0,
+      "numeric_tables_unchanged": true
+    },
+    "supplementary": {
+      "pages": 29,
+      "pdf_sha256": "6589bf4336d69a19b97f9118456f5cb61090f3a2da049ee7a840d25eba12c7a9",
+      "tex_sha256": "050f5e3a186c4449d06c046c8b35c5d56174f881252019e708f1be4d947e254b",
+      "out_of_page_spans": 0,
+      "numeric_tables_unchanged": true
+    }
+  },
+  "visual_review_pages": {
+    "main": [
+      21
+    ],
+    "supplementary": [
+      6
+    ]
+  }
+}
