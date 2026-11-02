@@ -1,0 +1,66 @@
+{
+  "status": "compiled_verified_visual_review_passed",
+  "documents": {
+    "main": {
+      "pages": 22,
+      "pdf_sha256": "1308bbf78c03cad742696f591d6278b531a6520eb396a8a281e76e09bc8d2d7d",
+      "source_sha256": "4f9967233e92f7f18a16ad7fd0d27f2f571254b87b6044f5982bd22f29294afa",
+      "min_font_pt": 8.390928268432617,
+      "outside_page_text": [],
+      "overfull_count": 0,
+      "new_evidence_pages": [
+        17,
+        18
+      ],
+      "final_compile_exit_code": 0,
+      "unresolved_citation_markers": 0
+    },
+    "supplementary": {
+      "pages": 28,
+      "pdf_sha256": "a0f5010b1fd8155c94324f1b53a5298b4c047320de708708d0526ea7b4bb09a6",
+      "source_sha256": "ea7359df88851242aeb912ba7297034dadf5ebc9664c3d77c26b5591657c3eda",
+      "min_font_pt": 8.4058198928833,
+      "outside_page_text": [],
+      "overfull_count": 0,
+      "new_evidence_pages": [
+        25,
+        26,
+        27
+      ],
+      "final_compile_exit_code": 0,
+      "unresolved_citation_markers": 0
+    }
+  },
+  "historical_tables": {
+    "main": {
+      "preserved": 13,
+      "new": 1
+    },
+    "supplementary": {
+      "preserved": 22,
+      "new": 3
+    }
+  },
+  "new_source_results_sha256": "e4428f5aaa8dda8b5ee98cf4563d360e8a6eab26cd8c69a819f2eaed3d9a18c9",
+  "new_score_rows_checked": 12,
+  "visual_review": {
+    "date": "2026-10-26",
+    "pages_contact_reviewed": 50,
+    "new_evidence_pages_reviewed_at_final_size": {
+      "main": [
+        17,
+        18
+      ],
+      "supplementary": [
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    "grayscale": "new quantitative tables are monochrome; grayscale render retained",
+    "clipping": "none",
+    "scientific_adversarial_review": "identical selections and small errors retained; no population or universal method claim",
+    "visual_score": 94
+  }
+}

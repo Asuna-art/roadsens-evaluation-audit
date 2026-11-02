@@ -1,0 +1,23 @@
+# Content-overlap amendment, before new grouping scores
+
+2026-10-16. New fit-free source audit found the official Combined files46.csv and47.csv have identical byte hashes, and retained12-axis IMU rows match across additional CSVs. The exploratory original recording-heldout and frozen main expansion A–E remain unchanged for traceability. They hold out filenames; they do not guarantee content-independent acquisition. This amendment adds checks rather than silently repairing a split after scoring.
+
+## Label-free content components
+
+For all101 cached recordings, canonicalize fully finite12-axis IMU vectors (float64, signed-zero normalized). Add an edge for byte-identical source files, or a run of at least20 consecutive retained rows with exactly matching12-axis vectors in the same order in both files (approximately2seconds at retained10Hz; report actual timestamp spans). A chain increments local row index by1 in both files; arbitrary isolated repeats do not create edges. Group all connected recordings into a component. Labels, model scores, GPS and weather do not decide these edges. Finite-vector exact match is a content criterion, not proof that files share a real drive, vehicle or road. Record all pair match counts, chain lengths and label/time agreement as diagnostics only.
+
+Before any component-model score, materialize and hash the edge list, canonical component IDs (lexicographically smallest member path), full source hashes and row membership. If allfive Normal-only recordings are separate singleton components and all other components contain onlymixed recordings, use the established constrained design: one shuffled Normal-only component per fold withRandomState(seed); anomaly-only StratifiedGroupKFold5seed(seed) using explicitprimary P/B rows and componentIDs, then merge. Same map for both policies. Every train/test fold must contain allthree classes; otherwise mark this experiment infeasible, do not change seeds or components to improve support. If normal components are not the required five singletons or overlap mixed groups, stop this prescribed design and report the limitation before proposing a different task.
+
+## H1. Component-heldout:100 additional model-folds
+
+On the unchanged101-record population: seed42, RF100 andHistGB, full_numeric/context_only/imu_only, both policies, fivefolds =60fits. Additional fixedseeds43/44: RF100 full_numeric/context_only, bothpolicies, fivefolds =40fits. Model andfit-sampling seeds change accordingly. Model/preprocessing andcap20k otherwise followprotocol_v1. Test components never share members withtraining. Report both file-heldout andcomponent-heldout, and do not attribute their difference causally to duplicates alone because training groupcomposition changes.
+
+## H2. Byte-deduplicated cohort:90 additional model-folds
+
+Keep one source file per identical bytehash, choosing the lexicographically smallest original relative path without inspectinglabels/scores. Build the resulting cohort before fitting. With the five Normal singleton condition, reconstruct constrained recording5foldseed42 on the retained records; row-random folds are reconstructed on this smaller cohort; timeblock binspan/embargo stays exact perretainedrecord. RF100, full/context/imu, bothpolicies, three splits, fivefolds =90fits. This onlyremoves byte-identical wholefiles, not allpartialcontent overlaps; it is a separatecohort with explicitdenominators, never a direct same-row comparison to the original101 table.
+
+## Bootstrap unit update
+
+No bootstrapintervals were inspected before this amendment. In protocol_v1 F, replace individualCSV resampling with the above content-component clusters, stratified Normal-only vs mixed. Use2,000 fixedseed20261016 draws, sharedweights across methods, with componentconfusionmatrices summed overmembers. Draw the observed number ofcomponents in eachstratum withreplacement. Report componentcounts, sourcefilecounts and number of Normal clusters. Intervals remain conditional descriptive sensitivity of fixedOOF predictions, not full training uncertainty or populationlevel inference. Original101 filename folds can containcrosscomponenttrain/test overlap; thisbootstrap cannot repair their evaluation or make them independent—it onlyavoids pretending duplicate fileoutputs are independent testclusters.
+
+Original330 exploratoryfits and planned1110 new A–E fits stay preserved. H adds190 newfits; total newRoadSens matrix becomes1300 before a separately frozen external dataset experiment. Counts do not create independent scientificreplications. Anyfuture correction to this amendment must precede that experiment's model scores and retain superseded artifacts.

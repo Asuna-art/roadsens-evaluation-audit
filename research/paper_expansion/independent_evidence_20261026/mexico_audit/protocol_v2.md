@@ -1,0 +1,36 @@
+# Mexico released-subset replication protocol v2 — 2026-10-26
+
+Status: v2 written before fitting; conditional on class-support and integrity preflight. V1 failed label-support preflight (zero event windows) and is retained unchanged. No predictive result was observed when changing the window to respect the source event-run durations (6 positions for pothole; 11 for bump/braking). This is a new-source exploratory replication of an evaluation audit, not a preregistration or independent confirmation of an improved method. Source signals, labels and class counts have been inspected for readiness. No predictive results may inform this protocol. A machine-readable freeze manifest must record this document, executable code, source hashes and exact split indices before any fitting. Failed feasibility must be reported, not repaired after seeing model scores.
+
+## Evidence and scope
+
+Use only the four ordered JSON arrays in the Applied Sciences publisher supplement (2025), SHA256 ECDF5128DD61501C01C7C0BAEC582D768DE0AC3363EA5104AED80749696F4337. Archive files MATLAB/urban_trip_1.json through urban_trip_4.json each contain 9000 positions. The related Vehicles article (2026, DOI 10.3390/vehicles8010004) describes outbound/return urban trajectories (1,2) and outbound/return suburban trajectories (3,4). Treat these as TWO documented route families; four files do not mean four independent roads. This mapping is documentation-derived, not independently established from GPS. Archive labels and the paper's manual annotation description support a released-subset road-event task, but the archive does not establish the complete population, acquisition dates, vehicle or driver diversity. The >360000 reported population and 36000 released rows remain an unresolved subset/version discrepancy. Do not count the two articles as two datasets.
+
+This replication can add an independent published source to the audit. It cannot make the nine PVS acquisitions more numerous or provide a population-level precision guarantee. No PVS failure or historical threshold changes.
+
+## Task and features
+
+Primary task: three classes, literal blank label (release non-event), pothole, speed bump. Blank is not certified globally normal road. Exclude windows containing any sudden-braking label. Use ordered, nonoverlapping 10-position windows, starting at 0,10,...,8990 separately in each file. At the source's nominal 50 Hz these are nominal 0.2-second windows; absent timestamps, actual continuity/timing is not verified. Assign the unique literal majority only when it occupies at least 6 positions; otherwise exclude the window. Record every inclusion/exclusion and raw source interval. No overlapping-window sensitivity or alternate labels chosen after scores.
+
+Primary input: accel_x/y/z only. Exclude vibration (documented as derived), GPS, row/time indices, trip and route identifiers from predictors. For each of x,y,z and vector magnitude, calculate mean, population SD, minimum, maximum, RMS, 25th/50th/75th percentiles, and population SD of first differences: 36 fixed features. No filtering, augmentation, feature selection or global normalization. Fit median imputation on actual model training rows only. A nonfinite source value or absent class in a needed fit/validation/test pool fails preflight; report the failure without fitting.
+
+## Fixed candidates and folds
+
+Two candidates, reusing the existing audit's fixed sensor-model specifications: RF (100 trees, max_depth20, min_samples_leaf5, sqrt features, balanced class weights) and HGB (100 iterations,31 leaves, learning_rate0.1,l2=1, balanced class weights, no early stopping). Seed42; RF at most4 jobs. No tuning or new candidates after scores. Tie order RF then HGB.
+
+Outer folds: hold out both trips of route A (1,2), then both of route B (3,4). For each development route compare two selectors: stratified random two-fold validation of its windows (shuffle=True, seed42) versus leave-one-complete-trip validation (two folds). Both selectors therefore develop within ONE route and predict transfer to the other documented route. Trip grouping does not itself reproduce the outer route shift; do not call it a fully deployment-matched route validator. A nested route-matched selector cannot be estimated with only two route families.
+
+Match each class's training count across ALL four inner training pools within an outer fold using the smallest available count for that class. Preserve class imbalance; do not force equal counts between classes. Deterministic subsampling without replacement: sort global window IDs in each class, sample with numpy default_rng seed 260026 + 1000*outer_index +100*scheme_index+10*fold_index+class_id (zero-based), then sort selected IDs. Validation rows remain whole, with no resampling. Save all exact indices; never recreate splits from seed as a substitute for saved maps.
+
+For every candidate and selector, concatenate held-out inner predictions and calculate macro-F1 with fixed labels [0,1,2] and zero_division=0. Select maximum pooled inner macro-F1, with fixed candidate order for exact ties. Report fold scores too; do not select using outer scores. Refit both candidates once on the full outer development set, shared by selectors. Also refit each once on a common-budget outer subset with the same per-class inner budget, using seed 260026+1000*outer_index+900+class_id. This sensitivity changes both training size and composition; it does not identify a causal training-size contribution. Expected fits: 2 outer folds *2 candidates *(2 random inner+2 trip inner+1 full refit+1 common-budget refit)=24.
+
+## Outcomes and reporting
+
+For each selector, route and refit target, report selected candidate, pooled inner estimate, outer macro-F1, signed error (inner minus outer) and absolute error. Main comparison: paired route-specific trip-grouped minus random differences in selected outer F1 and absolute estimation error, with their arithmetic mean over two routes. Full-development refit is primary; common-budget refit is separately labelled sensitivity. Report all candidates for transparency, never use them to choose a reported winner. Accuracy, balanced accuracy, per-class recall and confusion matrices are secondary descriptions.
+
+No p-values, bootstrap confidence intervals, population-wide superiority claim or pass/fail improvement threshold with TWO route families. A difference in sign between selection and estimation effects is possible, not a required outcome. Preserve any equal selections, zero effects or contradictory results. The original PVS dual-axis failure remains unchanged. Independent confirmation of a new improvement still requires a frozen method and fresh development-independent acquisitions.
+
+## Reproducibility gates
+
+Run only C:/Users/Administrator/miniconda3/python.exe. Save interpreter/library versions, raw hashes, row-window map, class counts, exact outer/inner/budget indices, protocol and code hashes before model fitting. Preserve fitted models, predictions and metrics in a new versioned run directory; refuse to overwrite it. Independently recompute split nonintersection, route nesting, budget counts, all selected scores and reported arithmetic from saved predictions. Fit failures are logged; no silent fallback. Do not put raw publisher data into manuscript distribution archives.
+

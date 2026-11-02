@@ -1,0 +1,11 @@
+# Spatial-cell diagnostic on explicit Bump/Pothole rows
+
+Frozen2026-10-16 after GPS-coverage/overlap metadata and before any spatial model score. Same binarypopulation asprotocol_v1 E: explicitPothole/Bump, finite validlat/lon, excluding allNormal-only files and mixedblanks. It is not a three-class or unseen-road benchmark.
+
+Project coordinates locally: R=6371008.8m, lat0=mean finite latitude in this fixedbinarypopulation; x=R*cos(lat0)*radians(longitude), y=R*radians(latitude). This unsupervised grouping uses allcohortcoordinates todefine theevaluation, not modelparameters orlabels. Reject outofrange lat/lon beforeconstruction andreport anyremovals; do not fabricatecoordinates.
+
+Two fixedgrid widths100m and500m; cellID=(floor(x/width),floor(y/width)), globallyanchoredprojectedgrid. Use StratifiedGroupKFold5,shuffle=True,random_state42 withcellID groups andbinarylabels, lockedsklearn1.9.0. Freezeexacttestmembership andcellIDs beforefitting. For eachfold remove everycandidate trainingrow withprojectedEuclidean distance <=100m fromanytestrow, usingexactcKDTree nearestneighborquery (eps0). Thus testcells are absentfromtrain andeveryremainingtrainpoint is>100m fromobservedtestcoordinates. Verify this property directly. Apply originalcap20k/seed42000+fold onlyafterbuffering.
+
+Each gridcondition must havebothclasses in alltrain/test/cappedfit folds, elsemarkthatconditioninfeasible anddo notfitits partialfolds orsearchotherseeds/gridorigins/buffers. Resultsdescriptive, no newpassgate. Fit RF100 andHistGB withprotocol_v1 parameters, full_numeric/context_only/imu_only, seed42, fivefolds perfeasiblegrid: atmost60fits. Saveexactsource-rowidentities, allcellcounts, trainremovalcounts/nearesttestdistances andsource/code/protocol/runtimehashes beforefitting. Preservezero-removal/supportfailurecases.
+
+Reportfoldmean andpooledbinaryF1/BA/classrecall, alongsidesamebinarypopulation's rowrandom/record/timeblockdiagnostic, withdistinctlabels. Spatialcellholdout is not verified road/route/vehicle holdout; training/test may share originalCSV/contentcomponents, and localprojection/observed-pointbuffer doesnot guarantee no overlap ofunobserved physicalroadsegments. Do not useGPS-incompleteNormals orblank=Normal assumptions toclaim fullroad-normal externalperformance. Coordinatesneednot bepublished; aggregategrid/foldstats andhashes suffice.

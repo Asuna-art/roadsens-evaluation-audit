@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "historical_tables": {
+    "main": {
+      "preserved": 13,
+      "new": 1
+    },
+    "supplementary": {
+      "preserved": 22,
+      "new": 3
+    }
+  },
+  "new_score_rows_checked": 12,
+  "new_source_results_sha256": "e4428f5aaa8dda8b5ee98cf4563d360e8a6eab26cd8c69a819f2eaed3d9a18c9",
+  "final_tex_sha256": {
+    "main_body.tex": "4f9967233e92f7f18a16ad7fd0d27f2f571254b87b6044f5982bd22f29294afa",
+    "supplementary_body.tex": "ea7359df88851242aeb912ba7297034dadf5ebc9664c3d77c26b5591657c3eda"
+  }
+}

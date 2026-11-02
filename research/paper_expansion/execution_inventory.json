@@ -1,0 +1,953 @@
+{
+  "inventory_version": "1.0",
+  "snapshot_date": "2026-10-16",
+  "project": "RoadSens paper expansion",
+  "canonical_fit_counts": {
+    "completed": 1580,
+    "independently_validated": 1580,
+    "planned_completed_phases": 1580,
+    "D_pending": 0,
+    "total_planned": 1580,
+    "note": "fold-fits are computational cells, not independent samples or statistical units"
+  },
+  "runtime": {
+    "executable": "C:\\Users\\Administrator\\miniconda3\\python.exe",
+    "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "scikit_learn": "1.9.0",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "joblib": "1.5.3",
+    "scipy": "1.18.0",
+    "threadpoolctl": "3.6.0",
+    "device": "CPU; GPU not required",
+    "per_fit_threads": 4
+  },
+  "source_data": {
+    "raw_csv_count": 101,
+    "raw_rows": 616866,
+    "sampled_rows_every_10th": 61730,
+    "primary_scoreable_rows": 32885,
+    "blank_normal_rows": 61730,
+    "h2_source_files_after_dedup": 100,
+    "h2_primary_scoreable_rows": 32838,
+    "source_identity_map": "session_fold_map_v1.json",
+    "source_identity_map_sha256": "5203383158ca766c3a07851d3a4e3271dc502e3e30c0bb4894cb4a9b286402e8",
+    "cache_path": "session_feature_cache_v1.joblib",
+    "cache_sha256": "fa2078df1857f7872c13c6fe187f0883d85a23f9d15fdb3c6897a53314fdea16",
+    "source_csv_hashes": {
+      "version": 1,
+      "created_at": "2026-10-16",
+      "design": "Five sorted normal-only paths permuted with RandomState(42), one per fold; 96 anomaly sessions assigned by anomaly-only StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=42) on every tenth original row with finite seconds_elapsed and explicit Pothole/Bump label.",
+      "data_root": "candidate_roadsens/data/inner",
+      "class_order": [
+        "Normal",
+        "Pothole",
+        "Bump"
+      ],
+      "session_count": 101,
+      "session_fold": {
+        "combined_anomalies/1.csv": 4,
+        "combined_anomalies/10.csv": 3,
+        "combined_anomalies/100.csv": 3,
+        "combined_anomalies/101.csv": 4,
+        "combined_anomalies/102.csv": 3,
+        "combined_anomalies/103.csv": 4,
+        "combined_anomalies/11.csv": 4,
+        "combined_anomalies/12.csv": 4,
+        "combined_anomalies/13.csv": 1,
+        "combined_anomalies/14.csv": 4,
+        "combined_anomalies/15.csv": 4,
+        "combined_anomalies/16.csv": 3,
+        "combined_anomalies/17.csv": 5,
+        "combined_anomalies/18.csv": 3,
+        "combined_anomalies/19.csv": 5,
+        "combined_anomalies/2.csv": 3,
+        "combined_anomalies/20.csv": 3,
+        "combined_anomalies/21.csv": 4,
+        "combined_anomalies/22.csv": 5,
+        "combined_anomalies/23.csv": 3,
+        "combined_anomalies/24.csv": 1,
+        "combined_anomalies/25.csv": 5,
+        "combined_anomalies/26.csv": 1,
+        "combined_anomalies/27.csv": 1,
+        "combined_anomalies/28.csv": 5,
+        "combined_anomalies/29.csv": 5,
+        "combined_anomalies/30.csv": 5,
+        "combined_anomalies/31.csv": 2,
+        "combined_anomalies/32.csv": 1,
+        "combined_anomalies/33.csv": 3,
+        "combined_anomalies/34.csv": 1,
+        "combined_anomalies/35.csv": 4,
+        "combined_anomalies/36.csv": 4,
+        "combined_anomalies/38.csv": 3,
+        "combined_anomalies/39.csv": 3,
+        "combined_anomalies/4.csv": 3,
+        "combined_anomalies/40.csv": 2,
+        "combined_anomalies/41.csv": 2,
+        "combined_anomalies/42.csv": 4,
+        "combined_anomalies/43.csv": 5,
+        "combined_anomalies/44.csv": 3,
+        "combined_anomalies/45.csv": 5,
+        "combined_anomalies/46.csv": 1,
+        "combined_anomalies/47.csv": 1,
+        "combined_anomalies/48.csv": 5,
+        "combined_anomalies/5.csv": 3,
+        "combined_anomalies/50.csv": 4,
+        "combined_anomalies/51.csv": 3,
+        "combined_anomalies/52.csv": 3,
+        "combined_anomalies/53.csv": 2,
+        "combined_anomalies/54.csv": 3,
+        "combined_anomalies/55.csv": 2,
+        "combined_anomalies/56.csv": 4,
+        "combined_anomalies/57.csv": 5,
+        "combined_anomalies/58.csv": 1,
+        "combined_anomalies/59.csv": 2,
+        "combined_anomalies/6.csv": 3,
+        "combined_anomalies/60.csv": 5,
+        "combined_anomalies/61.csv": 3,
+        "combined_anomalies/62.csv": 3,
+        "combined_anomalies/63.csv": 1,
+        "combined_anomalies/64.csv": 5,
+        "combined_anomalies/65.csv": 4,
+        "combined_anomalies/66.csv": 4,
+        "combined_anomalies/67.csv": 1,
+        "combined_anomalies/68.csv": 3,
+        "combined_anomalies/69.csv": 2,
+        "combined_anomalies/7.csv": 5,
+        "combined_anomalies/70.csv": 3,
+        "combined_anomalies/71.csv": 4,
+        "combined_anomalies/72.csv": 4,
+        "combined_anomalies/73.csv": 1,
+        "combined_anomalies/74.csv": 1,
+        "combined_anomalies/76.csv": 1,
+        "combined_anomalies/77.csv": 1,
+        "combined_anomalies/78.csv": 1,
+        "combined_anomalies/79.csv": 4,
+        "combined_anomalies/8.csv": 4,
+        "combined_anomalies/80.csv": 4,
+        "combined_anomalies/81.csv": 4,
+        "combined_anomalies/82.csv": 4,
+        "combined_anomalies/83.csv": 1,
+        "combined_anomalies/84.csv": 3,
+        "combined_anomalies/85.csv": 5,
+        "combined_anomalies/86.csv": 3,
+        "combined_anomalies/88.csv": 5,
+        "combined_anomalies/89.csv": 5,
+        "combined_anomalies/90.csv": 4,
+        "combined_anomalies/91.csv": 2,
+        "combined_anomalies/92.csv": 5,
+        "combined_anomalies/93.csv": 3,
+        "combined_anomalies/94.csv": 2,
+        "combined_anomalies/95.csv": 4,
+        "combined_anomalies/96.csv": 5,
+        "combined_anomalies/97.csv": 1,
+        "combined_anomalies/98.csv": 3,
+        "combined_normal/37 - Normal Road.csv": 4,
+        "combined_normal/49 - Normal Road.csv": 1,
+        "combined_normal/75 - Normal Road.csv": 3,
+        "combined_normal/87 - Normal Road.csv": 5,
+        "combined_normal/9 - Normal Road.csv": 2
+      },
+      "source_sha256": {
+        "combined_anomalies/1.csv": "65285fd0dbb1f49208050ccde2b86ad3c49a738994d3a5509857dea6decd3d65",
+        "combined_anomalies/10.csv": "ccd876934c329f3672fe7885b537e2793938bd4a81a3769915d3498a6c3c42c2",
+        "combined_anomalies/100.csv": "7dabc3fbfd7893e118e852bd483846c38685fbd4c45455147ad95d405e479400",
+        "combined_anomalies/101.csv": "d18f6665aae7549ed5c70a8aff426b294114f4ca88bc6a58a5e38863e3b61269",
+        "combined_anomalies/102.csv": "90182557b45ec42f77ce88eeff3cdbe01cb5da1058b06d331aa05cfedbf6a2ec",
+        "combined_anomalies/103.csv": "543d4ab0f3b733be555119fa3dbd44ff9bf7ab058d15945ae241931d58770d9a",
+        "combined_anomalies/11.csv": "b6c6ab615f8640934b550fcef4fd357b4f5104c7eb0e7a79e0d227575c010239",
+        "combined_anomalies/12.csv": "735bcecf5082cdc4725a43f56a6a07614aca2793a358733459059f52c97690f5",
+        "combined_anomalies/13.csv": "79878af57fe2ff18c2c806ddfd5972edaabf47b7455f15491562eedfbac6f364",
+        "combined_anomalies/14.csv": "5627b955115ac6a9fe48af6e5d528373f011b81292377a204ce1fcf747b4b433",
+        "combined_anomalies/15.csv": "e1e1322c414f67ec83988022abbe817afeaff540a2ee3f69df7236b9610225f9",
+        "combined_anomalies/16.csv": "1bc82cfbd6171afd26c7afb876159d6fb75460d07d937c1be4c9dc5db23830e4",
+        "combined_anomalies/17.csv": "e387e503702f9efaad0d1ce3f55cde899575b09a79e0ac421ff02765a3497fc9",
+        "combined_anomalies/18.csv": "fae0eb41e8dc02bb1e3c24c6aa6c62cacb114b927fb11075414a65aa5f407019",
+        "combined_anomalies/19.csv": "88333faeab3d3734871c84b44a8bcb03c2690823d4b0f71fbbd418c06bab4aa2",
+        "combined_anomalies/2.csv": "5194d31f06ee6c595bde0a72f421d0c8a8cea9039f979d0564added63c839d50",
+        "combined_anomalies/20.csv": "534379e6274cd0598dcd92de28b177b751ff0d489d058a6643af14ebdc6979f3",
+        "combined_anomalies/21.csv": "7fbd4dd8dacf2535779a2596519d93b6dca4b1ecba142ceff6da8399e18df42e",
+        "combined_anomalies/22.csv": "427846b8b8d411093de41762a6eb3b3bf38a436ef541353a56526f38f9e33a2d",
+        "combined_anomalies/23.csv": "7bdc9aed40722b316f6560be0cc3c40fb3313e1e13d45731dceac9e83968f168",
+        "combined_anomalies/24.csv": "e71033054906710f0ae7e926a4906d05aa94536130aec56cdc7e426f0b259ca1",
+        "combined_anomalies/25.csv": "6974ef33805950506c25c1ebedf983b569f215c15107de6bb2b53a2edb9f5d1b",
+        "combined_anomalies/26.csv": "cae0e1fef7f84a4b80ad20e19e13c6138d7ba1f6fc8842d3b97abdd4c37b9e9a",
+        "combined_anomalies/27.csv": "b4c8b13d23bec0f435e2258b71c4032bb41ca6854f48dee21226294280a9d331",
+        "combined_anomalies/28.csv": "2473c84b946802661c3487158d737f851a90b45d68efb552a0746a12c52ebec3",
+        "combined_anomalies/29.csv": "dbb4c92c3d9efa658a55fe8c9acbf6a65e3ffcf094f5a4010f1e63397f245b0d",
+        "combined_anomalies/30.csv": "12706cb308f8ab5ae60782fbc95658d0d448a4cac194eb7a3fad1d7778ca42e7",
+        "combined_anomalies/31.csv": "8ace661fb0806009dd320ededaf0f9c4e047d117d301638f19d215bc8bef3b5e",
+        "combined_anomalies/32.csv": "2adacd9f1eca7af2db8723d0425ea20aef3fec1274b6bff495e312225ac3d2b7",
+        "combined_anomalies/33.csv": "a97684ceb6d84833de6f3d92e3255e7c52028419696bd961433ea5a199f7a921",
+        "combined_anomalies/34.csv": "3affe291261765c7df45dac436de1655e50b1bb566bfc1069ec5f3eca8cf10e9",
+        "combined_anomalies/35.csv": "f476a50de5e110145e99404f0fcc4a6e32612bf2631638954c94373360d01b69",
+        "combined_anomalies/36.csv": "36a717914a3ad37637159384be7dee6df8dd0a3a60a3c654aa8c4a446ddad9ec",
+        "combined_anomalies/38.csv": "c2d045aceb6a1ac97e24c549b45b132929829c4bd866a81662a89e9d0757d2be",
+        "combined_anomalies/39.csv": "e77731b1709f489e8e1ba74ec5f9eb41bb529b25472f49fbf2b06b5f1e9acb2c",
+        "combined_anomalies/4.csv": "8e4b5839313bc95c282048363c9e553a995df4874a0ac71f16690c9aa5a98159",
+        "combined_anomalies/40.csv": "fa723182e1d787bc61dc85fb004a5e281b62e97b4a696024cf1d8d2e28b2f897",
+        "combined_anomalies/41.csv": "f0b9ff0dd5adb77748383d6ce2263f1ff6af238ad41737d35490d1fe191d6799",
+        "combined_anomalies/42.csv": "9eadb2e4521c88195d798df64aa334619a00934016ea8aa3a6bf004f302509ee",
+        "combined_anomalies/43.csv": "3b7cf08ed5da5b69a326cc7efad47a8a2201e523c1aedd1c7a0cef43f288f5b4",
+        "combined_anomalies/44.csv": "7b7ab35fe614448234a73cfda4232410a9be325fe3a92fe2de0e51e9efb4c61e",
+        "combined_anomalies/45.csv": "2fc530075a10219046c91ec5431ba2e790d5a2638b37fc5855a3726397f22806",
+        "combined_anomalies/46.csv": "cab34a325dec20d6f92fb9445ccb24054a620d518836eb1e1996cb3fdac7f97b",
+        "combined_anomalies/47.csv": "cab34a325dec20d6f92fb9445ccb24054a620d518836eb1e1996cb3fdac7f97b",
+        "combined_anomalies/48.csv": "3a9849b4ff70523b5f9008a039bc702e9373f84b7e78c8240e8cfae1bdfc6593",
+        "combined_anomalies/5.csv": "07d9e5e8e92ab25ea2a8db275416ca9ee9964c09bc77199bd597b2318c28a1d7",
+        "combined_anomalies/50.csv": "9d609ce909663ff822a665a6f5e61238f66555f98d0a2219464384a97f17b478",
+        "combined_anomalies/51.csv": "ec39284eee97f6a034dc1bd49a8f3d21248507fe30bc653db246d4b3e4dbed4d",
+        "combined_anomalies/52.csv": "67b0caabf22a31bd8835e84f0c545ce4e95632be0afca9e47d4ebded0d5d8475",
+        "combined_anomalies/53.csv": "29424db9a8547539274f26fdad89a25e20dc1e27e75e85a2eeac52840a86e218",
+        "combined_anomalies/54.csv": "8acba408e33e2566e75001bf2bad2e406797d7af37cf4f11253f6bb16ce27569",
+        "combined_anomalies/55.csv": "136d9d3a9a76c995f299d435501a7910488a059998e53e21826b304d5a27610d",
+        "combined_anomalies/56.csv": "06179c12f00b5f1a5d5c9c9b60921824b35f1cbadb06b55eadef427d10d37b94",
+        "combined_anomalies/57.csv": "28e7ce319d9bef2d6d08aa97a333079c4811f9107dcd2c14b993b3a1900f479f",
+        "combined_anomalies/58.csv": "b6d4df82cea1c3e56177bac873dedcb1650270b0289cb2c92d4192e8f669972e",
+        "combined_anomalies/59.csv": "c94a3a6e5e6afc988a7a2123a35d2613df9f85149bce04d631d61ef47610a866",
+        "combined_anomalies/6.csv": "9e1782b191e01c328883fb10696d0a8748644fadad8271ba9d5dbb5729b19776",
+        "combined_anomalies/60.csv": "b384ff45c66ba2212866a94b3808202f5d224b636c00e651a5a860ab36812a2d",
+        "combined_anomalies/61.csv": "edfcd8a87a18f4bd59214f262b6b58d35d5eb4b19480d55a820ba0b47710c6cb",
+        "combined_anomalies/62.csv": "f99e0c8f3f49e46453e1947cbc84a9a48f43975a77139ce9d65a57104d0fc645",
+        "combined_anomalies/63.csv": "0a0148789c7be189dfccfb7f34303bd840d7567ac156b7516a5b79f655462d16",
+        "combined_anomalies/64.csv": "5ae738eaa3b0ff0c4791505bf129a787ec33e072b351cde84d94221afd1867f9",
+        "combined_anomalies/65.csv": "449318296ec646f407d08d0b6537c7d0f21944235399e54b01df45b508c252b1",
+        "combined_anomalies/66.csv": "6f3b804f7eb75a28c863d7b73594317dab2789e3e4933b66ce0a728fb9df07a5",
+        "combined_anomalies/67.csv": "3f1ef7a39295a271414c1b11c827000b4b5ab8edfcf3b65250840d02ac534b11",
+        "combined_anomalies/68.csv": "f7fb1ee4fe7c79ce8efb9af7a865d91c0e4748a0308fd2f1aa0e858a3d962d6a",
+        "combined_anomalies/69.csv": "11e5cd283428191587f950c927b7824bf1cf36a9e443ce848fd171387a213dfc",
+        "combined_anomalies/7.csv": "0191866ee9f77f22abe15023f72d78cd726e3c16b7217aa10395aa197ea4f4b8",
+        "combined_anomalies/70.csv": "1cc28cfb94c4a5220067796d768ba151b9ad5c45bc7809f9b5b3bc6bf07dcd16",
+        "combined_anomalies/71.csv": "ddda233c692d4be1e5fc05fdcf032d4a9ae71d49a2cd1b80c36ea40dfdd2e48f",
+        "combined_anomalies/72.csv": "2d5a6f73b648ad6c7b8bcffa6b9c86e598da66c50c3469a9a272e4d609377594",
+        "combined_anomalies/73.csv": "b0a81ad8318bb5770f3ef4212707d9660b85dd81837a4af7e6c4fe51dbb54718",
+        "combined_anomalies/74.csv": "b4cd4ef77728fa129046b581ee8f80698b45bdfe3b8c25a3bbc6bbd5e423556a",
+        "combined_anomalies/76.csv": "a0ec2d9f6ba417ac175e9fd5644c0fd3c1877e727abaa0561f0824eb4c332499",
+        "combined_anomalies/77.csv": "737ca30e63cec4061707db248cf70d77a69f46cac065be4a7d74f168314245d4",
+        "combined_anomalies/78.csv": "9dff587dec5d471aa42633ed843d7fbfd2254a5071cea26dbfa4a14ff9f10ab2",
+        "combined_anomalies/79.csv": "573fc043b996e4d6b51eeac043342e07b01df06ee31bbb5a031137e1f8c59cf4",
+        "combined_anomalies/8.csv": "8f29b40fb3cf1836ea9d68c76a2dd03b8661f4ce0073e747903d773de9c8122f",
+        "combined_anomalies/80.csv": "c107079d47d596f2e63a94f5a4745bf71a1f6d404b287de1fb6d2f4f0e2a535a",
+        "combined_anomalies/81.csv": "518d66e09da03d579cc06ccd53c145a45f417f9aa3d55711a28d729d863fc7a5",
+        "combined_anomalies/82.csv": "5a74eca0e28a3c287c64744ad877c36bb610be2f3216fd46be922e04b8e6bb4f",
+        "combined_anomalies/83.csv": "b93fbee25bd42ac43ac8a4dbea6f0e2a6bd4ea4d3d8ea8250b59604642bf43ff",
+        "combined_anomalies/84.csv": "59b486f9430a7c82811c844712560325120ab1a1abc3efbf5cd4a26841c64f8a",
+        "combined_anomalies/85.csv": "82986dbe58bdeb77e2a829fc849846b3c8207e32fa653e5ab317f83af25e6ce9",
+        "combined_anomalies/86.csv": "e678cdbc1746f767224cc22843de898b6bd093de377bdfde1ea919f9dcb90b5b",
+        "combined_anomalies/88.csv": "b1568a098ebec24cafb7d4ced68db56be4729b0c71544615dcb1fa5e2766761a",
+        "combined_anomalies/89.csv": "bcc8c667907311631097261a00533669530e12966c470c3be9157feb6e069373",
+        "combined_anomalies/90.csv": "c806e88c6320cbec1dde1886ff94d019e71eef5e7c7761fa968f8e30e61e27be",
+        "combined_anomalies/91.csv": "c98202f6aa659c310d61f5fd73fb4a98ab00063d1c5da5ab44e19185a2b9f2b9",
+        "combined_anomalies/92.csv": "b1dee893791cff6833a48e9528c63e642c75562bd2ac977a4bf1efc952c62be4",
+        "combined_anomalies/93.csv": "bc4f214b839db99d4bc0199071968a3835ebd597177ca178fd68762350dc3482",
+        "combined_anomalies/94.csv": "9eaee907b5df99cd77365e4360c8cdd1d743bcd2760a7adccdbf6068b8c2da41",
+        "combined_anomalies/95.csv": "ac625997a2e3874d25d7760d54a4c06c11feaada04c94b8879a4736091b165ed",
+        "combined_anomalies/96.csv": "a56a04a090fe191381fec43c4db7721c4dac3fb69b3011061b79386386525f7e",
+        "combined_anomalies/97.csv": "1ee69f989ea46886e2d2325c905d25c93b7bfa0963a5c92b10fa0d2f9f2b6ea3",
+        "combined_anomalies/98.csv": "ccb9957c37c2d0adb4d2f0c23df99747fa146e9139e5e48e96e6989c6b7ffa36",
+        "combined_normal/37 - Normal Road.csv": "24aff1ad48b01464408da709aea374ba941c250e2975eb0cee96470cdf3937ac",
+        "combined_normal/49 - Normal Road.csv": "19780be40c6e724d769a9fbac2530e8b0181b2d22abcbb6f938f84131af42c93",
+        "combined_normal/75 - Normal Road.csv": "ee68265234fb21ce1bdedcbae09f9aa57e014cdd2fbfdc91e05688e2a8d8311b",
+        "combined_normal/87 - Normal Road.csv": "05fdbf8deee7ca5afbc0b0439300ace9e02d04901869808c1c708134e4b51ed0",
+        "combined_normal/9 - Normal Road.csv": "4fc062fb36c4741f7efc9c8d3c78df368f2879750ae5bc51c6487e8fb48a90c9"
+      },
+      "normal_assignment_order": [
+        "combined_normal/49 - Normal Road.csv",
+        "combined_normal/9 - Normal Road.csv",
+        "combined_normal/75 - Normal Road.csv",
+        "combined_normal/37 - Normal Road.csv",
+        "combined_normal/87 - Normal Road.csv"
+      ],
+      "original_unconstrained_all_session_sgkf": {
+        "seed": 42,
+        "n_splits": 5,
+        "fold_counts": {
+          "1": {
+            "train": {
+              "Normal": 3792,
+              "Pothole": 8532,
+              "Bump": 14399
+            },
+            "test": {
+              "Normal": 615,
+              "Pothole": 2814,
+              "Bump": 2733
+            }
+          },
+          "2": {
+            "train": {
+              "Normal": 3885,
+              "Pothole": 10136,
+              "Bump": 12981
+            },
+            "test": {
+              "Normal": 522,
+              "Pothole": 1210,
+              "Bump": 4151
+            }
+          },
+          "3": {
+            "train": {
+              "Normal": 1460,
+              "Pothole": 9043,
+              "Bump": 12970
+            },
+            "test": {
+              "Normal": 2947,
+              "Pothole": 2303,
+              "Bump": 4162
+            }
+          },
+          "4": {
+            "train": {
+              "Normal": 4084,
+              "Pothole": 9174,
+              "Bump": 14101
+            },
+            "test": {
+              "Normal": 323,
+              "Pothole": 2172,
+              "Bump": 3031
+            }
+          },
+          "5": {
+            "train": {
+              "Normal": 4407,
+              "Pothole": 8499,
+              "Bump": 14077
+            },
+            "test": {
+              "Normal": 0,
+              "Pothole": 2847,
+              "Bump": 3055
+            }
+          }
+        }
+      },
+      "revised_counts": {
+        "primary": {
+          "1": {
+            "train": {
+              "sessions": 82,
+              "class_rows": {
+                "Normal": 3792,
+                "Pothole": 8949,
+                "Bump": 14093
+              }
+            },
+            "test": {
+              "sessions": 19,
+              "class_rows": {
+                "Normal": 615,
+                "Pothole": 2397,
+                "Bump": 3039
+              }
+            }
+          },
+          "2": {
+            "train": {
+              "sessions": 91,
+              "class_rows": {
+                "Normal": 3885,
+                "Pothole": 10386,
+                "Bump": 15545
+              }
+            },
+            "test": {
+              "sessions": 10,
+              "class_rows": {
+                "Normal": 522,
+                "Pothole": 960,
+                "Bump": 1587
+              }
+            }
+          },
+          "3": {
+            "train": {
+              "sessions": 74,
+              "class_rows": {
+                "Normal": 3668,
+                "Pothole": 7904,
+                "Bump": 11600
+              }
+            },
+            "test": {
+              "sessions": 27,
+              "class_rows": {
+                "Normal": 739,
+                "Pothole": 3442,
+                "Bump": 5532
+              }
+            }
+          },
+          "4": {
+            "train": {
+              "sessions": 76,
+              "class_rows": {
+                "Normal": 4084,
+                "Pothole": 8279,
+                "Bump": 12488
+              }
+            },
+            "test": {
+              "sessions": 25,
+              "class_rows": {
+                "Normal": 323,
+                "Pothole": 3067,
+                "Bump": 4644
+              }
+            }
+          },
+          "5": {
+            "train": {
+              "sessions": 81,
+              "class_rows": {
+                "Normal": 2199,
+                "Pothole": 9866,
+                "Bump": 14802
+              }
+            },
+            "test": {
+              "sessions": 20,
+              "class_rows": {
+                "Normal": 2208,
+                "Pothole": 1480,
+                "Bump": 2330
+              }
+            }
+          }
+        },
+        "blank_normal_sensitivity": {
+          "1": {
+            "train": {
+              "sessions": 82,
+              "class_rows": {
+                "Normal": 30105,
+                "Pothole": 8949,
+                "Bump": 14093
+              }
+            },
+            "test": {
+              "sessions": 19,
+              "class_rows": {
+                "Normal": 3147,
+                "Pothole": 2397,
+                "Bump": 3039
+              }
+            }
+          },
+          "2": {
+            "train": {
+              "sessions": 91,
+              "class_rows": {
+                "Normal": 31227,
+                "Pothole": 10386,
+                "Bump": 15545
+              }
+            },
+            "test": {
+              "sessions": 10,
+              "class_rows": {
+                "Normal": 2025,
+                "Pothole": 960,
+                "Bump": 1587
+              }
+            }
+          },
+          "3": {
+            "train": {
+              "sessions": 74,
+              "class_rows": {
+                "Normal": 23257,
+                "Pothole": 7904,
+                "Bump": 11600
+              }
+            },
+            "test": {
+              "sessions": 27,
+              "class_rows": {
+                "Normal": 9995,
+                "Pothole": 3442,
+                "Bump": 5532
+              }
+            }
+          },
+          "4": {
+            "train": {
+              "sessions": 76,
+              "class_rows": {
+                "Normal": 23567,
+                "Pothole": 8279,
+                "Bump": 12488
+              }
+            },
+            "test": {
+              "sessions": 25,
+              "class_rows": {
+                "Normal": 9685,
+                "Pothole": 3067,
+                "Bump": 4644
+              }
+            }
+          },
+          "5": {
+            "train": {
+              "sessions": 81,
+              "class_rows": {
+                "Normal": 24852,
+                "Pothole": 9866,
+                "Bump": 14802
+              }
+            },
+            "test": {
+              "sessions": 20,
+              "class_rows": {
+                "Normal": 8400,
+                "Pothole": 1480,
+                "Bump": 2330
+              }
+            }
+          }
+        }
+      },
+      "disjoint_test_fold_assertions": {
+        "passed": true,
+        "fold_count": 5,
+        "sessions": 101
+      },
+      "model_fit_or_scores": false
+    },
+    "rar_archives": [
+      {
+        "path": "data/outer_combined/Combined CSV with GIS and Weather Data/Normal Road (No Annotation)/Normal Road (No Annotation).rar",
+        "sha256": "4862b4f4c4c8c2d04f2c6cdf15cebdaf0866d695a7f232a307fec6b0e8d1e301"
+      },
+      {
+        "path": "data/outer_combined/Combined CSV with GIS and Weather Data/Road Anomalies/Road Anomalies.rar",
+        "sha256": "4d7cd42aae9395578e5a9f5391163a95f360128cb5ab4b91ed207451a00fef9e"
+      },
+      {
+        "path": "data/outer_isolated/Isolated Data/Normal Road/Normal Road.rar",
+        "sha256": "4862b4f4c4c8c2d04f2c6cdf15cebdaf0866d695a7f232a307fec6b0e8d1e301"
+      },
+      {
+        "path": "data/outer_isolated/Isolated Data/Road Anomalies/87-103-GIS-integrated.rar",
+        "sha256": "abea31fc2b4d10bb78ccfb2204f00fa78a205400d8ea649067469f2a521b4d64"
+      },
+      {
+        "path": "data/outer_isolated/Isolated Data/Road Anomalies/Road Anomalies (1-86).rar",
+        "sha256": "3ab74ce00255ca5804561e0c8bb81321c54fab76e7e37cc7c35e97022bd62459"
+      }
+    ]
+  },
+  "immutable_authorities": {
+    "component_freeze": "paper_expansion/data_audit/content_component_freeze_v4.json",
+    "component_freeze_sha256": "99050542b3e07ce57a432478dfce96a620cc97e49f32cd8a5a05b1f4bcb66fbc",
+    "component_count": 96,
+    "component_composition": {
+      "normal_singleton": 5,
+      "mixed": 91
+    },
+    "content_split_qa": "H v2 preflight retains original 101-file QA identities, then restricts to 100 files; H2 tests inclusive 1-second embargo; all 10 policy/fold memberships match original preflight"
+  },
+  "key_code_and_protocol_sha256": {
+    "paper_expansion/protocol_v1.md": "1e0bd6b38118b98bed5f49ebeb04a52bc70d55eec0b5d7d484c24b6981a4a9bd",
+    "paper_expansion/runtime_lock_v1.md": "33f09d20d3ac88da4dce65559c74264ee35d2741d9cf59979b8b4ec1d3b2f6d6",
+    "paper_expansion/frozen_split_authority_v1.md": "c08d65e279f5312387888ad3b5b5d4e8d3d3fb977f23155b7dd797f9fdc84446",
+    "paper_expansion/content_overlap_amendment_v1.md": "618f691a29454affc90b44b18f4671a349daf882aa0b7b09b87f114bf9053780",
+    "paper_expansion/spatial_binary_protocol_v1.md": "04a4b72a39c88646bf3684d8429694280b3ced30f2410ce2d0b181e79c1a84df",
+    "paper_expansion/stride_supplement_protocol_v1.md": "ecbbd375594fe8234d7fb1739b77d5aab0bf4ce58ee838cc6f453a297a61a1a7",
+    "paper_expansion/runner.py": "b4b240c7df89b8feb1ed9ff314566f2b642b165564a26816c378bca556c0d7a3",
+    "paper_expansion/run_auxiliary.py": "27390ec1349faa5bd5432a11b1fcc987210ca33732d89e18865b51f0b2a9132a",
+    "paper_expansion/run_content_overlap_v2.py": "73efb47f2181361ed1b66c129c92b69b362b9cfc20b7eec1efcd1e52ab01c1a9",
+    "paper_expansion/run_spatial_binary.py": "377aae2c61a33ff13baf4dc142f2924001f4eb81258267ab04181a4411a34e66",
+    "paper_expansion/run_stride_supplement.py": "a21c15c2d3ad58cea7ad6df8897d62fed7860d110990d0eea396b7c3179e8384"
+  },
+  "runs": [
+    {
+      "phase": "A",
+      "run_id": "main_A_v2",
+      "path": "paper_expansion/runs/main_A_v2",
+      "inventory_status": "complete",
+      "manifest_status": "phase_complete",
+      "planned_fits": 480,
+      "completed_fits_counted": 480,
+      "failure_count": 0,
+      "preflight_or_authority": "main_A_preflight_v2",
+      "matrix_or_protocol": "phase_A_matrix_v2.json",
+      "provenance": {
+        "manifest_status": "phase_complete",
+        "fit_started": true,
+        "completed_methods": null,
+        "planned_folds": 480,
+        "failure_count": 0,
+        "matrix_sha256": "fd3f4dafcdd45cc540c65bf611f7364144ccd8cc818e12cb19572d43343fca30",
+        "protocol_sha256": "1e0bd6b38118b98bed5f49ebeb04a52bc70d55eec0b5d7d484c24b6981a4a9bd",
+        "driver_sha256": "b4b240c7df89b8feb1ed9ff314566f2b642b165564a26816c378bca556c0d7a3",
+        "runner_sha256": null,
+        "preflight_sha256": null,
+        "cache_sha256": "fa2078df1857f7872c13c6fe187f0883d85a23f9d15fdb3c6897a53314fdea16"
+      }
+    },
+    {
+      "phase": "R",
+      "run_id": "consistent_runtime_R_v1",
+      "path": "paper_expansion/runs/consistent_runtime_R_v1",
+      "inventory_status": "complete",
+      "manifest_status": "phase_complete",
+      "planned_fits": 160,
+      "completed_fits_counted": 160,
+      "failure_count": 0,
+      "preflight_or_authority": "consistent_runtime_R_preflight_v2",
+      "matrix_or_protocol": "phase_R_matrix_v1.json",
+      "provenance": {
+        "manifest_status": "phase_complete",
+        "fit_started": true,
+        "completed_methods": 32,
+        "planned_folds": 160,
+        "failure_count": 0,
+        "matrix_sha256": "25a4258be28c6dc41a8b519a4f4ff1312e45de7555f949176134e423bd6238a1",
+        "protocol_sha256": "1e0bd6b38118b98bed5f49ebeb04a52bc70d55eec0b5d7d484c24b6981a4a9bd",
+        "driver_sha256": "27390ec1349faa5bd5432a11b1fcc987210ca33732d89e18865b51f0b2a9132a",
+        "runner_sha256": "b4b240c7df89b8feb1ed9ff314566f2b642b165564a26816c378bca556c0d7a3",
+        "preflight_sha256": "baf65feaab16ea0853cf00f52d55033bb83feae07c951149b02d0046f9b6218b",
+        "cache_sha256": "fa2078df1857f7872c13c6fe187f0883d85a23f9d15fdb3c6897a53314fdea16"
+      }
+    },
+    {
+      "phase": "B",
+      "run_id": "phase_B_v1",
+      "path": "paper_expansion/runs/phase_B_v1",
+      "inventory_status": "complete",
+      "manifest_status": "phase_complete",
+      "planned_fits": 240,
+      "completed_fits_counted": 240,
+      "failure_count": 0,
+      "preflight_or_authority": "phase_B_preflight_v1",
+      "matrix_or_protocol": "phase_B_matrix_v1.json",
+      "provenance": {
+        "manifest_status": "phase_complete",
+        "fit_started": true,
+        "completed_methods": 48,
+        "planned_folds": 240,
+        "failure_count": 0,
+        "matrix_sha256": "fc0661506d96940466fbfb229cc7688e7c89da3001acfc6638474a0e0bf1fa7e",
+        "protocol_sha256": "1e0bd6b38118b98bed5f49ebeb04a52bc70d55eec0b5d7d484c24b6981a4a9bd",
+        "driver_sha256": "27390ec1349faa5bd5432a11b1fcc987210ca33732d89e18865b51f0b2a9132a",
+        "runner_sha256": "b4b240c7df89b8feb1ed9ff314566f2b642b165564a26816c378bca556c0d7a3",
+        "preflight_sha256": "e63a02ecc1748e88a287019759e3de0ee0750308fb14b21ce0c811a1380e8210",
+        "cache_sha256": "fa2078df1857f7872c13c6fe187f0883d85a23f9d15fdb3c6897a53314fdea16"
+      }
+    },
+    {
+      "phase": "C",
+      "run_id": "phase_C_v2",
+      "path": "paper_expansion/runs/phase_C_v2",
+      "inventory_status": "complete",
+      "manifest_status": "phase_complete",
+      "planned_fits": 240,
+      "completed_fits_counted": 240,
+      "failure_count": 0,
+      "preflight_or_authority": "phase_C_preflight_v1",
+      "matrix_or_protocol": "phase_C_matrix_v1.json",
+      "provenance": {
+        "manifest_status": "phase_complete",
+        "fit_started": true,
+        "completed_methods": 48,
+        "planned_folds": 240,
+        "failure_count": 0,
+        "matrix_sha256": "44fb64c95c5b310365a1beaee563eb6bfe27d40d381c24d2abb61585b06319c2",
+        "protocol_sha256": "1e0bd6b38118b98bed5f49ebeb04a52bc70d55eec0b5d7d484c24b6981a4a9bd",
+        "driver_sha256": "27390ec1349faa5bd5432a11b1fcc987210ca33732d89e18865b51f0b2a9132a",
+        "runner_sha256": "b4b240c7df89b8feb1ed9ff314566f2b642b165564a26816c378bca556c0d7a3",
+        "preflight_sha256": "785cea67c615b33e785a5683278b711a99fb3acd408da76aa99066f0b0031d30",
+        "cache_sha256": "fa2078df1857f7872c13c6fe187f0883d85a23f9d15fdb3c6897a53314fdea16"
+      }
+    },
+    {
+      "phase": "E",
+      "run_id": "phase_E_v1",
+      "path": "paper_expansion/runs/phase_E_v1",
+      "inventory_status": "complete",
+      "manifest_status": "phase_complete",
+      "planned_fits": 60,
+      "completed_fits_counted": 60,
+      "failure_count": 0,
+      "preflight_or_authority": "phase_E_preflight_v1",
+      "matrix_or_protocol": "phase_E_matrix_v1.json",
+      "provenance": {
+        "manifest_status": "phase_complete",
+        "fit_started": true,
+        "completed_methods": 12,
+        "planned_folds": 60,
+        "failure_count": 0,
+        "matrix_sha256": "902a479f5eb1d258f977884a0a304080276ae153a477aa5c78cc18d0026b1123",
+        "protocol_sha256": "1e0bd6b38118b98bed5f49ebeb04a52bc70d55eec0b5d7d484c24b6981a4a9bd",
+        "driver_sha256": "27390ec1349faa5bd5432a11b1fcc987210ca33732d89e18865b51f0b2a9132a",
+        "runner_sha256": "b4b240c7df89b8feb1ed9ff314566f2b642b165564a26816c378bca556c0d7a3",
+        "preflight_sha256": "0862e3385ea38ed947e644b54a4454ed1b2d08bcc35eb63f930a8e729fb00bfe",
+        "cache_sha256": "fa2078df1857f7872c13c6fe187f0883d85a23f9d15fdb3c6897a53314fdea16"
+      }
+    },
+    {
+      "phase": "H",
+      "run_id": "content_overlap_v2",
+      "path": "paper_expansion/runs/content_overlap_v2",
+      "inventory_status": "complete",
+      "manifest_status": "complete",
+      "planned_fits": 190,
+      "completed_fits_counted": 190,
+      "failure_count": 0,
+      "preflight_or_authority": "content_overlap_v2",
+      "matrix_or_protocol": "review_H_v2.json",
+      "provenance": {
+        "manifest_status": "complete",
+        "fit_started": true,
+        "completed_methods": null,
+        "planned_folds": 190,
+        "failure_count": 0,
+        "matrix_sha256": null,
+        "protocol_sha256": null,
+        "driver_sha256": null,
+        "runner_sha256": "b4b240c7df89b8feb1ed9ff314566f2b642b165564a26816c378bca556c0d7a3",
+        "preflight_sha256": "ed19280de0473697b397553ec01d8d4eb3faf94c92eb927976a3040a29978f58",
+        "cache_sha256": "fa2078df1857f7872c13c6fe187f0883d85a23f9d15fdb3c6897a53314fdea16"
+      }
+    },
+    {
+      "phase": "I",
+      "run_id": "spatial_binary_v1",
+      "path": "paper_expansion/runs/spatial_binary_v1",
+      "inventory_status": "complete",
+      "manifest_status": "phase_complete",
+      "planned_fits": 60,
+      "completed_fits_counted": 60,
+      "failure_count": 0,
+      "preflight_or_authority": "spatial_binary_preflight_v3",
+      "matrix_or_protocol": "spatial_binary_protocol_v1.md",
+      "provenance": {
+        "manifest_status": "phase_complete",
+        "fit_started": true,
+        "completed_methods": null,
+        "planned_folds": 60,
+        "failure_count": 0,
+        "matrix_sha256": null,
+        "protocol_sha256": "04a4b72a39c88646bf3684d8429694280b3ced30f2410ce2d0b181e79c1a84df",
+        "driver_sha256": "377aae2c61a33ff13baf4dc142f2924001f4eb81258267ab04181a4411a34e66",
+        "runner_sha256": "b4b240c7df89b8feb1ed9ff314566f2b642b165564a26816c378bca556c0d7a3",
+        "preflight_sha256": "850882ac39c857e15d30edeb330db7fa66f7d191eb0e9bbf3633709b1426930d",
+        "cache_sha256": "fa2078df1857f7872c13c6fe187f0883d85a23f9d15fdb3c6897a53314fdea16"
+      }
+    },
+    {
+      "phase": "S",
+      "run_id": "stride_supplement_v2",
+      "path": "paper_expansion/runs/stride_supplement_v2",
+      "inventory_status": "complete",
+      "manifest_status": "missing",
+      "planned_fits": 60,
+      "completed_fits_counted": 60,
+      "failure_count": [],
+      "preflight_or_authority": null,
+      "matrix_or_protocol": "stride_supplement_protocol_v1.md",
+      "provenance": {
+        "independent_validation_status": "complete_validated",
+        "independent_validation_sha256": "59978ac6a6d41bcc5d286eb4f0e5eb97ab033c48ca3d28916012a21fcf4ed4cb"
+      }
+    },
+    {
+      "phase": "D",
+      "run_id": "phase_D_v1",
+      "path": "paper_expansion/runs/phase_D_v1",
+      "inventory_status": "complete",
+      "manifest_status": "phase_complete",
+      "planned_fits": 90,
+      "completed_fits_counted": 90,
+      "failure_count": 0,
+      "preflight_or_authority": "phase_D_preflight_v1",
+      "matrix_or_protocol": "phase_D_matrix_v1.json",
+      "provenance": {
+        "manifest_status": "running",
+        "fit_started": true,
+        "completed_methods": 13,
+        "planned_folds": 90,
+        "failure_count": 0,
+        "matrix_sha256": "145cdb3da1b420b3b539850244ccfc1c98cec3cf119ad51d92700feaf97ee3fc",
+        "protocol_sha256": "1e0bd6b38118b98bed5f49ebeb04a52bc70d55eec0b5d7d484c24b6981a4a9bd",
+        "driver_sha256": "27390ec1349faa5bd5432a11b1fcc987210ca33732d89e18865b51f0b2a9132a",
+        "runner_sha256": "b4b240c7df89b8feb1ed9ff314566f2b642b165564a26816c378bca556c0d7a3",
+        "preflight_sha256": "2168b174052e6b35c9756b52c75ef87bc6bdc235f72be661517109b8aa35df67",
+        "cache_sha256": "fa2078df1857f7872c13c6fe187f0883d85a23f9d15fdb3c6897a53314fdea16",
+        "completed_methods_observed": 18,
+        "methods_planned": 18,
+        "completed_folds_observed": 90,
+        "model_artifacts_observed": 76,
+        "independent_validation_status": "phase_complete"
+      }
+    },
+    {
+      "phase": "C-v1-excluded",
+      "run_id": "phase_C_v1",
+      "path": "paper_expansion/runs/phase_C_v1",
+      "inventory_status": "interrupted_excluded",
+      "manifest_status": "interrupted_by_scope_reassignment",
+      "planned_fits": 240,
+      "completed_methods": 18,
+      "completed_fits_counted": 0,
+      "failure_count": 0,
+      "reason": "scope reassignment; partial output retained but excluded; C-v2 is canonical"
+    }
+  ],
+  "independent_validation_artifacts": {
+    "paper_expansion/runs/main_A_v2/analysis/main_A_analysis.json": "23d5b1e91377720d1ee06d175bd06cef6439e437b976d4ba9f2e4dae24b61672",
+    "paper_expansion/runs/auxiliary_R_B_C_E_validation_v1.json": "8280cde1045860649e77f584caf16abb5d9610a9a68f8313a70730abda73553e",
+    "paper_expansion/runs/content_overlap_v2/analysis/content_overlap_v2_summary.json": "83dcd8d9d7cd2b79a27c01ec88a0bd6e8e08ae01cde9c321ed0235a7f5a03eea",
+    "paper_expansion/runs/spatial_binary_v1/independent_summary.json": "de7b7b58e7afca8ae00c28c88111d66c111ad5b4996b4e4bc6be830fee274c68",
+    "paper_expansion/runs/stride_supplement_v2/validation_summary.json": "59978ac6a6d41bcc5d286eb4f0e5eb97ab033c48ca3d28916012a21fcf4ed4cb",
+    "paper_expansion/runs/phase_C_v2/independent_validation.json": "4b3dad5adcd4b8a38d72ad9995d7c9339037e97caea285089bd670190d749c04",
+    "paper_expansion/runs/phase_C_v2/independent_validation.md": "58e55ab87549132d7add9412d8d359c4f6c1a910d9cb5f325b64ca399dc43ce4",
+    "paper_expansion/runs/phase_C_v2/phase_C_feature_ablation.png": "9008044fa1916d35608813ecb9f5b89df74305477bc1b343280a05fde589a4e9",
+    "paper_expansion/runs/phase_D_capacity_vs_A_v1.json": "1e419924afb07db3dd8bfcaeecf3a073866dc94ec6fc9fddc4909a915ff4a522",
+    "paper_expansion/runs/phase_D_capacity_vs_A_v1.md": "4180245b28bbe9612a7675818f41b820daaf3e13ed32ec98bce987f0d0e946f5",
+    "paper_expansion/runs/phase_D_v1/analysis/D_only_auxiliary_summary_snapshot_v1.json": "af9d0b798c5e0b33942b43a8cecd1d5f9340fa7e070b36bb6cadb00746b5fe49"
+  },
+  "excluded_attempts": [
+    {
+      "run_id": "main_A_v1",
+      "reason": "wrong interpreter/scikit-learn 1.5.2; failed mandatory RF reproduction; not counted"
+    },
+    {
+      "run_id": "phase_C_v1",
+      "reason": "partial run interrupted by scope reassignment; superseded by complete C-v2; not counted"
+    },
+    {
+      "run_id": "stride_supplement_v1",
+      "reason": "failed before model fitting; not counted"
+    },
+    {
+      "run_id": "content_overlap_v1",
+      "reason": "unexecuted H2 timeblock issue; v2 is canonical"
+    }
+  ],
+  "external_validation_limit": "No independent full three-class Normal/Pothole/Bump external test set was available. STRIDE contains 17 Bump/Pothole recording-type labels only; it has neither Normal road labels nor event boundaries. Other external candidates lacked required label/group/license/access conditions.",
+  "c_ablation_feature_spec": {
+    "gps_values": {
+      "columns": [
+        "location_latitude",
+        "location_longitude"
+      ],
+      "dimensions": 2,
+      "preprocessing": "training-fold median imputation; missingness may remain inferable from imputed values"
+    },
+    "weather_only": {
+      "columns": [
+        "Cloud Cover (%)",
+        "Humidity (%)",
+        "Temperature",
+        "Wind Speed (km/h)"
+      ],
+      "dimensions": 4
+    },
+    "elevation_only": {
+      "columns": [
+        "GIS_Elevation"
+      ],
+      "dimensions": 1
+    },
+    "sensor_only": {
+      "dimensions": 34,
+      "definition": "all numeric columns excluding context columns; exact ordered names stored per fold model feature_columns"
+    },
+    "imu_plus_gps": {
+      "dimensions": 14,
+      "definition": "12 accelerometer/gravity/gyroscope/totalAcceleration axes plus latitude and longitude"
+    },
+    "imu_plus_weather": {
+      "dimensions": 16,
+      "definition": "the same 12 IMU axes plus four weather variables"
+    },
+    "gps_mask": {
+      "dimensions": 2,
+      "definition": "finite-value indicators for latitude and longitude"
+    },
+    "full_with_mask": {
+      "dimensions": 84,
+      "definition": "42 full numeric columns plus 42 finite-value indicators; changes both input dimensionality and RF sqrt feature-sampling, so not a mask-only contrast"
+    },
+    "feature_order_authority": "feature_columns stored in each fitted fold artifact"
+  },
+  "auxiliary_validation_snapshot": {
+    "path": "paper_expansion/runs/auxiliary_summary_v1.json",
+    "markdown": "paper_expansion/runs/auxiliary_summary_v1.md",
+    "sha256_json": "af9d0b798c5e0b33942b43a8cecd1d5f9340fa7e070b36bb6cadb00746b5fe49",
+    "sha256_markdown": "71f6c1e9338482c8c63fc6fd6c25d0483ceb485d632be4efbef28c000a2f99a0",
+    "overall_status": "complete",
+    "method_groups": 158,
+    "fits": 790,
+    "failure_count": 0,
+    "phases": {
+      "R": {
+        "completed_methods": 32,
+        "expected_methods": 32,
+        "failure_count": 0,
+        "status": "phase_complete"
+      },
+      "B": {
+        "completed_methods": 48,
+        "expected_methods": 48,
+        "failure_count": 0,
+        "status": "phase_complete"
+      },
+      "C": {
+        "completed_methods": 48,
+        "expected_methods": 48,
+        "failure_count": 0,
+        "status": "phase_complete"
+      },
+      "E": {
+        "completed_methods": 12,
+        "expected_methods": 12,
+        "failure_count": 0,
+        "status": "phase_complete"
+      },
+      "D": {
+        "completed_methods": 18,
+        "expected_methods": 18,
+        "failure_count": 0,
+        "status": "phase_complete"
+      }
+    }
+  },
+  "phase_C_independent_validation": {
+    "status": "complete_validated",
+    "artifacts": [
+      "paper_expansion/runs/phase_C_v2/independent_validation.json",
+      "paper_expansion/runs/phase_C_v2/independent_validation.md",
+      "paper_expansion/runs/phase_C_v2/phase_C_feature_ablation.png"
+    ],
+    "bootstrap_draws": 2000,
+    "shared_component_contrasts": {
+      "primary_sensor_minus_full_macro_f1": -0.1179,
+      "primary_ci95": [
+        -0.2486,
+        -0.0208
+      ],
+      "blank_normal_sensor_minus_full_macro_f1": -0.061,
+      "blank_normal_ci95": [
+        -0.1064,
+        -0.0185
+      ]
+    }
+  },
+  "phase_D_capacity_comparison": {
+    "status": "complete",
+    "path_json": "paper_expansion/runs/phase_D_capacity_vs_A_v1.json",
+    "path_markdown": "paper_expansion/runs/phase_D_capacity_vs_A_v1.md",
+    "expected_folds": 90,
+    "completed_folds": 90,
+    "failure_count": 0,
+    "sha256_json": "1e419924afb07db3dd8bfcaeecf3a073866dc94ec6fc9fddc4909a915ff4a522",
+    "sha256_markdown": "4180245b28bbe9612a7675818f41b820daaf3e13ed32ec98bce987f0d0e946f5"
+  }
+}

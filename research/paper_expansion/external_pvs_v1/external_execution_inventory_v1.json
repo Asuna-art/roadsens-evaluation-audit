@@ -1,0 +1,107 @@
+{
+  "status": "complete_and_independently_validated",
+  "counts": {
+    "prior_canonical_suite": 1710,
+    "PVS_primary": 264,
+    "PVS_nonoverlap": 264,
+    "PVS_total": 528,
+    "combined_canonical_total": 2238,
+    "PVS_acquisition_units": 9
+  },
+  "prior_inventories": {
+    "execution_inventory.json": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\execution_inventory.json",
+      "sha256": "6ddc7bc6d090f49b55a3177aec5ce343da76d14a449b4368dab867873052dd72"
+    },
+    "key_experiments/final_key_inventory_v1.json": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\key_experiments\\final_key_inventory_v1.json",
+      "sha256": "547d7f42f3a27baf99b0f07a1a5aae24a4288154fbdfe01e3e709550ff32b33c"
+    }
+  },
+  "artifacts": {
+    "checked_summary.json": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\external_pvs_v1\\checked_summary.json",
+      "sha256": "bef5546e1417e9f71339e16c0d84e8abe6d0b6f5a930fdb74e97f9ca72781f73"
+    },
+    "nonoverlap/checked_summary.json": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\external_pvs_v1\\nonoverlap\\checked_summary.json",
+      "sha256": "59fe664d54d4d0512353df82118607cf0e3d0afbbb1b7a8a4fc19899c7a6d7fd"
+    },
+    "feature_manifest.json": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\external_pvs_v1\\feature_manifest.json",
+      "sha256": "e5ccc3b515c1e9496a88a56a7755be3141c671e8b24d32405068057b23417d75"
+    },
+    "nonoverlap/feature_manifest.json": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\external_pvs_v1\\nonoverlap\\feature_manifest.json",
+      "sha256": "78ae4a94c6de318f8ccbd43f917eb7fed090c972a950b5a567df52ff026011b0"
+    },
+    "features.npz": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\external_pvs_v1\\features.npz",
+      "sha256": "d897e9826a6afee60d14a31f6ede1486269323e96a84b1ce7df79e47b831f44c"
+    },
+    "nonoverlap/features.npz": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\external_pvs_v1\\nonoverlap\\features.npz",
+      "sha256": "757ea373874dea86ad8e52d2cbd24ad49b543a5a8bd6e0d1fc44fb1039f86e64"
+    },
+    "feature_population_validation.json": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\external_pvs_v1\\feature_population_validation.json",
+      "sha256": "4d7548710dd106164b6ee304839bbfc6f5c8a580e640ab7e38aacfb01756f322"
+    },
+    "review_gate_v1.json": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\external_pvs_v1\\review_gate_v1.json",
+      "sha256": "783f2f135ff41f9a2fcd628dcd2ac7df55d988279dec6cc62920d9806456c568"
+    },
+    "run_nested_evaluation.py": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\external_pvs_v1\\run_nested_evaluation.py",
+      "sha256": "66a883964417aae1a1e21e5bbca3ccb47b3bd969796b70a06b6061a3e347615b"
+    },
+    "independent_validate.py": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\external_pvs_v1\\independent_validate.py",
+      "sha256": "959c5d3e54d5b07b0a34501c9b5d8d737ae96a12a65dae6563e0cd50481e60d9"
+    },
+    "protocol_v1.md": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\external_pvs_v1\\protocol_v1.md",
+      "sha256": "92c2459bcb4f3b1632161e9a675891ac390865d48745f3c4135ba3d0ae31daaa"
+    },
+    "sensitivity_protocol_v1.md": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\external_pvs_v1\\sensitivity_protocol_v1.md",
+      "sha256": "0dd2f1eaee9215ac1d9b016595a8dd80c6bd3414ee97099ccfd43b1e503fcae9"
+    },
+    "table_numeric_manifest.json": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\external_pvs_v1\\table_numeric_manifest.json",
+      "sha256": "a82b7189bbdd79a0fc4944a94f1b03fd0dadfeff3fef7b3091787a70f3bb686c"
+    },
+    "run_primary_v1/fit_records.json": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\external_pvs_v1\\run_primary_v1\\fit_records.json",
+      "sha256": "6f1b217a4f9e9fb259b7025fd530c5b896b8e082f151b04f5a7fef5575e57f63"
+    },
+    "nonoverlap/run_v1/fit_records.json": {
+      "path": "D:\\\u4e09\u533a\u704c\u6c34\u4e13\u7528\\research_20261015\\candidate_roadsens\\paper_expansion\\external_pvs_v1\\nonoverlap\\run_v1\\fit_records.json",
+      "sha256": "3d8ddd022b1c6e2828edf5b14836918c17c52840bd35ecbfc93539842ae2cc60"
+    }
+  },
+  "validation_amendments": [
+    "prefit_integration_amendment.md",
+    "validator_review_amendment.md"
+  ],
+  "primary_two_axis_criterion": {
+    "axes": {
+      "scenario": {
+        "improvement_random_minus_matched": 0.03390913511375604,
+        "matched_factor_MAE": 0.13568331289460922,
+        "row_random_MAE": 0.16959244800836526,
+        "supported": true,
+        "threshold": 0.02
+      },
+      "vehicle": {
+        "improvement_random_minus_matched": 0.008511370908791206,
+        "matched_factor_MAE": 0.04452035572545495,
+        "row_random_MAE": 0.05303172663424616,
+        "supported": false,
+        "threshold": 0.02
+      }
+    },
+    "interpretation": "partial support/unsupported",
+    "supported_both_axes": false
+  }
+}

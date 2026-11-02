@@ -1,0 +1,1057 @@
+{
+  "axis_selector_rows": [
+    {
+      "axis": "scenario",
+      "bias_outer_minus_inner": -0.11554942907999954,
+      "mae": 0.1389732367176667,
+      "mean_inner_macro_f1": 0.8795184112909831,
+      "mean_oracle_regret_macro_f1": 0.08119767705921521,
+      "mean_outer_macro_f1": 0.7639689822109835,
+      "outer_domains": 3,
+      "scheme": "leave_one_trip"
+    },
+    {
+      "axis": "scenario",
+      "bias_outer_minus_inner": 0.04313013606017705,
+      "mae": 0.13568331289460922,
+      "mean_inner_macro_f1": 0.7928085553081248,
+      "mean_oracle_regret_macro_f1": 0.009227967901896986,
+      "mean_outer_macro_f1": 0.8359386913683018,
+      "outer_domains": 3,
+      "scheme": "matched_factor"
+    },
+    {
+      "axis": "scenario",
+      "bias_outer_minus_inner": -0.16959244800836526,
+      "mae": 0.16959244800836526,
+      "mean_inner_macro_f1": 0.9335614302193488,
+      "mean_oracle_regret_macro_f1": 0.08119767705921521,
+      "mean_outer_macro_f1": 0.7639689822109835,
+      "outer_domains": 3,
+      "scheme": "row_random"
+    },
+    {
+      "axis": "vehicle",
+      "bias_outer_minus_inner": 0.008142364159247037,
+      "mae": 0.030445426480396203,
+      "mean_inner_macro_f1": 0.8597946062968997,
+      "mean_oracle_regret_macro_f1": 0.004979534318481749,
+      "mean_outer_macro_f1": 0.8679369704561468,
+      "outer_domains": 3,
+      "scheme": "leave_one_trip"
+    },
+    {
+      "axis": "vehicle",
+      "bias_outer_minus_inner": 0.036100981198433524,
+      "mae": 0.04452035572545495,
+      "mean_inner_macro_f1": 0.8318359892577133,
+      "mean_oracle_regret_macro_f1": 0.004979534318481749,
+      "mean_outer_macro_f1": 0.8679369704561468,
+      "outer_domains": 3,
+      "scheme": "matched_factor"
+    },
+    {
+      "axis": "vehicle",
+      "bias_outer_minus_inner": -0.05303172663424616,
+      "mae": 0.05303172663424616,
+      "mean_inner_macro_f1": 0.9209686970903931,
+      "mean_oracle_regret_macro_f1": 0.004979534318481749,
+      "mean_outer_macro_f1": 0.8679369704561468,
+      "outer_domains": 3,
+      "scheme": "row_random"
+    }
+  ],
+  "candidate_axis_mean_rows": [
+    {
+      "axis": "scenario",
+      "candidate_id": "hgb_sensor",
+      "mean_inner_matched_macro_f1": 0.7816869460554736,
+      "mean_inner_random_macro_f1": 0.9058943496482046,
+      "mean_inner_trip_macro_f1": 0.8522332623592886,
+      "mean_outer_balanced_accuracy": 0.8095612801689893,
+      "mean_outer_macro_f1": 0.8341150319820784
+    },
+    {
+      "axis": "scenario",
+      "candidate_id": "hgb_sensor_context",
+      "mean_inner_matched_macro_f1": 0.6917805392726514,
+      "mean_inner_random_macro_f1": 0.9335614302193488,
+      "mean_inner_trip_macro_f1": 0.8795184112909831,
+      "mean_outer_balanced_accuracy": 0.7126874160260019,
+      "mean_outer_macro_f1": 0.7639689822109835
+    },
+    {
+      "axis": "scenario",
+      "candidate_id": "rf_sensor",
+      "mean_inner_matched_macro_f1": 0.787988370250254,
+      "mean_inner_random_macro_f1": 0.8720199689455006,
+      "mean_inner_trip_macro_f1": 0.8241003319149157,
+      "mean_outer_balanced_accuracy": 0.8181327892240916,
+      "mean_outer_macro_f1": 0.8277695098053953
+    },
+    {
+      "axis": "scenario",
+      "candidate_id": "rf_sensor_context",
+      "mean_inner_matched_macro_f1": 0.6946914874017592,
+      "mean_inner_random_macro_f1": 0.8938535009863467,
+      "mean_inner_trip_macro_f1": 0.8442415117157501,
+      "mean_outer_balanced_accuracy": 0.7046406675438804,
+      "mean_outer_macro_f1": 0.7243334707788399
+    },
+    {
+      "axis": "vehicle",
+      "candidate_id": "hgb_sensor",
+      "mean_inner_matched_macro_f1": 0.8052553177219951,
+      "mean_inner_random_macro_f1": 0.9008255351777409,
+      "mean_inner_trip_macro_f1": 0.8429463101884833,
+      "mean_outer_balanced_accuracy": 0.8768493694556043,
+      "mean_outer_macro_f1": 0.83506133132677
+    },
+    {
+      "axis": "vehicle",
+      "candidate_id": "hgb_sensor_context",
+      "mean_inner_matched_macro_f1": 0.8318359892577133,
+      "mean_inner_random_macro_f1": 0.9209686970903931,
+      "mean_inner_trip_macro_f1": 0.8597946062968997,
+      "mean_outer_balanced_accuracy": 0.8827236391008376,
+      "mean_outer_macro_f1": 0.8679369704561468
+    },
+    {
+      "axis": "vehicle",
+      "candidate_id": "rf_sensor",
+      "mean_inner_matched_macro_f1": 0.7737937443378747,
+      "mean_inner_random_macro_f1": 0.8679932628913853,
+      "mean_inner_trip_macro_f1": 0.8145680169129852,
+      "mean_outer_balanced_accuracy": 0.8578574481843475,
+      "mean_outer_macro_f1": 0.8095475357247492
+    },
+    {
+      "axis": "vehicle",
+      "candidate_id": "rf_sensor_context",
+      "mean_inner_matched_macro_f1": 0.8066167445066655,
+      "mean_inner_random_macro_f1": 0.8899948592339711,
+      "mean_inner_trip_macro_f1": 0.8269920175841214,
+      "mean_outer_balanced_accuracy": 0.869523200383724,
+      "mean_outer_macro_f1": 0.8351554736501967
+    }
+  ],
+  "candidate_domain_rows": [
+    {
+      "axis": "vehicle",
+      "candidate_id": "rf_sensor",
+      "inner_matched_macro_f1": 0.7973895404144928,
+      "inner_random_macro_f1": 0.863859231033195,
+      "inner_trip_macro_f1": 0.8137159054582992,
+      "outer_balanced_accuracy": 0.7983138804554427,
+      "outer_class_recalls": [
+        0.999117387466902,
+        0.5975103734439834
+      ],
+      "outer_class_support": [
+        14729,
+        241
+      ],
+      "outer_confusion_matrix": [
+        [
+          14716,
+          13
+        ],
+        [
+          97,
+          144
+        ]
+      ],
+      "outer_id": "vehicle_1",
+      "outer_macro_f1": 0.8599472890823354
+    },
+    {
+      "axis": "vehicle",
+      "candidate_id": "rf_sensor_context",
+      "inner_matched_macro_f1": 0.8123648998951888,
+      "inner_random_macro_f1": 0.8972181995028639,
+      "inner_trip_macro_f1": 0.8332159249336906,
+      "outer_balanced_accuracy": 0.8001169961650161,
+      "outer_class_recalls": [
+        0.9985742412926879,
+        0.6016597510373444
+      ],
+      "outer_class_support": [
+        14729,
+        241
+      ],
+      "outer_confusion_matrix": [
+        [
+          14708,
+          21
+        ],
+        [
+          96,
+          145
+        ]
+      ],
+      "outer_id": "vehicle_1",
+      "outer_macro_f1": 0.8542845212672185
+    },
+    {
+      "axis": "vehicle",
+      "candidate_id": "hgb_sensor",
+      "inner_matched_macro_f1": 0.818735537263144,
+      "inner_random_macro_f1": 0.897033559780803,
+      "inner_trip_macro_f1": 0.8390885546687815,
+      "outer_balanced_accuracy": 0.8024972046846921,
+      "outer_class_recalls": [
+        0.9991852807386788,
+        0.6058091286307054
+      ],
+      "outer_class_support": [
+        14729,
+        241
+      ],
+      "outer_confusion_matrix": [
+        [
+          14717,
+          12
+        ],
+        [
+          95,
+          146
+        ]
+      ],
+      "outer_id": "vehicle_1",
+      "outer_macro_f1": 0.8641037446871978
+    },
+    {
+      "axis": "vehicle",
+      "candidate_id": "hgb_sensor_context",
+      "inner_matched_macro_f1": 0.8617942035222846,
+      "inner_random_macro_f1": 0.921714651715064,
+      "inner_trip_macro_f1": 0.8663981443187744,
+      "outer_balanced_accuracy": 0.7858318010394714,
+      "outer_class_recalls": [
+        0.9990494941951252,
+        0.5726141078838174
+      ],
+      "outer_class_support": [
+        14729,
+        241
+      ],
+      "outer_confusion_matrix": [
+        [
+          14715,
+          14
+        ],
+        [
+          103,
+          138
+        ]
+      ],
+      "outer_id": "vehicle_1",
+      "outer_macro_f1": 0.8491651417317525
+    },
+    {
+      "axis": "vehicle",
+      "candidate_id": "rf_sensor",
+      "inner_matched_macro_f1": 0.7355947167504056,
+      "inner_random_macro_f1": 0.8670288332699211,
+      "inner_trip_macro_f1": 0.8131472717425441,
+      "outer_balanced_accuracy": 0.8499178299669459,
+      "outer_class_recalls": [
+        0.9918710581639804,
+        0.7079646017699115
+      ],
+      "outer_class_support": [
+        14270,
+        226
+      ],
+      "outer_confusion_matrix": [
+        [
+          14154,
+          116
+        ],
+        [
+          66,
+          160
+        ]
+      ],
+      "outer_id": "vehicle_2",
+      "outer_macro_f1": 0.8155309964074904
+    },
+    {
+      "axis": "vehicle",
+      "candidate_id": "rf_sensor_context",
+      "inner_matched_macro_f1": 0.7725663411084225,
+      "inner_random_macro_f1": 0.8763233953500329,
+      "inner_trip_macro_f1": 0.8058626045390346,
+      "outer_balanced_accuracy": 0.8822577844478483,
+      "outer_class_recalls": [
+        0.994604064470918,
+        0.7699115044247787
+      ],
+      "outer_class_support": [
+        14270,
+        226
+      ],
+      "outer_confusion_matrix": [
+        [
+          14193,
+          77
+        ],
+        [
+          52,
+          174
+        ]
+      ],
+      "outer_id": "vehicle_2",
+      "outer_macro_f1": 0.8625179068282499
+    },
+    {
+      "axis": "vehicle",
+      "candidate_id": "hgb_sensor",
+      "inner_matched_macro_f1": 0.7651783778920203,
+      "inner_random_macro_f1": 0.896827131728064,
+      "inner_trip_macro_f1": 0.8397480851558429,
+      "outer_balanced_accuracy": 0.885946753818581,
+      "outer_class_recalls": [
+        0.9931324456902593,
+        0.7787610619469026
+      ],
+      "outer_class_support": [
+        14270,
+        226
+      ],
+      "outer_confusion_matrix": [
+        [
+          14172,
+          98
+        ],
+        [
+          50,
+          176
+        ]
+      ],
+      "outer_id": "vehicle_2",
+      "outer_macro_f1": 0.8494027797276429
+    },
+    {
+      "axis": "vehicle",
+      "candidate_id": "hgb_sensor_context",
+      "inner_matched_macro_f1": 0.7984903573454338,
+      "inner_random_macro_f1": 0.914397994272871,
+      "inner_trip_macro_f1": 0.8470450557690843,
+      "outer_balanced_accuracy": 0.9163896658005222,
+      "outer_class_recalls": [
+        0.9964961457603364,
+        0.8362831858407079
+      ],
+      "outer_class_support": [
+        14270,
+        226
+      ],
+      "outer_confusion_matrix": [
+        [
+          14220,
+          50
+        ],
+        [
+          37,
+          189
+        ]
+      ],
+      "outer_id": "vehicle_2",
+      "outer_macro_f1": 0.9049267417285491
+    },
+    {
+      "axis": "vehicle",
+      "candidate_id": "rf_sensor",
+      "inner_matched_macro_f1": 0.7883969758487257,
+      "inner_random_macro_f1": 0.8730917243710403,
+      "inner_trip_macro_f1": 0.8168408735381125,
+      "outer_balanced_accuracy": 0.9253406341306543,
+      "outer_class_recalls": [
+        0.9762626636101457,
+        0.8744186046511628
+      ],
+      "outer_class_support": [
+        13523,
+        215
+      ],
+      "outer_confusion_matrix": [
+        [
+          13202,
+          321
+        ],
+        [
+          27,
+          188
+        ]
+      ],
+      "outer_id": "vehicle_3",
+      "outer_macro_f1": 0.7531643216844219
+    },
+    {
+      "axis": "vehicle",
+      "candidate_id": "rf_sensor_context",
+      "inner_matched_macro_f1": 0.834918992516385,
+      "inner_random_macro_f1": 0.8964429828490168,
+      "inner_trip_macro_f1": 0.8418975232796388,
+      "outer_balanced_accuracy": 0.9261948205383077,
+      "outer_class_recalls": [
+        0.9826221992161502,
+        0.8697674418604651
+      ],
+      "outer_class_support": [
+        13523,
+        215
+      ],
+      "outer_confusion_matrix": [
+        [
+          13288,
+          235
+        ],
+        [
+          28,
+          187
+        ]
+      ],
+      "outer_id": "vehicle_3",
+      "outer_macro_f1": 0.788663992855122
+    },
+    {
+      "axis": "vehicle",
+      "candidate_id": "hgb_sensor",
+      "inner_matched_macro_f1": 0.831852038010821,
+      "inner_random_macro_f1": 0.9086159140243557,
+      "inner_trip_macro_f1": 0.8500022907408256,
+      "outer_balanced_accuracy": 0.94210414986354,
+      "outer_class_recalls": [
+        0.9818827183317311,
+        0.9023255813953488
+      ],
+      "outer_class_support": [
+        13523,
+        215
+      ],
+      "outer_confusion_matrix": [
+        [
+          13278,
+          245
+        ],
+        [
+          21,
+          194
+        ]
+      ],
+      "outer_id": "vehicle_3",
+      "outer_macro_f1": 0.7916774695654691
+    },
+    {
+      "axis": "vehicle",
+      "candidate_id": "hgb_sensor_context",
+      "inner_matched_macro_f1": 0.8352234069054214,
+      "inner_random_macro_f1": 0.9267934452832439,
+      "inner_trip_macro_f1": 0.8659406188028407,
+      "outer_balanced_accuracy": 0.9459494504625194,
+      "outer_class_recalls": [
+        0.9895733195296902,
+        0.9023255813953488
+      ],
+      "outer_class_support": [
+        13523,
+        215
+      ],
+      "outer_confusion_matrix": [
+        [
+          13382,
+          141
+        ],
+        [
+          21,
+          194
+        ]
+      ],
+      "outer_id": "vehicle_3",
+      "outer_macro_f1": 0.8497190279081388
+    },
+    {
+      "axis": "scenario",
+      "candidate_id": "rf_sensor",
+      "inner_matched_macro_f1": 0.857430542660431,
+      "inner_random_macro_f1": 0.9147459524161027,
+      "inner_trip_macro_f1": 0.8756813491859339,
+      "outer_balanced_accuracy": 0.6623454336556651,
+      "outer_class_recalls": [
+        0.9966485392690021,
+        0.328042328042328
+      ],
+      "outer_class_support": [
+        15814,
+        378
+      ],
+      "outer_confusion_matrix": [
+        [
+          15761,
+          53
+        ],
+        [
+          254,
+          124
+        ]
+      ],
+      "outer_id": "scenario_1",
+      "outer_macro_f1": 0.7186007774087827
+    },
+    {
+      "axis": "scenario",
+      "candidate_id": "rf_sensor_context",
+      "inner_matched_macro_f1": 0.6568360889528454,
+      "inner_random_macro_f1": 0.9248186787376974,
+      "inner_trip_macro_f1": 0.8931360525378803,
+      "outer_balanced_accuracy": 0.6245863788231311,
+      "outer_class_recalls": [
+        0.9978500063235108,
+        0.25132275132275134
+      ],
+      "outer_class_support": [
+        15814,
+        378
+      ],
+      "outer_confusion_matrix": [
+        [
+          15780,
+          34
+        ],
+        [
+          283,
+          95
+        ]
+      ],
+      "outer_id": "scenario_1",
+      "outer_macro_f1": 0.6824044888021568
+    },
+    {
+      "axis": "scenario",
+      "candidate_id": "hgb_sensor",
+      "inner_matched_macro_f1": 0.8473974550966947,
+      "inner_random_macro_f1": 0.9268046362936874,
+      "inner_trip_macro_f1": 0.9026088572647806,
+      "outer_balanced_accuracy": 0.6535920552614621,
+      "outer_class_recalls": [
+        0.9976603009991147,
+        0.30952380952380953
+      ],
+      "outer_class_support": [
+        15814,
+        378
+      ],
+      "outer_confusion_matrix": [
+        [
+          15777,
+          37
+        ],
+        [
+          261,
+          117
+        ]
+      ],
+      "outer_id": "scenario_1",
+      "outer_macro_f1": 0.7152469268109367
+    },
+    {
+      "axis": "scenario",
+      "candidate_id": "hgb_sensor_context",
+      "inner_matched_macro_f1": 0.6700570640011935,
+      "inner_random_macro_f1": 0.9461134589363163,
+      "inner_trip_macro_f1": 0.9094944025736207,
+      "outer_balanced_accuracy": 0.6129029397968313,
+      "outer_class_recalls": [
+        0.998292652080435,
+        0.2275132275132275
+      ],
+      "outer_class_support": [
+        15814,
+        378
+      ],
+      "outer_confusion_matrix": [
+        [
+          15787,
+          27
+        ],
+        [
+          292,
+          86
+        ]
+      ],
+      "outer_id": "scenario_1",
+      "outer_macro_f1": 0.6701516520713386
+    },
+    {
+      "axis": "scenario",
+      "candidate_id": "rf_sensor",
+      "inner_matched_macro_f1": 0.736823944746334,
+      "inner_random_macro_f1": 0.8401379612075253,
+      "inner_trip_macro_f1": 0.7757637138884859,
+      "outer_balanced_accuracy": 0.9209886781984522,
+      "outer_class_recalls": [
+        0.9941512694403828,
+        0.8478260869565217
+      ],
+      "outer_class_support": [
+        15046,
+        230
+      ],
+      "outer_confusion_matrix": [
+        [
+          14958,
+          88
+        ],
+        [
+          35,
+          195
+        ]
+      ],
+      "outer_id": "scenario_2",
+      "outer_macro_f1": 0.8780696206043255
+    },
+    {
+      "axis": "scenario",
+      "candidate_id": "rf_sensor_context",
+      "inner_matched_macro_f1": 0.6806318253987335,
+      "inner_random_macro_f1": 0.8744144843640158,
+      "inner_trip_macro_f1": 0.8057103244781282,
+      "outer_balanced_accuracy": 0.592016078229661,
+      "outer_class_recalls": [
+        0.9970756347201915,
+        0.18695652173913044
+      ],
+      "outer_class_support": [
+        15046,
+        230
+      ],
+      "outer_confusion_matrix": [
+        [
+          15002,
+          44
+        ],
+        [
+          187,
+          43
+        ]
+      ],
+      "outer_id": "scenario_2",
+      "outer_macro_f1": 0.631826611626382
+    },
+    {
+      "axis": "scenario",
+      "candidate_id": "hgb_sensor",
+      "inner_matched_macro_f1": 0.751284499919946,
+      "inner_random_macro_f1": 0.8890854169991402,
+      "inner_trip_macro_f1": 0.8042989285287105,
+      "outer_balanced_accuracy": 0.924126302527322,
+      "outer_class_recalls": [
+        0.9960786920111657,
+        0.8521739130434782
+      ],
+      "outer_class_support": [
+        15046,
+        230
+      ],
+      "outer_confusion_matrix": [
+        [
+          14987,
+          59
+        ],
+        [
+          34,
+          196
+        ]
+      ],
+      "outer_id": "scenario_2",
+      "outer_macro_f1": 0.9025771652930449
+    },
+    {
+      "axis": "scenario",
+      "candidate_id": "hgb_sensor_context",
+      "inner_matched_macro_f1": 0.6851481523814607,
+      "inner_random_macro_f1": 0.9280247815922898,
+      "inner_trip_macro_f1": 0.8498745076470606,
+      "outer_balanced_accuracy": 0.6469953013656671,
+      "outer_class_recalls": [
+        0.9983384288182906,
+        0.2956521739130435
+      ],
+      "outer_class_support": [
+        15046,
+        230
+      ],
+      "outer_confusion_matrix": [
+        [
+          15021,
+          25
+        ],
+        [
+          162,
+          68
+        ]
+      ],
+      "outer_id": "scenario_2",
+      "outer_macro_f1": 0.7074332594528433
+    },
+    {
+      "axis": "scenario",
+      "candidate_id": "rf_sensor",
+      "inner_matched_macro_f1": 0.7697106233439972,
+      "inner_random_macro_f1": 0.861175993212874,
+      "inner_trip_macro_f1": 0.8208559326703275,
+      "outer_balanced_accuracy": 0.8710642558181574,
+      "outer_class_recalls": [
+        0.9988852683930716,
+        0.7432432432432432
+      ],
+      "outer_class_support": [
+        11662,
+        74
+      ],
+      "outer_confusion_matrix": [
+        [
+          11649,
+          13
+        ],
+        [
+          19,
+          55
+        ]
+      ],
+      "outer_id": "scenario_3",
+      "outer_macro_f1": 0.8866381314030777
+    },
+    {
+      "axis": "scenario",
+      "candidate_id": "rf_sensor_context",
+      "inner_matched_macro_f1": 0.7466065478536992,
+      "inner_random_macro_f1": 0.8823273398573271,
+      "inner_trip_macro_f1": 0.8338781581312419,
+      "outer_balanced_accuracy": 0.8973195455788493,
+      "outer_class_recalls": [
+        0.9973417938604013,
+        0.7972972972972973
+      ],
+      "outer_class_support": [
+        11662,
+        74
+      ],
+      "outer_confusion_matrix": [
+        [
+          11631,
+          31
+        ],
+        [
+          15,
+          59
+        ]
+      ],
+      "outer_id": "scenario_3",
+      "outer_macro_f1": 0.8587693119079809
+    },
+    {
+      "axis": "scenario",
+      "candidate_id": "hgb_sensor",
+      "inner_matched_macro_f1": 0.7463788831497802,
+      "inner_random_macro_f1": 0.9017929956517863,
+      "inner_trip_macro_f1": 0.8497920012843749,
+      "outer_balanced_accuracy": 0.8509654827181838,
+      "outer_class_recalls": [
+        0.9992282627336649,
+        0.7027027027027027
+      ],
+      "outer_class_support": [
+        11662,
+        74
+      ],
+      "outer_confusion_matrix": [
+        [
+          11653,
+          9
+        ],
+        [
+          22,
+          52
+        ]
+      ],
+      "outer_id": "scenario_3",
+      "outer_macro_f1": 0.8845210038422533
+    },
+    {
+      "axis": "scenario",
+      "candidate_id": "hgb_sensor_context",
+      "inner_matched_macro_f1": 0.7201364014352997,
+      "inner_random_macro_f1": 0.9265460501294402,
+      "inner_trip_macro_f1": 0.8791863236522679,
+      "outer_balanced_accuracy": 0.8781640069155076,
+      "outer_class_recalls": [
+        0.9995712570742583,
+        0.7567567567567568
+      ],
+      "outer_class_support": [
+        11662,
+        74
+      ],
+      "outer_confusion_matrix": [
+        [
+          11657,
+          5
+        ],
+        [
+          18,
+          56
+        ]
+      ],
+      "outer_id": "scenario_3",
+      "outer_macro_f1": 0.9143220351087686
+    }
+  ],
+  "frozen_selection_sha256": {
+    "scenario_1": "a3a286d132c8ee21191926057153c436a1c714cdf7066d72bff4859b5acc1384",
+    "scenario_2": "2b261e3be9c58383d36d152b04191386f0297fe44960caaccf85b8705bb40a0a",
+    "scenario_3": "3032c259ed5ab2217456438009cabe02a85d6091272e4ec6b5413ea91f65a84d",
+    "vehicle_1": "5e4aadc0a1bf61220984b447ed63f7185518b7082a9486f54be339b60397b39a",
+    "vehicle_2": "4aa6f83f03894c35660c7ffd86f41318aeafdac6d26e2abedf7a7fb497c38388",
+    "vehicle_3": "2e8f81a4e2981fc1d363d0f394ff2e9d7b97e2b9e9e53f6c35f538dae8861568"
+  },
+  "planned_and_validated_fits": 264,
+  "primary_criterion": {
+    "axes": {
+      "scenario": {
+        "improvement_random_minus_matched": 0.03390913511375604,
+        "matched_factor_MAE": 0.13568331289460922,
+        "row_random_MAE": 0.16959244800836526,
+        "supported": true,
+        "threshold": 0.02
+      },
+      "vehicle": {
+        "improvement_random_minus_matched": 0.008511370908791206,
+        "matched_factor_MAE": 0.04452035572545495,
+        "row_random_MAE": 0.05303172663424616,
+        "supported": false,
+        "threshold": 0.02
+      }
+    },
+    "interpretation": "partial support/unsupported",
+    "supported_both_axes": false
+  },
+  "provenance": {
+    "analyzer_sha256": "959c5d3e54d5b07b0a34501c9b5d8d737ae96a12a65dae6563e0cd50481e60d9",
+    "driver_sha256": "66a883964417aae1a1e21e5bbca3ccb47b3bd969796b70a06b6061a3e347615b",
+    "feature_manifest_sha256": "e5ccc3b515c1e9496a88a56a7755be3141c671e8b24d32405068057b23417d75",
+    "features_sha256": "d897e9826a6afee60d14a31f6ede1486269323e96a84b1ce7df79e47b831f44c",
+    "fit_records_sha256": "6f1b217a4f9e9fb259b7025fd530c5b896b8e082f151b04f5a7fef5575e57f63",
+    "protocol_sha256": "92c2459bcb4f3b1632161e9a675891ac390865d48745f3c4135ba3d0ae31daaa"
+  },
+  "selector_domain_rows": [
+    {
+      "absolute_error": 0.07254950998331144,
+      "axis": "vehicle",
+      "chosen_candidate_id": "hgb_sensor_context",
+      "inner_macro_f1": 0.921714651715064,
+      "oracle_regret_macro_f1": 0.014938602955445246,
+      "outer_id": "vehicle_1",
+      "outer_macro_f1": 0.8491651417317525,
+      "scheme": "row_random",
+      "signed_error_outer_minus_inner": -0.07254950998331144
+    },
+    {
+      "absolute_error": 0.017233002587021873,
+      "axis": "vehicle",
+      "chosen_candidate_id": "hgb_sensor_context",
+      "inner_macro_f1": 0.8663981443187744,
+      "oracle_regret_macro_f1": 0.014938602955445246,
+      "outer_id": "vehicle_1",
+      "outer_macro_f1": 0.8491651417317525,
+      "scheme": "leave_one_trip",
+      "signed_error_outer_minus_inner": -0.017233002587021873
+    },
+    {
+      "absolute_error": 0.012629061790532137,
+      "axis": "vehicle",
+      "chosen_candidate_id": "hgb_sensor_context",
+      "inner_macro_f1": 0.8617942035222846,
+      "oracle_regret_macro_f1": 0.014938602955445246,
+      "outer_id": "vehicle_1",
+      "outer_macro_f1": 0.8491651417317525,
+      "scheme": "matched_factor",
+      "signed_error_outer_minus_inner": -0.012629061790532137
+    },
+    {
+      "absolute_error": 0.009471252544321906,
+      "axis": "vehicle",
+      "chosen_candidate_id": "hgb_sensor_context",
+      "inner_macro_f1": 0.914397994272871,
+      "oracle_regret_macro_f1": 0.0,
+      "outer_id": "vehicle_2",
+      "outer_macro_f1": 0.9049267417285491,
+      "scheme": "row_random",
+      "signed_error_outer_minus_inner": -0.009471252544321906
+    },
+    {
+      "absolute_error": 0.05788168595946486,
+      "axis": "vehicle",
+      "chosen_candidate_id": "hgb_sensor_context",
+      "inner_macro_f1": 0.8470450557690843,
+      "oracle_regret_macro_f1": 0.0,
+      "outer_id": "vehicle_2",
+      "outer_macro_f1": 0.9049267417285491,
+      "scheme": "leave_one_trip",
+      "signed_error_outer_minus_inner": 0.05788168595946486
+    },
+    {
+      "absolute_error": 0.10643638438311531,
+      "axis": "vehicle",
+      "chosen_candidate_id": "hgb_sensor_context",
+      "inner_macro_f1": 0.7984903573454338,
+      "oracle_regret_macro_f1": 0.0,
+      "outer_id": "vehicle_2",
+      "outer_macro_f1": 0.9049267417285491,
+      "scheme": "matched_factor",
+      "signed_error_outer_minus_inner": 0.10643638438311531
+    },
+    {
+      "absolute_error": 0.07707441737510512,
+      "axis": "vehicle",
+      "chosen_candidate_id": "hgb_sensor_context",
+      "inner_macro_f1": 0.9267934452832439,
+      "oracle_regret_macro_f1": 0.0,
+      "outer_id": "vehicle_3",
+      "outer_macro_f1": 0.8497190279081388,
+      "scheme": "row_random",
+      "signed_error_outer_minus_inner": -0.07707441737510512
+    },
+    {
+      "absolute_error": 0.016221590894701876,
+      "axis": "vehicle",
+      "chosen_candidate_id": "hgb_sensor_context",
+      "inner_macro_f1": 0.8659406188028407,
+      "oracle_regret_macro_f1": 0.0,
+      "outer_id": "vehicle_3",
+      "outer_macro_f1": 0.8497190279081388,
+      "scheme": "leave_one_trip",
+      "signed_error_outer_minus_inner": -0.016221590894701876
+    },
+    {
+      "absolute_error": 0.014495621002717396,
+      "axis": "vehicle",
+      "chosen_candidate_id": "hgb_sensor_context",
+      "inner_macro_f1": 0.8352234069054214,
+      "oracle_regret_macro_f1": 0.0,
+      "outer_id": "vehicle_3",
+      "outer_macro_f1": 0.8497190279081388,
+      "scheme": "matched_factor",
+      "signed_error_outer_minus_inner": 0.014495621002717396
+    },
+    {
+      "absolute_error": 0.2759618068649776,
+      "axis": "scenario",
+      "chosen_candidate_id": "hgb_sensor_context",
+      "inner_macro_f1": 0.9461134589363163,
+      "oracle_regret_macro_f1": 0.048449125337444054,
+      "outer_id": "scenario_1",
+      "outer_macro_f1": 0.6701516520713386,
+      "scheme": "row_random",
+      "signed_error_outer_minus_inner": -0.2759618068649776
+    },
+    {
+      "absolute_error": 0.23934275050228204,
+      "axis": "scenario",
+      "chosen_candidate_id": "hgb_sensor_context",
+      "inner_macro_f1": 0.9094944025736207,
+      "oracle_regret_macro_f1": 0.048449125337444054,
+      "outer_id": "scenario_1",
+      "outer_macro_f1": 0.6701516520713386,
+      "scheme": "leave_one_trip",
+      "signed_error_outer_minus_inner": -0.23934275050228204
+    },
+    {
+      "absolute_error": 0.13882976525164825,
+      "axis": "scenario",
+      "chosen_candidate_id": "rf_sensor",
+      "inner_macro_f1": 0.857430542660431,
+      "oracle_regret_macro_f1": 0.0,
+      "outer_id": "scenario_1",
+      "outer_macro_f1": 0.7186007774087827,
+      "scheme": "matched_factor",
+      "signed_error_outer_minus_inner": -0.13882976525164825
+    },
+    {
+      "absolute_error": 0.22059152213944655,
+      "axis": "scenario",
+      "chosen_candidate_id": "hgb_sensor_context",
+      "inner_macro_f1": 0.9280247815922898,
+      "oracle_regret_macro_f1": 0.19514390584020158,
+      "outer_id": "scenario_2",
+      "outer_macro_f1": 0.7074332594528433,
+      "scheme": "row_random",
+      "signed_error_outer_minus_inner": -0.22059152213944655
+    },
+    {
+      "absolute_error": 0.14244124819421733,
+      "axis": "scenario",
+      "chosen_candidate_id": "hgb_sensor_context",
+      "inner_macro_f1": 0.8498745076470606,
+      "oracle_regret_macro_f1": 0.19514390584020158,
+      "outer_id": "scenario_2",
+      "outer_macro_f1": 0.7074332594528433,
+      "scheme": "leave_one_trip",
+      "signed_error_outer_minus_inner": -0.14244124819421733
+    },
+    {
+      "absolute_error": 0.15129266537309893,
+      "axis": "scenario",
+      "chosen_candidate_id": "hgb_sensor",
+      "inner_macro_f1": 0.751284499919946,
+      "oracle_regret_macro_f1": 0.0,
+      "outer_id": "scenario_2",
+      "outer_macro_f1": 0.9025771652930449,
+      "scheme": "matched_factor",
+      "signed_error_outer_minus_inner": 0.15129266537309893
+    },
+    {
+      "absolute_error": 0.012224015020671608,
+      "axis": "scenario",
+      "chosen_candidate_id": "hgb_sensor_context",
+      "inner_macro_f1": 0.9265460501294402,
+      "oracle_regret_macro_f1": 0.0,
+      "outer_id": "scenario_3",
+      "outer_macro_f1": 0.9143220351087686,
+      "scheme": "row_random",
+      "signed_error_outer_minus_inner": -0.012224015020671608
+    },
+    {
+      "absolute_error": 0.03513571145650074,
+      "axis": "scenario",
+      "chosen_candidate_id": "hgb_sensor_context",
+      "inner_macro_f1": 0.8791863236522679,
+      "oracle_regret_macro_f1": 0.0,
+      "outer_id": "scenario_3",
+      "outer_macro_f1": 0.9143220351087686,
+      "scheme": "leave_one_trip",
+      "signed_error_outer_minus_inner": 0.03513571145650074
+    },
+    {
+      "absolute_error": 0.11692750805908048,
+      "axis": "scenario",
+      "chosen_candidate_id": "rf_sensor",
+      "inner_macro_f1": 0.7697106233439972,
+      "oracle_regret_macro_f1": 0.02768390370569096,
+      "outer_id": "scenario_3",
+      "outer_macro_f1": 0.8866381314030777,
+      "scheme": "matched_factor",
+      "signed_error_outer_minus_inner": 0.11692750805908048
+    }
+  ],
+  "status": "independently_validated",
+  "verification_counts": {
+    "fits": 264,
+    "grouped_splits_checked": 216,
+    "metrics_recomputed": 264,
+    "models_reloaded": 264,
+    "predictions_reproduced": 264
+  }
+}

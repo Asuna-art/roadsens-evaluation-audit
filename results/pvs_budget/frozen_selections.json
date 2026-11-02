@@ -1,0 +1,272 @@
+{
+  "candidate_order": [
+    "rf_sensor",
+    "rf_sensor_context",
+    "hgb_sensor",
+    "hgb_sensor_context"
+  ],
+  "input_sha256": {
+    "code": "e52178b06af9d503b07cb0c3a12889a6531f192e74c5c633baf73009bd65a1cc",
+    "features": "757ea373874dea86ad8e52d2cbd24ad49b543a5a8bd6e0d1fc44fb1039f86e64",
+    "helper": "66a883964417aae1a1e21e5bbca3ccb47b3bd969796b70a06b6061a3e347615b",
+    "original_preflight": "6c031062da2fa6dd9ac3e107bc9f53d7a65d81e463dce68d1f1cab34208d837a",
+    "original_summary": "59fe664d54d4d0512353df82118607cf0e3d0afbbb1b7a8a4fc19899c7a6d7fd",
+    "protocol": "8d2f906e4ac8502457587c64a24b2b40393c9e2c2ec1f323f851852f9bd9b62e"
+  },
+  "selected_indices_sha256": "5e1a242638b12e39ca73b21d79aff2f789ededba5b5e7d813630dae626af5d89",
+  "selections": [
+    {
+      "axis": "vehicle",
+      "candidate_scores": {
+        "hgb_sensor": 0.8669915472437484,
+        "hgb_sensor_context": 0.8683565613945361,
+        "rf_sensor": 0.803137465882847,
+        "rf_sensor_context": 0.834345140806058
+      },
+      "held_out_id": 1,
+      "inner_macro_f1": 0.8683565613945361,
+      "outer_id": "vehicle_1",
+      "scheme": "row_random",
+      "selected_candidate": "hgb_sensor_context"
+    },
+    {
+      "axis": "vehicle",
+      "candidate_scores": {
+        "hgb_sensor": 0.8434213161534523,
+        "hgb_sensor_context": 0.8643966997648177,
+        "rf_sensor": 0.8074334005010765,
+        "rf_sensor_context": 0.8244916805079036
+      },
+      "held_out_id": 1,
+      "inner_macro_f1": 0.8643966997648177,
+      "outer_id": "vehicle_1",
+      "scheme": "leave_one_trip",
+      "selected_candidate": "hgb_sensor_context"
+    },
+    {
+      "axis": "vehicle",
+      "candidate_scores": {
+        "hgb_sensor": 0.838252666720662,
+        "hgb_sensor_context": 0.8291719023610261,
+        "rf_sensor": 0.8290883720006357,
+        "rf_sensor_context": 0.8261792298952029
+      },
+      "held_out_id": 1,
+      "inner_macro_f1": 0.838252666720662,
+      "outer_id": "vehicle_1",
+      "scheme": "matched_factor",
+      "selected_candidate": "hgb_sensor"
+    },
+    {
+      "axis": "vehicle",
+      "candidate_scores": {
+        "hgb_sensor": 0.8484713056345932,
+        "hgb_sensor_context": 0.8548791333171639,
+        "rf_sensor": 0.8010577340632081,
+        "rf_sensor_context": 0.8238038689742662
+      },
+      "held_out_id": 2,
+      "inner_macro_f1": 0.8548791333171639,
+      "outer_id": "vehicle_2",
+      "scheme": "row_random",
+      "selected_candidate": "hgb_sensor_context"
+    },
+    {
+      "axis": "vehicle",
+      "candidate_scores": {
+        "hgb_sensor": 0.8024560405273615,
+        "hgb_sensor_context": 0.816555100827337,
+        "rf_sensor": 0.7666149415053436,
+        "rf_sensor_context": 0.7728625798866334
+      },
+      "held_out_id": 2,
+      "inner_macro_f1": 0.816555100827337,
+      "outer_id": "vehicle_2",
+      "scheme": "leave_one_trip",
+      "selected_candidate": "hgb_sensor_context"
+    },
+    {
+      "axis": "vehicle",
+      "candidate_scores": {
+        "hgb_sensor": 0.7632225373099284,
+        "hgb_sensor_context": 0.8069097139387105,
+        "rf_sensor": 0.6938342379164067,
+        "rf_sensor_context": 0.7289725363703939
+      },
+      "held_out_id": 2,
+      "inner_macro_f1": 0.8069097139387105,
+      "outer_id": "vehicle_2",
+      "scheme": "matched_factor",
+      "selected_candidate": "hgb_sensor_context"
+    },
+    {
+      "axis": "vehicle",
+      "candidate_scores": {
+        "hgb_sensor": 0.8477266464590796,
+        "hgb_sensor_context": 0.8510068488216462,
+        "rf_sensor": 0.8173634851436691,
+        "rf_sensor_context": 0.8330369475138122
+      },
+      "held_out_id": 3,
+      "inner_macro_f1": 0.8510068488216462,
+      "outer_id": "vehicle_3",
+      "scheme": "row_random",
+      "selected_candidate": "hgb_sensor_context"
+    },
+    {
+      "axis": "vehicle",
+      "candidate_scores": {
+        "hgb_sensor": 0.8184145970013814,
+        "hgb_sensor_context": 0.8397758022649484,
+        "rf_sensor": 0.7785203329311836,
+        "rf_sensor_context": 0.7912653149913291
+      },
+      "held_out_id": 3,
+      "inner_macro_f1": 0.8397758022649484,
+      "outer_id": "vehicle_3",
+      "scheme": "leave_one_trip",
+      "selected_candidate": "hgb_sensor_context"
+    },
+    {
+      "axis": "vehicle",
+      "candidate_scores": {
+        "hgb_sensor": 0.804686455888444,
+        "hgb_sensor_context": 0.8414723664441236,
+        "rf_sensor": 0.7283172003964393,
+        "rf_sensor_context": 0.7868726835430553
+      },
+      "held_out_id": 3,
+      "inner_macro_f1": 0.8414723664441236,
+      "outer_id": "vehicle_3",
+      "scheme": "matched_factor",
+      "selected_candidate": "hgb_sensor_context"
+    },
+    {
+      "axis": "scenario",
+      "candidate_scores": {
+        "hgb_sensor": 0.8817445248852935,
+        "hgb_sensor_context": 0.8960120162914874,
+        "rf_sensor": 0.8786526946107784,
+        "rf_sensor_context": 0.8812405533685388
+      },
+      "held_out_id": 1,
+      "inner_macro_f1": 0.8960120162914874,
+      "outer_id": "scenario_1",
+      "scheme": "row_random",
+      "selected_candidate": "hgb_sensor_context"
+    },
+    {
+      "axis": "scenario",
+      "candidate_scores": {
+        "hgb_sensor": 0.887691821703493,
+        "hgb_sensor_context": 0.8508417721762038,
+        "rf_sensor": 0.8865203493655188,
+        "rf_sensor_context": 0.8919437026716721
+      },
+      "held_out_id": 1,
+      "inner_macro_f1": 0.8919437026716721,
+      "outer_id": "scenario_1",
+      "scheme": "leave_one_trip",
+      "selected_candidate": "rf_sensor_context"
+    },
+    {
+      "axis": "scenario",
+      "candidate_scores": {
+        "hgb_sensor": 0.8501154585445774,
+        "hgb_sensor_context": 0.6505261812449405,
+        "rf_sensor": 0.8063195299984831,
+        "rf_sensor_context": 0.7332803944967008
+      },
+      "held_out_id": 1,
+      "inner_macro_f1": 0.8501154585445774,
+      "outer_id": "scenario_1",
+      "scheme": "matched_factor",
+      "selected_candidate": "hgb_sensor"
+    },
+    {
+      "axis": "scenario",
+      "candidate_scores": {
+        "hgb_sensor": 0.8184247318733419,
+        "hgb_sensor_context": 0.836532925133765,
+        "rf_sensor": 0.7471776278623501,
+        "rf_sensor_context": 0.7931127748662778
+      },
+      "held_out_id": 2,
+      "inner_macro_f1": 0.836532925133765,
+      "outer_id": "scenario_2",
+      "scheme": "row_random",
+      "selected_candidate": "hgb_sensor_context"
+    },
+    {
+      "axis": "scenario",
+      "candidate_scores": {
+        "hgb_sensor": 0.7509159681612152,
+        "hgb_sensor_context": 0.7730347527410718,
+        "rf_sensor": 0.7380928745855586,
+        "rf_sensor_context": 0.7413200676957793
+      },
+      "held_out_id": 2,
+      "inner_macro_f1": 0.7730347527410718,
+      "outer_id": "scenario_2",
+      "scheme": "leave_one_trip",
+      "selected_candidate": "hgb_sensor_context"
+    },
+    {
+      "axis": "scenario",
+      "candidate_scores": {
+        "hgb_sensor": 0.7557264891615048,
+        "hgb_sensor_context": 0.6398027270089933,
+        "rf_sensor": 0.7102739896510621,
+        "rf_sensor_context": 0.6491608796296297
+      },
+      "held_out_id": 2,
+      "inner_macro_f1": 0.7557264891615048,
+      "outer_id": "scenario_2",
+      "scheme": "matched_factor",
+      "selected_candidate": "hgb_sensor"
+    },
+    {
+      "axis": "scenario",
+      "candidate_scores": {
+        "hgb_sensor": 0.8763719202262351,
+        "hgb_sensor_context": 0.8770446793692744,
+        "rf_sensor": 0.8003914948738502,
+        "rf_sensor_context": 0.8226110409031593
+      },
+      "held_out_id": 3,
+      "inner_macro_f1": 0.8770446793692744,
+      "outer_id": "scenario_3",
+      "scheme": "row_random",
+      "selected_candidate": "hgb_sensor_context"
+    },
+    {
+      "axis": "scenario",
+      "candidate_scores": {
+        "hgb_sensor": 0.8402850415941334,
+        "hgb_sensor_context": 0.8517004022383663,
+        "rf_sensor": 0.7762454504094631,
+        "rf_sensor_context": 0.795983520034153
+      },
+      "held_out_id": 3,
+      "inner_macro_f1": 0.8517004022383663,
+      "outer_id": "scenario_3",
+      "scheme": "leave_one_trip",
+      "selected_candidate": "hgb_sensor_context"
+    },
+    {
+      "axis": "scenario",
+      "candidate_scores": {
+        "hgb_sensor": 0.7162530738673981,
+        "hgb_sensor_context": 0.6975075473034197,
+        "rf_sensor": 0.6722851164043139,
+        "rf_sensor_context": 0.6821220911493586
+      },
+      "held_out_id": 3,
+      "inner_macro_f1": 0.7162530738673981,
+      "outer_id": "scenario_3",
+      "scheme": "matched_factor",
+      "selected_candidate": "hgb_sensor"
+    }
+  ],
+  "sha256": "90f2f97b4848221d679659186f01ee45a3e929991dc69f8fefea4753b80ef5ee"
+}

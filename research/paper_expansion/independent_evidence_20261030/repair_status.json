@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-30",
+  "completed": {
+    "Indonesia": "original five-source annotation version frozen and verified;91717rows,3passgroups,31039exactrestorationmappings",
+    "KIT": "complete546803578bytearchive acquired; officialMD5 and all67memberCRC verified; actualtimestamp/GPS/eventcolumns confirmed",
+    "KIT_profile": "all66workbooks inspected:53IMU+13Schlag;1764985IMUtimestampedrows;6Schlagexcerpts overlapIMUtimestamps"
+  },
+  "unresolved": {
+    "PVS": "originalrelease remains9acquisitions; needsnewcollectionorindependent-sourcevalidation",
+    "Mexico": "originaltwo documentation-derived routefamilies unchanged; expandedrelease notfound",
+    "Indonesia_wider_exports": "newpasslabelprovenance notyetresolved; noextrapolationfromoldlabels",
+    "KIT": "53files are notverified independentroads/drives; event6speedbumpabsent; event7undocumented. Useonlydocumented1good/3pothole as candidatebinarytask, never0unknownasnormal; routeandrepeatgroupingstillneeded."
+  },
+  "no_new_models_fitted": true,
+  "manuscript_results_version": "v7 unchanged; newcohort notyetreportedaspredictiveevidence",
+  "primary_source_class_map": "https://doi.org/10.1155/2018/8647607"
+}
