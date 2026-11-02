@@ -1,0 +1,23 @@
+{
+  "Primary": {
+    "source": "external_pvs_v1\\checked_summary.json",
+    "sha256": "bef5546e1417e9f71339e16c0d84e8abe6d0b6f5a930fdb74e97f9ca72781f73"
+  },
+  "Disjoint windows": {
+    "source": "external_pvs_v1\\nonoverlap\\checked_summary.json",
+    "sha256": "59fe664d54d4d0512353df82118607cf0e3d0afbbb1b7a8a4fc19899c7a6d7fd"
+  },
+  "Common budget (post hoc)": {
+    "source": "independent_evidence_20261025\\budget_nonoverlap_v1\\budget_matched_axis_summary.csv",
+    "sha256": "8e64cf5add2fab8e326205659bab973e6f7279d73c8a7296bf7ca2858de936b4"
+  },
+  "Mexico": {
+    "source": "independent_evidence_20261026\\mexico_audit\\mexico_run_v2_frozen\\run_v2\\results.json",
+    "sha256": "e4428f5aaa8dda8b5ee98cf4563d360e8a6eab26cd8c69a819f2eaed3d9a18c9"
+  },
+  "checks": {
+    "all_24_plotted_values_match_frozen_summaries_to_4_decimals": true,
+    "primary_threshold_unchanged": 0.02,
+    "supported_both_axes": false
+  }
+}

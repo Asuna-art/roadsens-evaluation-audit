@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="504.566929pt" height="334.488189pt" viewBox="0 0 504.566929 334.488189" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-02T21:51:49.215238</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 334.488189 
+L 504.566929 334.488189 
+L 504.566929 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 17.659843 91.315276 
+L 486.907087 91.315276 
+" style="fill: none; stroke: #d8dcd9; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 17.659843 261.904252 
+L 486.907087 261.904252 
+" style="fill: none; stroke: #d8dcd9; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171717" x="17.659843" y="20.293321" transform="rotate(-0 17.659843 20.293321)">Model selection and performance estimation can diverge</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #505653" x="17.659843" y="38.272237" transform="rotate(-0 17.659843 38.272237)">Road-sensing evaluation audit  |  Three sources, different grouping evidence</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171717" x="17.659843" y="65.374027" transform="rotate(-0 17.659843 65.374027)">RoadSens: 101 CSV sources</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #505653" x="17.659843" y="80.00064" transform="rotate(-0 17.659843 80.00064)">Filename groups; not verified roads</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171717" x="184.166929" y="65.374027" transform="rotate(-0 184.166929 65.374027)">PVS: 9 acquisitions</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #505653" x="184.166929" y="80.00064" transform="rotate(-0 184.166929 80.00064)">Vehicle and driver are confounded</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171717" x="350.674016" y="65.374027" transform="rotate(-0 350.674016 65.374027)">Mexico: 2 route families</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #505653" x="350.674016" y="80.00064" transform="rotate(-0 350.674016 80.00064)">Documentation-derived groups</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171717" x="17.659843" y="110.575366" transform="rotate(-0 17.659843 110.575366)">1  Audit the evaluation unit</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #505653" x="17.659843" y="126.129459" transform="rotate(-0 17.659843 126.129459)">RoadSens primary policy, RF100</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #505653" x="17.659843" y="240.113947" transform="rotate(-0 17.659843 240.113947)">Different prediction targets;</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #505653" x="17.659843" y="252.49001" transform="rotate(-0 17.659843 252.49001)">the score gap alone is not causal evidence.</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171717" x="259.851969" y="110.575366" transform="rotate(-0 259.851969 110.575366)">2  Separate the endpoints</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #505653" x="259.851969" y="125.97749" transform="rotate(-0 259.851969 125.97749)">PVS primary grid: random to matched selection</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171717" x="259.851969" y="147.354184" transform="rotate(-0 259.851969 147.354184)">Selection: scenario outer macro-F1</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1f6f5f" x="259.851969" y="165.65766" transform="rotate(-0 259.851969 165.65766)">0.7640  →  0.8359</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171717" x="259.851969" y="187.523317" transform="rotate(-0 259.851969 187.523317)">Estimation: mean absolute error (lower is better)</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171717" x="259.851969" y="202.848672" transform="rotate(-0 259.851969 202.848672)">Vehicle/driver   0.0530  →  0.0445</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171717" x="259.851969" y="218.569617" transform="rotate(-0 259.851969 218.569617)">Scenario           0.1696  →  0.1357</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171717" x="259.851969" y="240.037963" transform="rotate(-0 259.851969 240.037963)">Required: MAE reduction ≥ 0.02 on both axes.</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #b5473c" x="259.851969" y="252.869932" transform="rotate(-0 259.851969 252.869932)">Declared two-axis criterion: NOT MET</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171717" x="17.659843" y="279.82639" transform="rotate(-0 17.659843 279.82639)">3  Retain the contrary evidence</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171717" x="17.659843" y="295.563002" transform="rotate(-0 17.659843 295.563002)">Disjoint windows and post hoc common-budget diagnostics: MAE worsens on both PVS axes.</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171717" x="17.659843" y="309.277018" transform="rotate(-0 17.659843 309.277018)">Mexico released subset: both selectors choose the same RF; selection advantage is zero.</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #505653" x="17.659843" y="326.183947" transform="rotate(-0 17.659843 326.183947)">Bounded evidence, not a universal validation improvement. Same PVS acquisitions; no population intervals.</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_2">
+    <path d="M 90.822047 205.710236 
+L 219.486614 205.710236 
+L 219.486614 143.829921 
+L 90.822047 143.829921 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_3"/>
+     <g id="text_26">
+      <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #505653" x="90.822047" y="215.940314" transform="rotate(-0 90.822047 215.940314)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_4"/>
+     <g id="text_27">
+      <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #505653" x="153.585251" y="215.940314" transform="rotate(-0 153.585251 215.940314)">0.5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5"/>
+     <g id="text_28">
+      <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #505653" x="216.348454" y="215.940314" transform="rotate(-0 216.348454 215.940314)">1.0</text>
+     </g>
+    </g>
+    <g id="text_29">
+     <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #171717" x="155.154331" y="228.216939" transform="rotate(-0 155.154331 228.216939)">Macro-F1 (higher is better)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6"/>
+     <g id="text_30">
+      <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #505653" x="86.822047" y="159.685345" transform="rotate(-0 86.822047 159.685345)">Random rows</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7"/>
+     <g id="text_31">
+      <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; fill: #505653" transform="translate(45.806672 191.57481)">Recording</text>
+      <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; fill: #505653" transform="translate(55.69536 201.417052)">holdout</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_8">
+    <path d="M 215.658059 156.569986 
+" clip-path="url(#paca7f84a0f)" style="fill: none; stroke: #666866; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="m7550c88e64" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: #666866"/>
+    </defs>
+    <g clip-path="url(#paca7f84a0f)">
+     <use xlink:href="#m7550c88e64" x="215.658059" y="156.569986" style="fill: #666866; stroke: #666866"/>
+    </g>
+   </g>
+   <g id="line2d_9">
+    <path d="M 144.660323 192.970171 
+" clip-path="url(#paca7f84a0f)" style="fill: none; stroke: #1f6f5f; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="mfa9137d3bd" d="M -2.5 2.5 
+L 2.5 2.5 
+L 2.5 -2.5 
+L -2.5 -2.5 
+z
+" style="stroke: #1f6f5f; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#paca7f84a0f)">
+     <use xlink:href="#mfa9137d3bd" x="144.660323" y="192.970171" style="fill: #1f6f5f; stroke: #1f6f5f; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 90.822047 205.710236 
+L 219.486614 205.710236 
+" style="fill: none; stroke: #d8dcd9; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #666866" x="215.658059" y="147.855843" transform="rotate(-0 215.658059 147.855843)">0.9945</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #1f6f5f" x="144.660323" y="184.256029" transform="rotate(-0 144.660323 184.256029)">0.4289</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="paca7f84a0f">
+   <rect x="90.822047" y="143.829921" width="128.664567" height="61.880315"/>
+  </clipPath>
+ </defs>
+</svg>

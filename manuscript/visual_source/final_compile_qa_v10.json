@@ -1,0 +1,45 @@
+{
+  "main": {
+    "pages": 24,
+    "pdf_sha256": "159340b5a963d40108e2cfdbe0c00c3a3e8a5de0aeca6145dc8a23c7f8c70e3f",
+    "rendered_figure_pages": [
+      2,
+      9,
+      11,
+      19
+    ],
+    "out_of_page_text_spans": [],
+    "source_sha256": "73d80e510d974bca90e5a13899d0e33fe759f6f33ea39c65ac37d2716035f047"
+  },
+  "supplementary": {
+    "pages": 29,
+    "pdf_sha256": "2c082da6aa9ad1a43cd1185d3b9d4a42371dffd21e09b2276e9b523fa0b4caea",
+    "rendered_figure_pages": [],
+    "out_of_page_text_spans": [],
+    "source_sha256": "2530f962c14a8aead30a2569a9eaad09c6cf908769e8cebd0d45d2d1f7f10b35"
+  },
+  "graphical_abstract": {
+    "pages": 1,
+    "pdf_sha256": "79824ef1e37982cded0e71ac44aa865bdd9ccfd99ff554c05c16e18597f0c5ef",
+    "rendered_figure_pages": [
+      1
+    ],
+    "out_of_page_text_spans": [],
+    "source_sha256": "9f760627f91f4cd5311c3a808401cd0e1b50b27ac4526b65c598429ea0eceeca"
+  },
+  "graphical_abstract_v10": {
+    "width_mm": 178.0,
+    "height_mm": 118.0,
+    "min_text_pt": 8.0
+  },
+  "pvs_evaluation_workflow_v10": {
+    "width_mm": 178.0,
+    "height_mm": 104.0,
+    "min_text_pt": 8.0
+  },
+  "pvs_endpoints_v10": {
+    "width_mm": 178.0,
+    "height_mm": 120.0,
+    "min_text_pt": 8.3
+  }
+}

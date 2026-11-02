@@ -1,0 +1,44 @@
+{
+  "source_manuscript": "manuscript/tex_v9/main_body.tex (historical authority)",
+  "source_manuscript_sha256": "ee145eae290fcbf0a934cc506872dfa324cd7450bf2ba2cb9b6a7b5fda44b55a",
+  "claim": "Selecting a stronger model and estimating its performance accurately are separate endpoints.",
+  "visual_forms": {
+    "graphical_abstract": "Evidence overview with a small full-scale dot chart and exact values",
+    "workflow": "Acquisition structure and nested evaluation diagram",
+    "pvs_endpoints": "Paired dots with exact four-decimal values, separate metric axes"
+  },
+  "dimensions_mm": {
+    "graphical_abstract": [
+      178,
+      118
+    ],
+    "workflow": [
+      178,
+      104
+    ],
+    "pvs_endpoints": [
+      178,
+      120
+    ]
+  },
+  "metric_units": "Macro-F1 and absolute macro-F1 estimation error; unit interval",
+  "aggregation": "RoadSens: five-fold means. PVS: three outer-domain means per axis.",
+  "uncertainty": "Descriptive summaries; do not manufacture population intervals from three domains. Same nine PVS acquisitions.",
+  "baseline": "Random-window selector; matched-domain selector is focal, not claimed universally superior.",
+  "criterion": "At least 0.02 MAE reduction versus random selection on BOTH primary axes; remains failed.",
+  "scope": "RoadSens source filenames are not verified roads; PVS V/D confounded; Mexico two documentation-derived route families.",
+  "references": [
+    "GPT-6 Astra governing grammar (local skill core)",
+    "OAI-VIS-052 MLE-bench evaluation workflow",
+    "OAI-VIS-001 sparse direct labeling",
+    "OAI-VIS-002 compact comparison hierarchy"
+  ],
+  "outputs": [
+    "PDF",
+    "SVG",
+    "300 dpi PNG",
+    "editable Python",
+    "TeX wrappers"
+  ],
+  "science_changes": "None: no new models, splits, thresholds, intervals or labels."
+}

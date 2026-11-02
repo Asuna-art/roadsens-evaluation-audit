@@ -1,0 +1,43 @@
+RoadSens manuscript v10: graphical abstract and added visual explanations
+2 November 2026
+
+DELIVERABLES
+main.tex + main_body.tex -> main.pdf (main article with graphical abstract and figures)
+supplementary.tex + supplementary_body.tex -> supplementary.pdf
+graphical_abstract.tex -> graphical_abstract.pdf (standalone submission asset)
+figures/graphical_abstract_v10: PDF, editable-text SVG and 300 dpi PNG
+figures/pvs_evaluation_workflow_v10: PDF, editable-text SVG and 300 dpi PNG
+figures/pvs_endpoints_v10: PDF, editable-text SVG, 300 dpi PNG and plotted JSON values
+
+REBUILD
+Run from this directory with Tectonic installed:
+  tectonic main.tex
+  tectonic supplementary.tex
+  tectonic graphical_abstract.tex
+The exact local builds used the LaTeX Compile skill wrapper with Tectonic 0.15.0.
+
+To edit/rebuild the three new visuals, use the Python scripts under visual_source/:
+  make_summary_visuals.py
+  make_pvs_endpoints.py
+They require Matplotlib and Pillow. No experiments are run. The local research
+interpreter is C:\Users\Administrator\miniconda3\python.exe.
+integrate_visuals_v10.py is a historical integration utility requiring tex_v9;
+do not run it to edit a customized v10 manuscript. Edit the TeX directly instead.
+verify_and_render_v10.py checks local frozen summaries when present, then audits
+and renders PDFs using PyMuPDF/Pillow. Original experiment data are not bundled.
+
+SCIENCE AND LAYOUT
+The original 14 main and 25 supplementary tabularx blocks are unchanged.
+The primary criterion is still a reduction of at least 0.02 MAE on BOTH axes.
+It remains failed. Sensitivity analyses reuse the same nine PVS acquisitions.
+Source filenames, acquisition counts and documented route families are distinct
+units; no independence multiplier is claimed. No confidence intervals are invented.
+Common-budget points use the common-budget outer target. Historical full-budget
+results and the leave-one-trip selector remain in the original tables.
+The default new artwork width is 178 mm, with ordinary text at least 8 pt.
+Journal-specific resizing and placement should be checked after selecting a venue.
+
+STATUS
+This remains a working manuscript, not a submission-ready declaration package.
+Author contributions, funding and competing-interest statements still require
+author-provided content. Graphical changes do not resolve sample-size limitations.

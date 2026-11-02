@@ -1,0 +1,61 @@
+{
+  "description": "Common-budget rows use the common-budget outer target, not the historical full target.",
+  "columns": [
+    "group",
+    "domain",
+    "outer_macro_f1_random",
+    "outer_macro_f1_matched",
+    "estimation_mae_random",
+    "estimation_mae_matched"
+  ],
+  "rows": [
+    {
+      "group": "Primary",
+      "domain": "Vehicle/driver",
+      "outer_macro_f1_random": 0.8679,
+      "outer_macro_f1_matched": 0.8679,
+      "estimation_mae_random": 0.053,
+      "estimation_mae_matched": 0.0445
+    },
+    {
+      "group": "Primary",
+      "domain": "Scenario",
+      "outer_macro_f1_random": 0.764,
+      "outer_macro_f1_matched": 0.8359,
+      "estimation_mae_random": 0.1696,
+      "estimation_mae_matched": 0.1357
+    },
+    {
+      "group": "Disjoint windows",
+      "domain": "Vehicle/driver",
+      "outer_macro_f1_random": 0.838,
+      "outer_macro_f1_matched": 0.8522,
+      "estimation_mae_random": 0.0489,
+      "estimation_mae_matched": 0.0535
+    },
+    {
+      "group": "Disjoint windows",
+      "domain": "Scenario",
+      "outer_macro_f1_random": 0.7904,
+      "outer_macro_f1_matched": 0.8168,
+      "estimation_mae_random": 0.1069,
+      "estimation_mae_matched": 0.129
+    },
+    {
+      "group": "Common budget (post hoc)",
+      "domain": "Vehicle/driver",
+      "outer_macro_f1_random": 0.8468,
+      "outer_macro_f1_matched": 0.8526,
+      "estimation_mae_random": 0.014,
+      "estimation_mae_matched": 0.0267
+    },
+    {
+      "group": "Common budget (post hoc)",
+      "domain": "Scenario",
+      "outer_macro_f1_random": 0.7083,
+      "outer_macro_f1_matched": 0.6951,
+      "estimation_mae_random": 0.1627,
+      "estimation_mae_matched": 0.1724
+    }
+  ]
+}

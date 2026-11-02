@@ -1,0 +1,43 @@
+{
+  "version": 10,
+  "date": "2026-11-02",
+  "status": "compiled_and_visually_reviewed",
+  "new_visuals": [
+    "graphical_abstract_v10",
+    "pvs_evaluation_workflow_v10",
+    "pvs_endpoints_v10"
+  ],
+  "render_review": {
+    "main_figure_pages": [
+      2,
+      9,
+      11,
+      19
+    ],
+    "main_pages": 24,
+    "supplementary_pages": 29,
+    "standalone_graphical_abstract_pages": 1,
+    "color_and_grayscale": "passed",
+    "minimum_new_figure_text_pt": 8.0,
+    "reviewed_at_utc": "2026-11-02T13:55:33.202469+00:00"
+  },
+  "integrity": {
+    "main_tabularx_blocks_unchanged": 14,
+    "supplementary_tabularx_blocks_unchanged": 25,
+    "plotted_pvs_values_verified": 24,
+    "frozen_runs_modified": false,
+    "new_experiments": false
+  },
+  "corrections": [
+    "Separated paired value labels to avoid adjacent-row collisions.",
+    "Wrapped workflow labels within boxes.",
+    "Compiled standalone abstract as one page with the standalone class.",
+    "Kept result explanation and figure together before the Mexico section."
+  ],
+  "limitations_retained": [
+    "Nine PVS acquisitions and confounded vehicle/driver identities.",
+    "Failed primary two-axis estimation criterion.",
+    "Two documentation-derived Mexico route families."
+  ],
+  "programmatic_checks": "visual_source/final_compile_qa_v10.json"
+}

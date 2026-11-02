@@ -4,7 +4,7 @@ Research artifacts for **Model selection and performance estimation can diverge:
 
 ## Scientific status
 
-- Working manuscript v9 (2 November 2026), with source TeX and actually compiled PDFs: [main](manuscript/main.pdf), [supplement](manuscript/supplementary.pdf).
+- Working manuscript v10 (2 November 2026), with source TeX and actually compiled PDFs: [main](manuscript/main.pdf), [supplement](manuscript/supplementary.pdf).
 - PVS has **nine acquisitions**. The original two-axis estimation-error criterion **failed** and remains reported. Fits, seeds and windows are not additional independent acquisitions.
 - Mexico/Puebla is a publisher-released subset with **two documentation-derived route families**. Both selectors chose the same RF. Route provenance/population mapping remains limited.
 - Indonesia original-label repair and KIT acquisition are **data preparation only**, not completed predictive replications. No unvalidated extra acquisition count is claimed.
@@ -13,6 +13,15 @@ Research artifacts for **Model selection and performance estimation can diverge:
 ## What is included
 
 `research/` preserves the historical Python module topology and protocols. `results/` contains compact score tables, selections, source hashes and explicitly labelled public split/result views. `manuscript/` includes TeX, figures and the compiled PDFs. See `SOURCE_INVENTORY.json` for copied-file fingerprints and `RELEASE_AUDIT.json` for release checks.
+
+## Added visual explanations (v10)
+
+The main article now includes a graphical abstract, the PVS nested-evaluation workflow, and paired plots separating selected-model outer F1 from performance-estimation MAE. The figures retain the failed primary criterion, disjoint-window counterexamples and the post hoc common-budget outer target. All 39 original numerical table blocks are unchanged.
+
+- [Standalone graphical abstract](manuscript/graphical_abstract.pdf)
+- [Editable SVG preview](manuscript/figures/graphical_abstract_v10.svg)
+- [Figure and compilation guide](manuscript/FIGURE_GUIDE_v10.txt)
+- Plotting source and checked aggregate values: `manuscript/visual_source/` and `manuscript/figures/pvs_endpoints_v10.json`.
 
 ## Reproduction scope
 
