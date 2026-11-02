@@ -4,11 +4,11 @@ Research artifacts for **Model selection and performance estimation can diverge:
 
 ## Scientific status
 
-- Working manuscript v8 (2 November 2026), with source TeX and actually compiled PDFs: [main](manuscript/main.pdf), [supplement](manuscript/supplementary.pdf).
+- Working manuscript v9 (2 November 2026), with source TeX and actually compiled PDFs: [main](manuscript/main.pdf), [supplement](manuscript/supplementary.pdf).
 - PVS has **nine acquisitions**. The original two-axis estimation-error criterion **failed** and remains reported. Fits, seeds and windows are not additional independent acquisitions.
 - Mexico/Puebla is a publisher-released subset with **two documentation-derived route families**. Both selectors chose the same RF. Route provenance/population mapping remains limited.
 - Indonesia original-label repair and KIT acquisition are **data preparation only**, not completed predictive replications. No unvalidated extra acquisition count is claimed.
-- This repository is an empirical evaluation audit, not a validated universal improvement algorithm. Author declarations in the working manuscript remain to be completed before journal submission.
+- This repository is an empirical evaluation audit, not a validated universal improvement algorithm. Author-contribution, funding and competing-interest declarations in the working manuscript remain to be completed before journal submission.
 
 ## What is included
 

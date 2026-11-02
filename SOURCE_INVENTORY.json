@@ -547,11 +547,11 @@
     }
   ],
   "initial_import_commit": "66eb1995a61460c866581122fa86ea908d08b640",
-  "manuscript_revision": "v8,2November2026",
+  "manuscript_revision": "v9,2November2026",
   "updated_manuscript_sha256": {
-    "main_body.tex": "5feb1058a5cc8f93d756c92ce7af2091250e9c046bd24561e2bf9ad76dd1df83",
-    "main.pdf": "d8a02b2e88acde6549321ebc17baf9140b0d4c97b75bb14f766e51847a2c7907",
-    "supplementary_body.tex": "050f5e3a186c4449d06c046c8b35c5d56174f881252019e708f1be4d947e254b",
-    "supplementary.pdf": "6589bf4336d69a19b97f9118456f5cb61090f3a2da049ee7a840d25eba12c7a9"
+    "main_body.tex": "ee145eae290fcbf0a934cc506872dfa324cd7450bf2ba2cb9b6a7b5fda44b55a",
+    "main.pdf": "6926dd1c03c63fa2c7666d6065e0894e33c71952a01ba4e83a36eb70d9632a59",
+    "supplementary_body.tex": "d7550657cc7e4cf528a8f0fe38a437f2c33e00f9005b46952c94ac4003f1da68",
+    "supplementary.pdf": "3da953e1bdc76601736d1e7bf311815c00d289e3ef604f7c4f41119feb4a3707"
   }
 }

@@ -1,7 +1,16 @@
 \title{Supplementary material}
+\author{\begin{minipage}{0.94\textwidth}\centering
+\normalsize Mingyang Li\textsuperscript{1}, Jiabei Liu\textsuperscript{2,*}, Jiayue Gao\textsuperscript{2}\\[6pt]
+\small \textsuperscript{1}Beijing Institute of Technology, Beijing, China\\[3pt]
+\textsuperscript{2}Jinan University--University of Birmingham Joint Institute,\\
+Jinan University, Guangzhou, China\\[6pt]
+\textsuperscript{*}Corresponding author: Jiabei Liu\\
+\href{mailto:jxl2043@student.bham.ac.uk}{\texttt{jxl2043@student.bham.ac.uk}}
+\end{minipage}}
+\date{2 November 2026}
 \maketitle
 \section*{Model selection and performance estimation can diverge: a RoadSens-4M audit and a nine-acquisition PVS case study}
-Working version 8, 2 November 2026. This supplement accompanies \path{main_body.tex}. All tables refer to completed canonical runs unless expressly labelled exploratory. The RoadSens main tables report five-fold arithmetic means; PVS tables specify three outer-domain means or individual domains; tables explicitly labelled pooled OOF use the combined heldout predictions. Computational fit-fold counts are not independent scientific sample sizes. The original 1,580-fit suite and targeted post-draft extensions are reported separately.
+Working version 9, 2 November 2026. This supplement accompanies \path{main_body.tex}. All tables refer to completed canonical runs unless expressly labelled exploratory. The RoadSens main tables report five-fold arithmetic means; PVS tables specify three outer-domain means or individual domains; tables explicitly labelled pooled OOF use the combined heldout predictions. Computational fit-fold counts are not independent scientific sample sizes. The original 1,580-fit suite and targeted post-draft extensions are reported separately.
 
 \section*{S1. Execution matrix and evidence index}
 \begingroup\small\setlength{\tabcolsep}{3.5pt}\renewcommand{\arraystretch}{1.14}
@@ -173,7 +182,7 @@ The 348 continuous labelled runs are149 Pothole plus199 Bump runs. All have samp
 \section*{S8. Retained failures, revisions, and publication boundary}
 Main\_A\_v1 stopped at an RF reproduction mismatch under the unintended sklearn1.5.2 interpreter. Its diagnostic and failed attempt are retained. A correct-runtime diagnostic reproduces6,577/6,577 labels for the checked first fold, and all 120 main A RF reproduction folds subsequently pass. STRIDE\_v1 failed before fitting because of a manifest NameError; v2 is canonical. The unexecuted first H implementation omitted the temporal embargo and was corrected before H\_v2 fitting. Earlier content-map drafts, checks and version-specific corrections are retained. C\_v1 was interrupted during scheduler handoff; full C\_v2 is canonical and the partial run is excluded from the total.
 
-These revisions do not represent score-based selection of favourable fits. Incorrect/partial versions do not fill planned matrix cells. The reproducibility guide identifies commands and authoritative outputs. The public code, protocols, compact evidence and manuscript are available at \url{https://github.com/Asuna-art/roadsens-evaluation-audit}. The initial public code snapshot is commit \texttt{66eb1995a61460c866581122fa86ea908d08b640}. Public views omit signal matrices, direct label/prediction arrays and coordinates and do not replace complete historical inputs. Raw data and model binaries are excluded. The repository README states the environment and replay limitations; author metadata and venue-specific declarations still require completion.
+These revisions do not represent score-based selection of favourable fits. Incorrect/partial versions do not fill planned matrix cells. The reproducibility guide identifies commands and authoritative outputs. The public code, protocols, compact evidence and manuscript are available at \url{https://github.com/Asuna-art/roadsens-evaluation-audit}. The initial public code snapshot is commit \texttt{66eb1995a61460c866581122fa86ea908d08b640}. Public views omit signal matrices, direct label/prediction arrays and coordinates and do not replace complete historical inputs. Raw data and model binaries are excluded. The repository README states the environment and replay limitations; author-contribution and venue-specific declarations still require completion.
 
 \section*{S9. Targeted anchor-stride sensitivity}
 The frozen post-draft design is recorded in \path{../key_experiments/protocol_key_v1.md}. Only strides 5 and 20 add new RF100 fits; stride 10 is the original A reference. Both label policies, full/IMU features and the original filename fold mapping are retained. New stride populations are reconstructed from full-cadence arrays and live raw annotations. Before fitting, reconstruction at stride 10 matches the cached full/IMU feature values, ordered labels and source identities, and all original fit/test sequences. All 101 source files match their frozen hashes.

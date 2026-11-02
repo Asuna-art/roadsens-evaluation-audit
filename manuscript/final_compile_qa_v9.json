@@ -1,0 +1,24 @@
+{
+  "version": 9,
+  "date": "2026-11-02",
+  "status": "compiled_author_block_and_visual_review_passed",
+  "author_order": "Mingyang Li; Jiabei Liu (corresponding); Jiayue Gao",
+  "correspondence": "jxl2043@student.bham.ac.uk",
+  "numeric_tables_unchanged": true,
+  "documents": {
+    "main": {
+      "pages": 22,
+      "pdf_sha256": "6926dd1c03c63fa2c7666d6065e0894e33c71952a01ba4e83a36eb70d9632a59",
+      "source_sha256": "ee145eae290fcbf0a934cc506872dfa324cd7450bf2ba2cb9b6a7b5fda44b55a",
+      "out_of_page_spans": 0,
+      "author_page_visual_review": "passed"
+    },
+    "supplementary": {
+      "pages": 29,
+      "pdf_sha256": "3da953e1bdc76601736d1e7bf311815c00d289e3ef604f7c4f41119feb4a3707",
+      "source_sha256": "d7550657cc7e4cf528a8f0fe38a437f2c33e00f9005b46952c94ac4003f1da68",
+      "out_of_page_spans": 0,
+      "author_page_visual_review": "passed"
+    }
+  }
+}

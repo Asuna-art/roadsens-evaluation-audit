@@ -1,0 +1,32 @@
+{
+  "author_order": [
+    {
+      "Chinese_name": "李铭阳",
+      "English_name": "Mingyang Li",
+      "affiliation_id": 1
+    },
+    {
+      "Chinese_name": "刘珈贝",
+      "English_name": "Jiabei Liu",
+      "affiliation_id": 2,
+      "corresponding": true,
+      "email": "jxl2043@student.bham.ac.uk"
+    },
+    {
+      "Chinese_name": "高嘉悦",
+      "English_name": "Jiayue Gao",
+      "affiliation_id": 2
+    }
+  ],
+  "affiliations": {
+    "1": "Beijing Institute of Technology, Beijing, China",
+    "2": "Jinan University--University of Birmingham Joint Institute, Jinan University, Guangzhou, China"
+  },
+  "name_romanization": "Hanyu Pinyin, supplied Chinese names; no alternative publication spelling supplied",
+  "source": "author information supplied by user on2026-11-02",
+  "joint_institute_name_source": "https://birmingham.jnu.edu.cn/37903/list.htm",
+  "numeric_table_hashes": {
+    "main_body.tex": "7e85806108035d4fa11032f33dd5874fc165b6f75714b489779e7a61c639106b",
+    "supplementary_body.tex": "5faa01c9167f4abf2054366e5b72d4f2b49dee1d9aa7c27a00ff518b7b8d8c6d"
+  }
+}
