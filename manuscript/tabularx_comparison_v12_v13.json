@@ -1,0 +1,20 @@
+{
+  "comparison": "complete tabularx environments, byte-for-byte after text decoding",
+  "results": [
+    {
+      "file": "main_body.tex",
+      "v12_blocks": 14,
+      "v13_blocks": 14,
+      "all_blocks_identical": true,
+      "identical_count": 14
+    },
+    {
+      "file": "supplementary_body.tex",
+      "v12_blocks": 25,
+      "v13_blocks": 25,
+      "all_blocks_identical": true,
+      "identical_count": 25
+    }
+  ],
+  "total_blocks": 39
+}

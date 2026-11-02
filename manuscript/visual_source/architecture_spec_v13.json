@@ -1,0 +1,23 @@
+{
+  "version": 13,
+  "dimensions_mm": [
+    178,
+    140
+  ],
+  "font": "Times New Roman",
+  "resolved_fonts": {
+    "normal": "C:\\Windows\\Fonts\\times.ttf",
+    "bold": "C:\\Windows\\Fonts\\timesbd.ttf"
+  },
+  "minimum_font_pt": 8.0,
+  "ordinary_font_pt": 8.5,
+  "claim": "The existing audit separates source tasks, nested selection, outer refitting, and two evaluation endpoints.",
+  "changes": [
+    "Times regular/bold; no font fallback.",
+    "One PVS entry connector; equal output-box heights and centered symmetric fork.",
+    "Aligned stage centers and consistent arrow clearances.",
+    "Explanatory gray prose moved to the manuscript caption."
+  ],
+  "evidence": "All counts, model families, feature variants, endpoints and failure are retained from v12.",
+  "format": "Native vector PDF/SVG, editable Python, 300 dpi PNG"
+}

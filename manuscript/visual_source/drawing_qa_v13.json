@@ -1,0 +1,303 @@
+{
+  "font_paths": {
+    "normal": "C:\\Windows\\Fonts\\times.ttf",
+    "bold": "C:\\Windows\\Fonts\\timesbd.ttf"
+  },
+  "canvas_clipping": [],
+  "label_padding": [
+    {
+      "label": "Full numeric\nIMU / context\nTemporal",
+      "left_right_bottom_top_pt": [
+        3.53,
+        11.3,
+        5.77,
+        5.77
+      ]
+    },
+    {
+      "label": "Train-only impute\nInner CV\nRandom / trip /\nmatched domain",
+      "left_right_bottom_top_pt": [
+        8.15,
+        8.15,
+        6.4,
+        6.4
+      ]
+    },
+    {
+      "label": "RF\nIMU",
+      "left_right_bottom_top_pt": [
+        10.79,
+        10.79,
+        3.4,
+        3.4
+      ]
+    },
+    {
+      "label": "HGB\nIMU",
+      "left_right_bottom_top_pt": [
+        10.07,
+        10.07,
+        3.4,
+        3.4
+      ]
+    },
+    {
+      "label": "RF\n+context",
+      "left_right_bottom_top_pt": [
+        4.67,
+        4.67,
+        3.4,
+        3.4
+      ]
+    },
+    {
+      "label": "HGB\n+context",
+      "left_right_bottom_top_pt": [
+        4.67,
+        4.67,
+        3.4,
+        3.4
+      ]
+    },
+    {
+      "label": "Select max inner OOF F1 \u2192 refit",
+      "left_right_bottom_top_pt": [
+        33.58,
+        33.58,
+        4.28,
+        4.28
+      ]
+    },
+    {
+      "label": "Outer F1 \u2191",
+      "left_right_bottom_top_pt": [
+        13.07,
+        13.07,
+        13.19,
+        13.19
+      ]
+    },
+    {
+      "label": "MAE \u2193\n|inner \u2212 outer|",
+      "left_right_bottom_top_pt": [
+        8.39,
+        8.39,
+        8.95,
+        8.95
+      ]
+    },
+    {
+      "label": "10-position windows\n36 acceleration\nsummaries",
+      "left_right_bottom_top_pt": [
+        10.31,
+        10.31,
+        3.19,
+        3.19
+      ]
+    },
+    {
+      "label": "Route-family holdout\nInner CV: random /\nwhole trip",
+      "left_right_bottom_top_pt": [
+        11.57,
+        11.57,
+        3.19,
+        3.19
+      ]
+    },
+    {
+      "label": "RF / HGB",
+      "left_right_bottom_top_pt": [
+        9.25,
+        9.25,
+        12.31,
+        12.31
+      ]
+    }
+  ],
+  "arrows": [
+    {
+      "from": [
+        0.133,
+        0.788
+      ],
+      "to": [
+        0.222,
+        0.788
+      ],
+      "clearance_pt": 2.0
+    },
+    {
+      "from": [
+        0.406,
+        0.788
+      ],
+      "to": [
+        0.451,
+        0.788
+      ],
+      "clearance_pt": 2.0
+    },
+    {
+      "from": [
+        0.644,
+        0.788
+      ],
+      "to": [
+        0.691,
+        0.788
+      ],
+      "clearance_pt": 2.0
+    },
+    {
+      "from": [
+        0.773,
+        0.788
+      ],
+      "to": [
+        0.852,
+        0.788
+      ],
+      "clearance_pt": 2.0
+    },
+    {
+      "from": [
+        0.127,
+        0.533
+      ],
+      "to": [
+        0.177,
+        0.533
+      ],
+      "clearance_pt": 2.0
+    },
+    {
+      "from": [
+        0.294,
+        0.533
+      ],
+      "to": [
+        0.336,
+        0.533
+      ],
+      "clearance_pt": 2.0
+    },
+    {
+      "from": [
+        0.394,
+        0.533
+      ],
+      "to": [
+        0.44,
+        0.533
+      ],
+      "clearance_pt": 2.0
+    },
+    {
+      "from": [
+        0.512,
+        0.521
+      ],
+      "to": [
+        0.512,
+        0.4895
+      ],
+      "clearance_pt": 2.0
+    },
+    {
+      "from": [
+        0.593,
+        0.4285
+      ],
+      "to": [
+        0.618,
+        0.4285
+      ],
+      "clearance_pt": 2.0
+    },
+    {
+      "from": [
+        0.7095,
+        0.352
+      ],
+      "to": [
+        0.7095,
+        0.327
+      ],
+      "clearance_pt": 2.0
+    },
+    {
+      "from": [
+        0.839,
+        0.533
+      ],
+      "to": [
+        0.852,
+        0.533
+      ],
+      "clearance_pt": 1.5
+    },
+    {
+      "from": [
+        0.839,
+        0.412
+      ],
+      "to": [
+        0.852,
+        0.412
+      ],
+      "clearance_pt": 1.5
+    },
+    {
+      "from": [
+        0.133,
+        0.0905
+      ],
+      "to": [
+        0.222,
+        0.0905
+      ],
+      "clearance_pt": 2.0
+    },
+    {
+      "from": [
+        0.407,
+        0.0905
+      ],
+      "to": [
+        0.449,
+        0.0905
+      ],
+      "clearance_pt": 2.0
+    },
+    {
+      "from": [
+        0.639,
+        0.0905
+      ],
+      "to": [
+        0.685,
+        0.0905
+      ],
+      "clearance_pt": 2.0
+    },
+    {
+      "from": [
+        0.793,
+        0.0905
+      ],
+      "to": [
+        0.852,
+        0.0905
+      ],
+      "clearance_pt": 2.0
+    }
+  ],
+  "output_box_heights_equal": true,
+  "output_port_centers": {
+    "outer_f1": 0.533,
+    "estimation_mae": 0.412
+  },
+  "junction_y": 0.4725,
+  "fork_symmetry": true,
+  "min_text_pt": 8.0
+}

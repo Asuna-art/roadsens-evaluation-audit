@@ -1,0 +1,26 @@
+Times typography and spacing revision, v13
+
+The architecture and all scientific values are preserved. This revision uses
+Times New Roman regular and bold, confirmed against the installed Windows font
+files. PDF font subsets are embedded; proprietary font files are not bundled.
+The SVG keeps editable text and requires Times New Roman on the editing system.
+
+The two endpoint boxes have equal heights. Their connectors enter at the
+vertical centers and form a symmetric fork. The PVS feature entry uses one
+connector. Mexico processing modules share top/bottom edges and a centerline.
+Candidate cells use matching dimensions and padding. Text remains at least
+8 pt, ordinary text 8.5 pt; rendered box padding is at least 3 pt.
+
+Explanatory gray prose has moved to the manuscript caption. The source-task
+separation, V/D definition, fixed membership, three-domain aggregation, reuse
+of the same nine acquisitions and the failed original threshold remain reported.
+
+Draw from visual_source/draw_framework_v13.py (Matplotlib, NumPy, Pillow), then:
+  tectonic framework_architecture.tex
+  tectonic main.tex
+  tectonic supplementary.tex
+Use C:\Users\Administrator\miniconda3\python.exe for local research work.
+
+Deliverables include compiled framework_architecture.pdf, editable SVG under
+figures/, Python drawing source and editable manuscript TeX. No historical
+experiment runs, split maps, labels or model results were modified.

@@ -4,7 +4,7 @@ Research artifacts for **Model selection and performance estimation can diverge:
 
 ## Scientific status
 
-- Working manuscript v12 (2 November 2026), with source TeX and actually compiled PDFs: [main](manuscript/main.pdf), [supplement](manuscript/supplementary.pdf).
+- Working manuscript v13 (2 November 2026), with source TeX and actually compiled PDFs: [main](manuscript/main.pdf), [supplement](manuscript/supplementary.pdf).
 - PVS has **nine acquisitions**. The original two-axis estimation-error criterion **failed** and remains reported. Fits, seeds and windows are not additional independent acquisitions.
 - Mexico/Puebla is a publisher-released subset with **two documentation-derived route families**. Both selectors chose the same RF. Route provenance/population mapping remains limited.
 - Indonesia original-label repair and KIT acquisition are **data preparation only**, not completed predictive replications. No unvalidated extra acquisition count is claimed.
@@ -16,12 +16,12 @@ Research artifacts for **Model selection and performance estimation can diverge:
 
 ## Evaluation architecture and visual explanations
 
-The main article includes an editable vector architecture of source auditing, feature representations, outer/inner validation, fixed candidates, selection/refitting, and distinct classification-performance and estimation-error endpoints. RoadSens, PVS and Mexico remain separate tasks. The PVS workflow and endpoint plots retain the failed primary criterion and contrary sensitivity outcomes. All 39 original numerical table blocks are unchanged.
+The main article includes an editable vector architecture of source auditing, feature representations, outer/inner validation, fixed candidates, selection/refitting, and distinct classification-performance and estimation-error endpoints. RoadSens, PVS and Mexico remain separate tasks. The PVS workflow and endpoint plots retain the failed primary criterion and contrary sensitivity outcomes. All 39 original numerical table blocks are unchanged. The architecture uses embedded Times New Roman regular/bold, centered symmetric output connectors, and reduced in-figure explanatory text; details remain in the caption.
 
 - [Standalone framework architecture](manuscript/framework_architecture.pdf)
-- [Editable architecture SVG](manuscript/figures/framework_architecture_v12.svg)
-- [Architecture source and compilation guide](manuscript/ARCHITECTURE_GUIDE_v12.txt)
-- Diagram source: `manuscript/visual_source/draw_framework_v12.py`.
+- [Editable architecture SVG](manuscript/figures/framework_architecture_v13.svg)
+- [Architecture source and compilation guide](manuscript/ARCHITECTURE_GUIDE_v13.txt)
+- Diagram source: `manuscript/visual_source/draw_framework_v13.py`.
 - PVS endpoint plotting source and checked aggregate values: `manuscript/visual_source/` and `manuscript/figures/pvs_endpoints_v10.json`.
 
 ## Reproduction scope

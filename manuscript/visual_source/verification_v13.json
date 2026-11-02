@@ -1,0 +1,361 @@
+{
+  "version": 13,
+  "artwork": "Code-native vector architecture; no generative illustration",
+  "semantic_review": [
+    "Three separate source tasks; no cross-dataset model transfer.",
+    "PVS: nine acquisition units; six development and three outer-test acquisitions per fold.",
+    "RF/HGB with IMU or IMU+context; maximum inner OOF F1 selects the candidate.",
+    "Outer classification and absolute estimation error are separate endpoints.",
+    "Disjoint-window, context and budget diagnostics reuse the same acquisitions.",
+    "Original two-axis criterion remains failed."
+  ],
+  "render_review_status": "passed: final-size manuscript, color and grayscale inspected",
+  "main_body.tex": {
+    "unchanged_tabularx_blocks": 14,
+    "source_sha256": "c571593471f46686d7f4fd7f67e2476b0085ac5095cc04c47cef54fc74d9f190"
+  },
+  "supplementary_body.tex": {
+    "unchanged_tabularx_blocks": 25,
+    "source_sha256": "100fa13923b9a0078c98a9020b194b2957075421515bb0f3ed4291a610e2dae9"
+  },
+  "main": {
+    "pages": 25,
+    "pdf_sha256": "4fc9167b6ed7b0dbe6195602ff919c50b8a18ceb95a920fef0d5135c189d1d85",
+    "out_of_page_text_spans": [],
+    "review_pages": [
+      1,
+      2
+    ]
+  },
+  "supplementary": {
+    "pages": 29,
+    "pdf_sha256": "e32f592eeb8d306bebaceb76fb859fa09cc92ba65ce386493ed2d58c5f548cba",
+    "out_of_page_text_spans": [],
+    "review_pages": [
+      1
+    ]
+  },
+  "framework_architecture": {
+    "pages": 1,
+    "pdf_sha256": "4f98f515d33a1047f45fc9ab1346a730e7625ce1004ed83d3c674af37065c993",
+    "out_of_page_text_spans": [],
+    "review_pages": [
+      1
+    ]
+  },
+  "vector_asset": {
+    "width_mm": 178.0,
+    "height_mm": 140.0,
+    "minimum_font_pt": 8.0,
+    "embedded_raster_images": 0
+  },
+  "actual_pdf_fonts": [
+    "CMUKKF+TimesNewRomanPS-BoldMT",
+    "FNMPLU+TimesNewRomanPSMT"
+  ],
+  "drawing_geometry": {
+    "font_paths": {
+      "normal": "C:\\Windows\\Fonts\\times.ttf",
+      "bold": "C:\\Windows\\Fonts\\timesbd.ttf"
+    },
+    "canvas_clipping": [],
+    "label_padding": [
+      {
+        "label": "Full numeric\nIMU / context\nTemporal",
+        "left_right_bottom_top_pt": [
+          3.53,
+          11.3,
+          5.77,
+          5.77
+        ]
+      },
+      {
+        "label": "Train-only impute\nInner CV\nRandom / trip /\nmatched domain",
+        "left_right_bottom_top_pt": [
+          8.15,
+          8.15,
+          6.4,
+          6.4
+        ]
+      },
+      {
+        "label": "RF\nIMU",
+        "left_right_bottom_top_pt": [
+          10.79,
+          10.79,
+          3.4,
+          3.4
+        ]
+      },
+      {
+        "label": "HGB\nIMU",
+        "left_right_bottom_top_pt": [
+          10.07,
+          10.07,
+          3.4,
+          3.4
+        ]
+      },
+      {
+        "label": "RF\n+context",
+        "left_right_bottom_top_pt": [
+          4.67,
+          4.67,
+          3.4,
+          3.4
+        ]
+      },
+      {
+        "label": "HGB\n+context",
+        "left_right_bottom_top_pt": [
+          4.67,
+          4.67,
+          3.4,
+          3.4
+        ]
+      },
+      {
+        "label": "Select max inner OOF F1 \u2192 refit",
+        "left_right_bottom_top_pt": [
+          33.58,
+          33.58,
+          4.28,
+          4.28
+        ]
+      },
+      {
+        "label": "Outer F1 \u2191",
+        "left_right_bottom_top_pt": [
+          13.07,
+          13.07,
+          13.19,
+          13.19
+        ]
+      },
+      {
+        "label": "MAE \u2193\n|inner \u2212 outer|",
+        "left_right_bottom_top_pt": [
+          8.39,
+          8.39,
+          8.95,
+          8.95
+        ]
+      },
+      {
+        "label": "10-position windows\n36 acceleration\nsummaries",
+        "left_right_bottom_top_pt": [
+          10.31,
+          10.31,
+          3.19,
+          3.19
+        ]
+      },
+      {
+        "label": "Route-family holdout\nInner CV: random /\nwhole trip",
+        "left_right_bottom_top_pt": [
+          11.57,
+          11.57,
+          3.19,
+          3.19
+        ]
+      },
+      {
+        "label": "RF / HGB",
+        "left_right_bottom_top_pt": [
+          9.25,
+          9.25,
+          12.31,
+          12.31
+        ]
+      }
+    ],
+    "arrows": [
+      {
+        "from": [
+          0.133,
+          0.788
+        ],
+        "to": [
+          0.222,
+          0.788
+        ],
+        "clearance_pt": 2.0
+      },
+      {
+        "from": [
+          0.406,
+          0.788
+        ],
+        "to": [
+          0.451,
+          0.788
+        ],
+        "clearance_pt": 2.0
+      },
+      {
+        "from": [
+          0.644,
+          0.788
+        ],
+        "to": [
+          0.691,
+          0.788
+        ],
+        "clearance_pt": 2.0
+      },
+      {
+        "from": [
+          0.773,
+          0.788
+        ],
+        "to": [
+          0.852,
+          0.788
+        ],
+        "clearance_pt": 2.0
+      },
+      {
+        "from": [
+          0.127,
+          0.533
+        ],
+        "to": [
+          0.177,
+          0.533
+        ],
+        "clearance_pt": 2.0
+      },
+      {
+        "from": [
+          0.294,
+          0.533
+        ],
+        "to": [
+          0.336,
+          0.533
+        ],
+        "clearance_pt": 2.0
+      },
+      {
+        "from": [
+          0.394,
+          0.533
+        ],
+        "to": [
+          0.44,
+          0.533
+        ],
+        "clearance_pt": 2.0
+      },
+      {
+        "from": [
+          0.512,
+          0.521
+        ],
+        "to": [
+          0.512,
+          0.4895
+        ],
+        "clearance_pt": 2.0
+      },
+      {
+        "from": [
+          0.593,
+          0.4285
+        ],
+        "to": [
+          0.618,
+          0.4285
+        ],
+        "clearance_pt": 2.0
+      },
+      {
+        "from": [
+          0.7095,
+          0.352
+        ],
+        "to": [
+          0.7095,
+          0.327
+        ],
+        "clearance_pt": 2.0
+      },
+      {
+        "from": [
+          0.839,
+          0.533
+        ],
+        "to": [
+          0.852,
+          0.533
+        ],
+        "clearance_pt": 1.5
+      },
+      {
+        "from": [
+          0.839,
+          0.412
+        ],
+        "to": [
+          0.852,
+          0.412
+        ],
+        "clearance_pt": 1.5
+      },
+      {
+        "from": [
+          0.133,
+          0.0905
+        ],
+        "to": [
+          0.222,
+          0.0905
+        ],
+        "clearance_pt": 2.0
+      },
+      {
+        "from": [
+          0.407,
+          0.0905
+        ],
+        "to": [
+          0.449,
+          0.0905
+        ],
+        "clearance_pt": 2.0
+      },
+      {
+        "from": [
+          0.639,
+          0.0905
+        ],
+        "to": [
+          0.685,
+          0.0905
+        ],
+        "clearance_pt": 2.0
+      },
+      {
+        "from": [
+          0.793,
+          0.0905
+        ],
+        "to": [
+          0.852,
+          0.0905
+        ],
+        "clearance_pt": 2.0
+      }
+    ],
+    "output_box_heights_equal": true,
+    "output_port_centers": {
+      "outer_f1": 0.533,
+      "estimation_mae": 0.412
+    },
+    "junction_y": 0.4725,
+    "fork_symmetry": true,
+    "min_text_pt": 8.0
+  },
+  "reviewed_at_utc": "2026-11-02T15:29:15.567111+00:00",
+  "requested_style": "Times New Roman; planned arrows; balanced text/rule spacing; fewer explanatory gray notes"
+}
