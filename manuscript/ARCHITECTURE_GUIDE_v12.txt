@@ -1,0 +1,30 @@
+Editable research architecture, v12
+
+This revision replaces the graphical-summary/poster treatment with a native
+vector module architecture of the existing evaluation audit. No new model,
+data collection, labels, decision thresholds or statistical intervals are added.
+RoadSens, PVS and Mexico remain separate tasks. The PVS branch shows windows,
+feature vectors, outer development/test partition, inner CV, four fixed
+candidates, selection/refit and two distinct readouts.
+
+framework_architecture.pdf: actually compiled standalone architecture.
+figures/framework_architecture_v12.svg: editable vector with text labels.
+figures/framework_architecture_v12.pdf: vector figure for manuscript inclusion.
+figures/framework_architecture_v12.png: 300 dpi preview.
+visual_source/draw_framework_v12.py: full editable drawing source.
+
+Build the figure with Python (Matplotlib, NumPy, Pillow), then compile:
+  tectonic framework_architecture.tex
+  tectonic main.tex
+  tectonic supplementary.tex
+The locked local research interpreter is
+C:\Users\Administrator\miniconda3\python.exe.
+
+Final width is 178 mm; ordinary figure text is at least 8 pt. Waveforms,
+window glyphs and feature matrices are schematic data-structure illustrations,
+not newly measured traces or scores. The vector figure contains no raster images.
+The 14 main and 25 supplementary original tabularx blocks remain identical.
+Final verification is recorded in visual_source/verification_v12.json.
+
+This remains a working manuscript. Author contribution, funding and
+competing-interest declarations still require author input before submission.

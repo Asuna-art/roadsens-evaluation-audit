@@ -4,7 +4,7 @@ Research artifacts for **Model selection and performance estimation can diverge:
 
 ## Scientific status
 
-- Working manuscript v10 (2 November 2026), with source TeX and actually compiled PDFs: [main](manuscript/main.pdf), [supplement](manuscript/supplementary.pdf).
+- Working manuscript v12 (2 November 2026), with source TeX and actually compiled PDFs: [main](manuscript/main.pdf), [supplement](manuscript/supplementary.pdf).
 - PVS has **nine acquisitions**. The original two-axis estimation-error criterion **failed** and remains reported. Fits, seeds and windows are not additional independent acquisitions.
 - Mexico/Puebla is a publisher-released subset with **two documentation-derived route families**. Both selectors chose the same RF. Route provenance/population mapping remains limited.
 - Indonesia original-label repair and KIT acquisition are **data preparation only**, not completed predictive replications. No unvalidated extra acquisition count is claimed.
@@ -14,14 +14,15 @@ Research artifacts for **Model selection and performance estimation can diverge:
 
 `research/` preserves the historical Python module topology and protocols. `results/` contains compact score tables, selections, source hashes and explicitly labelled public split/result views. `manuscript/` includes TeX, figures and the compiled PDFs. See `SOURCE_INVENTORY.json` for copied-file fingerprints and `RELEASE_AUDIT.json` for release checks.
 
-## Added visual explanations (v10)
+## Evaluation architecture and visual explanations
 
-The main article now includes a graphical abstract, the PVS nested-evaluation workflow, and paired plots separating selected-model outer F1 from performance-estimation MAE. The figures retain the failed primary criterion, disjoint-window counterexamples and the post hoc common-budget outer target. All 39 original numerical table blocks are unchanged.
+The main article includes an editable vector architecture of source auditing, feature representations, outer/inner validation, fixed candidates, selection/refitting, and distinct classification-performance and estimation-error endpoints. RoadSens, PVS and Mexico remain separate tasks. The PVS workflow and endpoint plots retain the failed primary criterion and contrary sensitivity outcomes. All 39 original numerical table blocks are unchanged.
 
-- [Standalone graphical abstract](manuscript/graphical_abstract.pdf)
-- [Editable SVG preview](manuscript/figures/graphical_abstract_v10.svg)
-- [Figure and compilation guide](manuscript/FIGURE_GUIDE_v10.txt)
-- Plotting source and checked aggregate values: `manuscript/visual_source/` and `manuscript/figures/pvs_endpoints_v10.json`.
+- [Standalone framework architecture](manuscript/framework_architecture.pdf)
+- [Editable architecture SVG](manuscript/figures/framework_architecture_v12.svg)
+- [Architecture source and compilation guide](manuscript/ARCHITECTURE_GUIDE_v12.txt)
+- Diagram source: `manuscript/visual_source/draw_framework_v12.py`.
+- PVS endpoint plotting source and checked aggregate values: `manuscript/visual_source/` and `manuscript/figures/pvs_endpoints_v10.json`.
 
 ## Reproduction scope
 
@@ -29,7 +30,7 @@ The exact historical environment was Windows, Python3.13.12, scikit-learn1.9.0, 
 
 Obtain source datasets from their authors and verify the recorded hashes. Local caches, raw feature matrices and full execution authorities are not published here. Public views omit direct signal/label arrays and coordinates; their original-authority hash is recorded. They are not substitutes for absent inputs in hash-guarded historical replay commands. Results can be inspected directly in the manuscript and compact tables without fitting models.
 
-To compile the manuscript, run `tectonic main.tex` and `tectonic supplementary.tex` from `manuscript/` with the documented fonts available. These are compilation instructions; a new remote-machine build has not been tested.
+To compile the manuscript, first run `tectonic framework_architecture.tex`, then `tectonic main.tex` and `tectonic supplementary.tex` from `manuscript/` with the documented fonts available. These are compilation instructions; a new remote-machine build has not been tested.
 
 ## Source data and reuse
 

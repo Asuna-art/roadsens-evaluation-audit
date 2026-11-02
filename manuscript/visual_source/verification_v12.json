@@ -1,0 +1,59 @@
+{
+  "version": 12,
+  "artwork": "Code-native vector architecture; no generative illustration",
+  "semantic_review": [
+    "Three separate source tasks; no cross-dataset model transfer.",
+    "PVS: nine acquisition units; six development and three outer-test acquisitions per fold.",
+    "RF/HGB with IMU or IMU+context; maximum inner OOF F1 selects the candidate.",
+    "Outer classification and absolute estimation error are separate endpoints.",
+    "Disjoint-window, context and budget diagnostics reuse the same acquisitions.",
+    "Original two-axis criterion remains failed."
+  ],
+  "render_review_status": "passed: final manuscript insertion and color/grayscale vector renders inspected",
+  "main_body.tex": {
+    "unchanged_tabularx_blocks": 14,
+    "source_sha256": "b10d873ba208bd18723b86446c804b095a7cb2ff075e29a7dcf5e26f3be67761"
+  },
+  "supplementary_body.tex": {
+    "unchanged_tabularx_blocks": 25,
+    "source_sha256": "e11b7828db1e4ed7ee9aa8e719912dcddb02f06e555244c2b3b6cbc9886e1557"
+  },
+  "main": {
+    "pages": 24,
+    "pdf_sha256": "c9b41bbce478abdf76911f0cc61748ed233bc6779797d00d027d33b8b44de1c0",
+    "out_of_page_text_spans": [],
+    "review_pages": [
+      1,
+      2
+    ]
+  },
+  "supplementary": {
+    "pages": 29,
+    "pdf_sha256": "2d687360596007008d80e60787ce706ed23449d6ecf4e9bdbd8384999a44b93c",
+    "out_of_page_text_spans": [],
+    "review_pages": [
+      1
+    ]
+  },
+  "framework_architecture": {
+    "pages": 1,
+    "pdf_sha256": "e8e7bb763a38850a4b767a1b5ccd42861a1a3e519f0c209ea66cf5ff07577a65",
+    "out_of_page_text_spans": [],
+    "review_pages": [
+      1
+    ]
+  },
+  "vector_asset": {
+    "width_mm": 178.0,
+    "height_mm": 140.0,
+    "minimum_font_pt": 8.0,
+    "embedded_raster_images": 0
+  },
+  "reviewed_at_utc": "2026-11-02T14:55:14.091072+00:00",
+  "reviewed_corrections": [
+    "Wrapped labels within modules without reducing text below 8 pt.",
+    "Represented inner validation, four candidates and selection/refit with directed connectors.",
+    "Integrated training-only imputation into the nested pipeline.",
+    "Preserved separate source branches and the failed two-axis criterion."
+  ]
+}

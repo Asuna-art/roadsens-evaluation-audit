@@ -1,0 +1,18 @@
+{
+  "claim": "Architecture separates source tasks, fixed validation/selection, and classification versus estimation endpoints.",
+  "dimensions_mm": [
+    178,
+    140
+  ],
+  "minimum_font_pt": 8,
+  "format": "Editable vector PDF/SVG from Python",
+  "scope": "Existing evaluation audit, not a new classifier or universally validated evaluation algorithm",
+  "sources": [
+    "tex_v10/main_body.tex sections 3.1\u20133.13, 4.11\u20134.12"
+  ],
+  "data_glyphs": "Schematic waveforms, windows, matrices and model trees; no empirical scores encoded",
+  "preserved": "9 PVS acquisitions, 6 development/3 test per outer fold, 4 fixed candidates, 3 domains/axis; primary criterion failed",
+  "qa": {
+    "outside_labels": []
+  }
+}
