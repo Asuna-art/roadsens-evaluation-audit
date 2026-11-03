@@ -1,0 +1,40 @@
+\begin{table}[p]
+\centering
+\begin{singlespace}
+\small
+\caption{Karlsruhe window populations before and after final-test spatial purging.}\label{tab:s-kit-pop}
+\begin{tabularx}{\linewidth}{XXYY}
+\toprule
+GPS date / pool & Role & Good & Pothole \\
+\midrule
+13 May & Development & 2,511 & 149 \\
+20 June & Development & 1,613 & 36 \\
+5 July & Final test & 835 & 82 \\
+\midrule
+Purged development & Full outer refit & 4,123 & 166 \\
+Each actual inner fit & Shared budget & 1,613 & 17 \\
+\bottomrule
+\end{tabularx}
+\par\smallskip
+\raggedright All dates are in 2016. Windows are one second long with 0.25-s decision spacing. Other labels and undated workbooks are excluded.
+\end{singlespace}
+\end{table}
+\begin{table}[p]
+\centering
+\begin{singlespace}
+\small
+\caption{Karlsruhe fixed-candidate estimates and final full-development scores.}\label{tab:s-kit-candidates}
+\begin{tabularx}{\linewidth}{XYYYY}
+\toprule
+Candidate & Random inner F1 & Date inner F1 & Final F1 & Pothole recall \\
+\midrule
+RF inertial & 0.8320 & 0.5682 & 0.7978 & 0.4512 \\
+RF + context & 0.9331 & 0.5433 & 0.6170 & 0.1585 \\
+HGB inertial & 0.8554 & 0.5783 & 0.7855 & 0.4268 \\
+HGB + context & 0.9598 & 0.5215 & 0.6782 & 0.2439 \\
+\bottomrule
+\end{tabularx}
+\par\smallskip
+\raggedright Candidate selection uses the corresponding inner score only. All final candidate outcomes are retained for audit; outer outcomes do not determine selector choices. Inertial denotes the 30 sensor statistics.
+\end{singlespace}
+\end{table}

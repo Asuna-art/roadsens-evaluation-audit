@@ -1,0 +1,5 @@
+{
+  "purpose": "Public result inspection",
+  "notice": "Per-file originalauthoritySHA256 fingerprints the complete local JSON authority before public omissions. Public summaries omit raw arrays, prediction arrays, model binaries, coordinates and full split memberships. They do not replace the authorities or claim one-command portable replay.",
+  "kit_archive_sha256": "f7f7cc6b017977d2019f1eaaf9e90d6ad6132506965bafba03c12e6b053845d3"
+}

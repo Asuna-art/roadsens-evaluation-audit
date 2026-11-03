@@ -1,0 +1,21 @@
+\begin{table}[p]
+\centering
+\begin{singlespace}
+\small
+\caption{Full-numeric macro-F1: five-fold arithmetic means, seed 42.}\label{tab:main}
+\begin{tabularx}{\linewidth}{XYYYY}
+\toprule
+Policy & Model & Random rows & \makecell[r]{Purged\\ time\\ blocks} & \makecell[r]{Heldout\\ recordings} \\
+\midrule
+Primary & RF100 & 0.9945 & 0.8095 & 0.4289 \\
+Primary & Extra Trees & 0.9835 & 0.7802 & 0.4299 \\
+Primary & HistGB & 0.9981 & 0.8460 & 0.4569 \\
+Primary & Logistic regression & 0.7519 & 0.7042 & 0.4324 \\
+Blank-as-normal & RF100 & 0.9314 & 0.5775 & 0.3954 \\
+Blank-as-normal & Extra Trees & 0.8715 & 0.5340 & 0.3978 \\
+Blank-as-normal & HistGB & 0.9350 & 0.6198 & 0.4150 \\
+Blank-as-normal & Logistic regression & 0.4564 & 0.4109 & 0.3404 \\
+\bottomrule
+\end{tabularx}
+\end{singlespace}
+\end{table}

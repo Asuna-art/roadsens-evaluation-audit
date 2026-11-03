@@ -1,0 +1,743 @@
+{
+  "source_doi": "10.5281/zenodo.1461243",
+  "license": "CC BY 4.0",
+  "archive_sha256": "f7f7cc6b017977d2019f1eaaf9e90d6ad6132506965bafba03c12e6b053845d3",
+  "originalauthoritySHA256": "114104b7164ff98f42b3fa22cbce25758f570e8643a1321d011a89c980055344",
+  "IMU_workbooks": 53,
+  "IMU_rows": 1764985,
+  "independent_unit_note": "Files are release containers. GPS-date groups and spatial purging define evaluation. No independent-road count inferred.",
+  "files": [
+    {
+      "file_id": "f00",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458227628.902791.xlsx",
+      "rows": 65186,
+      "labels": {
+        "1": 65185
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-05-13": 2509
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f01",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458228134.180081.xlsx",
+      "rows": 55860,
+      "labels": {
+        "0": 51051,
+        "3": 4808
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-05-13": 2212
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f02",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458229137.302757.xlsx",
+      "rows": 65072,
+      "labels": {
+        "0": 43216,
+        "1": 21855
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-05-13": 2516
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f03",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458229739.308087.xlsx",
+      "rows": 64778,
+      "labels": {
+        "0": 62758,
+        "2": 2020
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-05-13": 2509
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f04",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458230676.498135.xlsx",
+      "rows": 46758,
+      "labels": {
+        "0": 31214,
+        "1": 11427,
+        "2": 4116
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-05-13": 1797
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f05",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458231247.511815.xlsx",
+      "rows": 36468,
+      "labels": {
+        "0": 35450,
+        "1": 1018
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-05-13": 1432
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f06",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458232306.194668.xlsx",
+      "rows": 65423,
+      "labels": {
+        "0": 53487,
+        "1": 8851,
+        "2": 3085
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-05-13": 2494
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f07",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458232908.196437.xlsx",
+      "rows": 40673,
+      "labels": {
+        "0": 22910,
+        "1": 17763
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-05-13": 1552
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f08",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458234760.782917.xlsx",
+      "rows": 65046,
+      "labels": {
+        "0": 19143,
+        "2": 45903
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-05-13": 2518
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f09",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458235362.786708.xlsx",
+      "rows": 66081,
+      "labels": {
+        "0": 18283,
+        "2": 47798
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-05-13": 2519
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f10",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458236388.501483.xlsx",
+      "rows": 64932,
+      "labels": {
+        "0": 53900,
+        "1": 11032
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-05-13": 2491
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f11",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458237439.653764.xlsx",
+      "rows": 64680,
+      "labels": {
+        "0": 61701,
+        "3": 2979
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-05-13": 2458
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f12",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458237863.12954.xlsx",
+      "rows": 29906,
+      "labels": {
+        "0": 24794,
+        "5": 5111
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-05-13": 1133
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f13",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458238944.912939.xlsx",
+      "rows": 65299,
+      "labels": {
+        "0": 61221,
+        "2": 1,
+        "4": 3023,
+        "5": 1053
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-05-13": 2507
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f14",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458239546.918278.xlsx",
+      "rows": 64640,
+      "labels": {
+        "0": 58363,
+        "2": 6277
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-05-13": 2508
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f15",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458244377.415632.xlsx",
+      "rows": 64867,
+      "labels": {
+        "0": 48155,
+        "1": 16712
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 2530
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f16",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458244979.421189.xlsx",
+      "rows": 25165,
+      "labels": {
+        "0": 4757,
+        "1": 20408
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 961
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f17",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458245599.849443.xlsx",
+      "rows": 24590,
+      "labels": {
+        "0": 13277,
+        "1": 10797,
+        "2": 516
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 955
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f18",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458246109.889314.xlsx",
+      "rows": 56555,
+      "labels": {
+        "0": 25354,
+        "1": 30270,
+        "2": 530,
+        "3": 401
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 2182
+      },
+      "known_both_classes": true,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f19",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458246893.108839.xlsx",
+      "rows": 12446,
+      "labels": {
+        "0": 2826,
+        "1": 9620
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 484
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f20",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458247814.285631.xlsx",
+      "rows": 64705,
+      "labels": {
+        "0": 63674,
+        "2": 886,
+        "3": 145
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 2478
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f21",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458248416.286745.xlsx",
+      "rows": 64194,
+      "labels": {
+        "0": 64194
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 2471
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f22",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458249048.911586.xlsx",
+      "rows": 16190,
+      "labels": {
+        "0": 16190
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 619
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f23",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458249200.370793.xlsx",
+      "rows": 6864,
+      "labels": {
+        "0": 6864
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 262
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f24",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458249298.42233.xlsx",
+      "rows": 13042,
+      "labels": {
+        "0": 12736,
+        "3": 306
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 504
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f25",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458249618.359062.xlsx",
+      "rows": 64131,
+      "labels": {
+        "0": 64131
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 2509
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f26",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458250215.163652.xlsx",
+      "rows": 8254,
+      "labels": {
+        "0": 7736,
+        "3": 518
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 311
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f27",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458250378.124915.xlsx",
+      "rows": 19978,
+      "labels": {
+        "0": 19522,
+        "3": 456
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 274
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f28",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458250538.43031.xlsx",
+      "rows": 11613,
+      "labels": {
+        "0": 11122,
+        "3": 491
+      },
+      "gps_dates_unique_fix_counts": {},
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f29",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458250869.31107.xlsx",
+      "rows": 22183,
+      "labels": {
+        "0": 21452,
+        "3": 731
+      },
+      "gps_dates_unique_fix_counts": {},
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f30",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458251155.909581.xlsx",
+      "rows": 5829,
+      "labels": {
+        "0": 5829
+      },
+      "gps_dates_unique_fix_counts": {},
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f31",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458251240.61891.xlsx",
+      "rows": 6521,
+      "labels": {
+        "0": 5913,
+        "3": 608
+      },
+      "gps_dates_unique_fix_counts": {},
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f32",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458251346.200799.xlsx",
+      "rows": 7019,
+      "labels": {
+        "0": 6515,
+        "3": 504
+      },
+      "gps_dates_unique_fix_counts": {},
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f33",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458253436.616527.xlsx",
+      "rows": 40692,
+      "labels": {
+        "0": 39675,
+        "7": 1017
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 177
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f34",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458253776.174031.xlsx",
+      "rows": 13611,
+      "labels": {
+        "0": 12877,
+        "7": 734
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 60
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f35",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458254083.471903.xlsx",
+      "rows": 3176,
+      "labels": {
+        "0": 3176
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 14
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f36",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458254626.63752.xlsx",
+      "rows": 15816,
+      "labels": {
+        "0": 15361,
+        "5": 455
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 69
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f37",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458255029.386261.xlsx",
+      "rows": 69310,
+      "labels": {
+        "0": 67155,
+        "5": 2155
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 302
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f38",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458255631.390663.xlsx",
+      "rows": 7674,
+      "labels": {
+        "0": 7674
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 34
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f39",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458256450.083938.xlsx",
+      "rows": 11725,
+      "labels": {
+        "0": 11216,
+        "5": 509
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 51
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f40",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458256625.522785.xlsx",
+      "rows": 4865,
+      "labels": {
+        "0": 4460,
+        "5": 405
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 21
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f41",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458256765.974015.xlsx",
+      "rows": 4081,
+      "labels": {
+        "0": 3580,
+        "5": 501
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 17
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f42",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458256893.989386.xlsx",
+      "rows": 4985,
+      "labels": {
+        "0": 4484,
+        "5": 501
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 22
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f43",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458257081.732033.xlsx",
+      "rows": 12566,
+      "labels": {
+        "0": 12056,
+        "5": 510
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 53
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f44",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458257231.085727.xlsx",
+      "rows": 9324,
+      "labels": {
+        "0": 8489,
+        "5": 303,
+        "7": 532
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 40
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f45",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458257431.752417.xlsx",
+      "rows": 9848,
+      "labels": {
+        "0": 8916,
+        "5": 331,
+        "7": 601
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 43
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f46",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458257662.330306.xlsx",
+      "rows": 6916,
+      "labels": {
+        "0": 6916
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 30
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f47",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458257784.145309.xlsx",
+      "rows": 7880,
+      "labels": {
+        "0": 7880
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 35
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f48",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458257913.048259.xlsx",
+      "rows": 2922,
+      "labels": {
+        "0": 2922
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-06-20": 12
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f49",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458259784.756834.xlsx",
+      "rows": 66049,
+      "labels": {
+        "0": 18078,
+        "1": 47971
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-07-05": 288
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f50",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458263248.203454.xlsx",
+      "rows": 69250,
+      "labels": {
+        "0": 8927,
+        "2": 59455,
+        "3": 867
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-07-05": 301
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f51",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458266630.040908.xlsx",
+      "rows": 5423,
+      "labels": {
+        "0": 4927,
+        "3": 496
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-07-05": 24
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    },
+    {
+      "file_id": "f52",
+      "path": "Daten2018/IMUData2_sensor_LSM9DS1_9Achsen_1458267059.385892.xlsx",
+      "rows": 43924,
+      "labels": {
+        "0": 40598,
+        "3": 3326
+      },
+      "gps_dates_unique_fix_counts": {
+        "2016-07-05": 192
+      },
+      "known_both_classes": false,
+      "finite_axes_fraction": 1.0
+    }
+  ]
+}

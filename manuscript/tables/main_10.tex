@@ -1,0 +1,21 @@
+\begin{table}[p]
+\centering
+\begin{singlespace}
+\small
+\caption{Karlsruhe selection and estimation on the final GPS-date group.}\label{tab:kit}
+\begin{tabularx}{\linewidth}{XXYYY}
+\toprule
+Selector & Selected candidate & Inner F1 & Final F1 & Absolute error \\
+\midrule
+\multicolumn{5}{l}{\textit{Full-development outer refit}} \\
+Random-window & HGB + context & 0.9598 & 0.6782 & 0.2817 \\
+Buffered-date & HGB inertial & 0.5783 & 0.7855 & 0.2072 \\
+\multicolumn{5}{l}{\textit{Common-budget outer refit}} \\
+Random-window & HGB + context & 0.9598 & 0.6699 & 0.2899 \\
+Buffered-date & HGB inertial & 0.5783 & 0.7595 & 0.1812 \\
+\bottomrule
+\end{tabularx}
+\par\smallskip
+\raggedright The final group is 5 July 2016, decoded from GPS time. Higher final macro-F1 and lower absolute estimation error are desirable. Full refits use 4,289 development windows; common-budget refits use 1,613 good and 17 pothole windows. Both selectors use these same per-class counts for each inner fit. A single held-out date supplies each final score.
+\end{singlespace}
+\end{table}

@@ -1,0 +1,54 @@
+{
+  "version": "v18",
+  "date": "2026-11-03",
+  "manuscript": {
+    "cover_letter.pdf": {
+      "sha256": "b7e5d1f242fb0d15eaac2dd5c070007c48e9ae957da1fd6373f8f2f79bdb469d",
+      "bytes": 58695
+    },
+    "framework_architecture.pdf": {
+      "sha256": "341dd2220f41a5da43670c8a457f1f1b7c8392038c76ab549780f77350f9e551",
+      "bytes": 73747
+    },
+    "graphical_abstract.pdf": {
+      "sha256": "a85e24814501d940c3ec288aad00cc069889a6934687aeb5d9e44eaefb3238c6",
+      "bytes": 79160
+    },
+    "ijpe_alignment_notes.pdf": {
+      "sha256": "818fde71c826e0c0207a431ed62c14619809b77f23228d103c06588c01ae6218",
+      "bytes": 72802
+    },
+    "main.pdf": {
+      "sha256": "62de2d1504861cbddf9e7421c73ec8a182db81d01727f65b6b6df229004959f2",
+      "bytes": 434576
+    },
+    "main_anonymous.pdf": {
+      "sha256": "6a386e5a96bb2a3278587ea204655234efe5c83103f6c066dc0dbec47d00f1b0",
+      "bytes": 431571
+    },
+    "pvs_evaluation_workflow.pdf": {
+      "sha256": "68fd941e8e2b2dce39295535c6b84d365cda29a1383fa7441eab9cb9f694c2a3",
+      "bytes": 54635
+    },
+    "submission_checklist.pdf": {
+      "sha256": "a8a31803a5350cabb8a1607942098d69228d271a785abc4720c5274bb0bfb0fb",
+      "bytes": 69943
+    },
+    "supplementary.pdf": {
+      "sha256": "5a56268acd90303378c0012524417d9aa93a48ba56bb512a576100e43d50d20c",
+      "bytes": 473994
+    },
+    "supplementary_anonymous.pdf": {
+      "sha256": "d6716b1e7f612d19f693e490202ec0429837454efdfd74f15c5c82aaa16ed680",
+      "bytes": 471390
+    },
+    "title_page.pdf": {
+      "sha256": "95ed64e9bfdaf1e6d1eab15ac379871a426debd95843800e0561e45070c7a9fc",
+      "bytes": 64158
+    }
+  },
+  "new_evidence_manifest_sha256": "b181ce5c37404003c13158ffaec3b7ceef9313532ba57e6104f0e4cfb44d65f7",
+  "scope": "Independent KIT source and PVS annotation-event diagnostics; original failure retained; no independent-road count from files/intervals",
+  "raw_arrays_and_models_excluded": true,
+  "journal_submission_performed": false
+}

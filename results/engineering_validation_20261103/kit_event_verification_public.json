@@ -1,0 +1,107 @@
+{
+  "scope": "independent event matching, tolerance and good-exposure checks; predictions consumed as saved",
+  "selectors": {
+    "date_buffered_two_fold": {
+      "candidate_id": "hgb_sensor",
+      "prediction_file": "[local path removed]",
+      "tolerances": {
+        "zero_tolerance": {
+          "independent_totals": {
+            "annotation_intervals": 12,
+            "evaluable_intervals": 12,
+            "matched": 7,
+            "alarms": 8,
+            "non_event": 0,
+            "duplicate": 1,
+            "good_exposure_hours": 0.05789476668834686
+          },
+          "saved_totals": {
+            "matched": 7,
+            "non_event": 0,
+            "duplicate": 1,
+            "good_exposure_hours": 0.05789476668834686
+          },
+          "matches_saved": true
+        },
+        "half_second_sensitivity": {
+          "independent_totals": {
+            "annotation_intervals": 12,
+            "evaluable_intervals": 12,
+            "matched": 7,
+            "alarms": 8,
+            "non_event": 0,
+            "duplicate": 1,
+            "good_exposure_hours": 0.05789476668834686
+          },
+          "saved_totals": {
+            "matched": 7,
+            "non_event": 0,
+            "duplicate": 1,
+            "good_exposure_hours": 0.05789476668834686
+          },
+          "matches_saved": true
+        }
+      }
+    },
+    "row_random_two_fold": {
+      "candidate_id": "hgb_sensor_context",
+      "prediction_file": "[local path removed]",
+      "tolerances": {
+        "zero_tolerance": {
+          "independent_totals": {
+            "annotation_intervals": 12,
+            "evaluable_intervals": 12,
+            "matched": 7,
+            "alarms": 7,
+            "non_event": 0,
+            "duplicate": 0,
+            "good_exposure_hours": 0.05789476668834686
+          },
+          "saved_totals": {
+            "matched": 7,
+            "non_event": 0,
+            "duplicate": 0,
+            "good_exposure_hours": 0.05789476668834686
+          },
+          "matches_saved": true
+        },
+        "half_second_sensitivity": {
+          "independent_totals": {
+            "annotation_intervals": 12,
+            "evaluable_intervals": 12,
+            "matched": 7,
+            "alarms": 7,
+            "non_event": 0,
+            "duplicate": 0,
+            "good_exposure_hours": 0.05789476668834686
+          },
+          "saved_totals": {
+            "matched": 7,
+            "non_event": 0,
+            "duplicate": 0,
+            "good_exposure_hours": 0.05789476668834686
+          },
+          "matches_saved": true
+        }
+      }
+    }
+  },
+  "synthetic_checks": {
+    "helper_smoke_runs": 2,
+    "four_alarms_two_matched_one_duplicate_one_non_event": {
+      "alarms": 4,
+      "matched": 2,
+      "duplicate": 1,
+      "non_event": 1
+    },
+    "one_alarm_linked_to_two_events_matches_one_only": true,
+    "half_second_expansion_can_create_edge": true,
+    "helper_test_results": {
+      "four_positive_consecutive_alarm_rows_merge_into_clusters": 4,
+      "separated_predictions_alarm_clusters": 4
+    }
+  },
+  "public_view_notice": "For result inspection only. Does not replace original authority inputs and does not claim one-click reproduction.",
+  "originalauthoritySHA256": "8b0c8b37023239e3aae9ce20e806b485fdfaad3770d4aa474e6795377d4af7ab",
+  "original_authority_relative_path": "kit_event_verification.json"
+}

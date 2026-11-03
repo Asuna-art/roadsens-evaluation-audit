@@ -1,0 +1,13 @@
+{
+  "amendment_id": "PVS-ANNOTATION-EVENT-20261103-v1-reporting-A1",
+  "timing": "Written after the first v1 diagnostic outcomes were computed and inspected; post-hoc reporting clarification",
+  "reason": "An unmatched alarm under one-to-one matching can be either a repeat notification within a labelled bump interval or an alarm outside any bump interval. Calling both a non-bump false alarm would conflate different engineering costs",
+  "unchanged": "All v1 outcomes, selected candidates, event boundaries, tolerances, hard predictions, matching, denominators and primary unmatched-notification rates are retained; no threshold tuning or refitting",
+  "additional_outputs": {
+    "nonbump_alarm_clusters": "Alarm clusters having no eligible edge to any evaluable annotation interval at the stated tolerance",
+    "duplicate_event_alarm_clusters": "Unmatched alarm clusters having at least one eligible event edge; redundant event-associated notifications under the one-to-one rule",
+    "rate_nonbump_alarms_per_nonbump_hour": "nonbump_alarm_clusters / same explicit non-bump exposure hours",
+    "identity": "unmatched_alarm_clusters == nonbump_alarm_clusters + duplicate_event_alarm_clusters"
+  },
+  "interpretation": "Original unmatched count measures total excess notification burden, not only false-positive notifications on non-bump intervals. Added categorization is descriptive and is not a new confirmatory improvement criterion"
+}

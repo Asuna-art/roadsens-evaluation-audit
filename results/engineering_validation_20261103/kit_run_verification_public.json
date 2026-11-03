@@ -1,0 +1,316 @@
+{
+  "completed_utc": "2026-11-03T04:46:32.314386+00:00",
+  "findings": [],
+  "fit_checks": [
+    {
+      "fit_id": "inner_0_rf_sensor",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "6d09585e944bb0a241ccc95978efbc74b002a41836ed2449f16176f5787bb39a",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "inner_0_rf_sensor_context",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "cd7644121137710cbf52671ae4b3ceaa0f974a6ff0cd55ae11f1c4076bc22460",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "inner_0_hgb_sensor",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "093146a0c022f72bc5e73968160ad36cb95ea75d38e309a76c016bfe127eda02",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "inner_0_hgb_sensor_context",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "5e0f69233b4140259fa9bfa6b637ec584fc9478d587728c7b3bd3fd752a0d4db",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "inner_1_rf_sensor",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "709b22436d4e4f726aaced3753f7d50613e8d5557534b011ad8a36d8fb596a5e",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "inner_1_rf_sensor_context",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "5088270e6313ec4eaa506485e8375550c20d8bd6f184057cbff626d32dd10d07",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "inner_1_hgb_sensor",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "ffbeb35ef0eac8e7a45a4c4e335590a78ce660f06b3b52726e864fe1e585137f",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "inner_1_hgb_sensor_context",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "1d2dc2472f6787cb6af6c2fda0cd9a12477ea5fa4ef88a22ad2840328a14d8d2",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "inner_2_rf_sensor",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "79bcd94c0976ff62768daefb2e9c8f8d8fe872770e6315530fb611b813575b67",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "inner_2_rf_sensor_context",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "1a02a675b9a4e358c9dbc174b8f27f23fb7096b02b274fe5678b24718b39d134",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "inner_2_hgb_sensor",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "6eaacf9d51e3eb81825ad20571c58869203db0c0fabc6ad1b6ec8efe4af52759",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "inner_2_hgb_sensor_context",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "406624f8c4b9ec40a62392e063260033e36b52b5c8bcf7555f2fb2ce2f883795",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "inner_3_rf_sensor",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "ffa2589008d321b1c165689844fc0ee97d67af6ef97ea0ef80e62f9ab0242123",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "inner_3_rf_sensor_context",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "ffa2589008d321b1c165689844fc0ee97d67af6ef97ea0ef80e62f9ab0242123",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "inner_3_hgb_sensor",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "ffa2589008d321b1c165689844fc0ee97d67af6ef97ea0ef80e62f9ab0242123",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "inner_3_hgb_sensor_context",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "ffa2589008d321b1c165689844fc0ee97d67af6ef97ea0ef80e62f9ab0242123",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "outer_full_development_rf_sensor",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "9536b190a49cfb64f01561cabe263206c4dd3dc6b27c3d809b1e9b51356e8a66",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "outer_full_development_rf_sensor_context",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "e73c1ad50bd5cd45325d556d45d4ea168444e0280acf9176861b43f13512cb92",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "outer_full_development_hgb_sensor",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "29a737ed4eaf5c12a394f4c83fe96703eeb1869adbc4fb6629d633d01ac503d9",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "outer_full_development_hgb_sensor_context",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "67e3056993060d1ecbca1ca6bf4e92d0e88490b0c2a88845ffbffe168650d590",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "outer_common_inner_budget_rf_sensor",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "e480b0140a2c492d6ca75fa87d4cda5524cce41881a7cba81619714fc12c6ce6",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "outer_common_inner_budget_rf_sensor_context",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "a4ca794082fe64489f70e816a04e787955d34682d3c3f91611b00e550b6a87fc",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "outer_common_inner_budget_hgb_sensor",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "54d11004c6e58c0ae974acc8152ae83035edbc520212e361e6ef62fb546fbb11",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    },
+    {
+      "fit_id": "outer_common_inner_budget_hgb_sensor_context",
+      "fit_indices_exact": true,
+      "metrics_recomputed_exact": true,
+      "passed": true,
+      "prediction_sha256": "51763af4337f397950f2fb84cf97e14b856273e3d60b95c5865dc1cbb2a98e25",
+      "split_membership_exact": true,
+      "test_indices_exact": true,
+      "y_true_exact": true
+    }
+  ],
+  "fit_count": 24,
+  "hashes": {
+    "fit_driver_sha256": "50816818d4f58e291ab1a41cb96010449f6ab9b7c5f73a64c902faaaeee325e5",
+    "fit_records_sha256": "3fa420dcb2be0dd5a714ea74aae91d1f5ae623a74b8b651bb46fc7db9b469ed7",
+    "prediction_sha256": {
+      "fits/inner_0_hgb_sensor/predictions.npz": "093146a0c022f72bc5e73968160ad36cb95ea75d38e309a76c016bfe127eda02",
+      "fits/inner_0_hgb_sensor_context/predictions.npz": "5e0f69233b4140259fa9bfa6b637ec584fc9478d587728c7b3bd3fd752a0d4db",
+      "fits/inner_0_rf_sensor/predictions.npz": "6d09585e944bb0a241ccc95978efbc74b002a41836ed2449f16176f5787bb39a",
+      "fits/inner_0_rf_sensor_context/predictions.npz": "cd7644121137710cbf52671ae4b3ceaa0f974a6ff0cd55ae11f1c4076bc22460",
+      "fits/inner_1_hgb_sensor/predictions.npz": "ffbeb35ef0eac8e7a45a4c4e335590a78ce660f06b3b52726e864fe1e585137f",
+      "fits/inner_1_hgb_sensor_context/predictions.npz": "1d2dc2472f6787cb6af6c2fda0cd9a12477ea5fa4ef88a22ad2840328a14d8d2",
+      "fits/inner_1_rf_sensor/predictions.npz": "709b22436d4e4f726aaced3753f7d50613e8d5557534b011ad8a36d8fb596a5e",
+      "fits/inner_1_rf_sensor_context/predictions.npz": "5088270e6313ec4eaa506485e8375550c20d8bd6f184057cbff626d32dd10d07",
+      "fits/inner_2_hgb_sensor/predictions.npz": "6eaacf9d51e3eb81825ad20571c58869203db0c0fabc6ad1b6ec8efe4af52759",
+      "fits/inner_2_hgb_sensor_context/predictions.npz": "406624f8c4b9ec40a62392e063260033e36b52b5c8bcf7555f2fb2ce2f883795",
+      "fits/inner_2_rf_sensor/predictions.npz": "79bcd94c0976ff62768daefb2e9c8f8d8fe872770e6315530fb611b813575b67",
+      "fits/inner_2_rf_sensor_context/predictions.npz": "1a02a675b9a4e358c9dbc174b8f27f23fb7096b02b274fe5678b24718b39d134",
+      "fits/inner_3_hgb_sensor/predictions.npz": "ffa2589008d321b1c165689844fc0ee97d67af6ef97ea0ef80e62f9ab0242123",
+      "fits/inner_3_hgb_sensor_context/predictions.npz": "ffa2589008d321b1c165689844fc0ee97d67af6ef97ea0ef80e62f9ab0242123",
+      "fits/inner_3_rf_sensor/predictions.npz": "ffa2589008d321b1c165689844fc0ee97d67af6ef97ea0ef80e62f9ab0242123",
+      "fits/inner_3_rf_sensor_context/predictions.npz": "ffa2589008d321b1c165689844fc0ee97d67af6ef97ea0ef80e62f9ab0242123",
+      "fits/outer_common_inner_budget_hgb_sensor/predictions.npz": "54d11004c6e58c0ae974acc8152ae83035edbc520212e361e6ef62fb546fbb11",
+      "fits/outer_common_inner_budget_hgb_sensor_context/predictions.npz": "51763af4337f397950f2fb84cf97e14b856273e3d60b95c5865dc1cbb2a98e25",
+      "fits/outer_common_inner_budget_rf_sensor/predictions.npz": "e480b0140a2c492d6ca75fa87d4cda5524cce41881a7cba81619714fc12c6ce6",
+      "fits/outer_common_inner_budget_rf_sensor_context/predictions.npz": "a4ca794082fe64489f70e816a04e787955d34682d3c3f91611b00e550b6a87fc",
+      "fits/outer_full_development_hgb_sensor/predictions.npz": "29a737ed4eaf5c12a394f4c83fe96703eeb1869adbc4fb6629d633d01ac503d9",
+      "fits/outer_full_development_hgb_sensor_context/predictions.npz": "67e3056993060d1ecbca1ca6bf4e92d0e88490b0c2a88845ffbffe168650d590",
+      "fits/outer_full_development_rf_sensor/predictions.npz": "9536b190a49cfb64f01561cabe263206c4dd3dc6b27c3d809b1e9b51356e8a66",
+      "fits/outer_full_development_rf_sensor_context/predictions.npz": "e73c1ad50bd5cd45325d556d45d4ea168444e0280acf9176861b43f13512cb92"
+    },
+    "results_sha256": "62314a10be382a88d4c22dbde67e864704f6f20b012ff0c31bb78535257ca99b",
+    "selection_sha256": "a0addca422f6f049ff20fb4a0f0b7be6250c3ba8d7bef03a805643468b488a5d",
+    "verifier_sha256": "059781a08dea077a0633a152f38eb12021bb6675c999acebe4459c7d2d9ee5c0"
+  },
+  "reload_checks": [
+    {
+      "fit_id": "inner_0_rf_sensor",
+      "reload_prediction_exact": true
+    },
+    {
+      "fit_id": "outer_full_development_hgb_sensor",
+      "reload_prediction_exact": true
+    }
+  ],
+  "selection_before_outer_predictions_and_after_inner": true,
+  "selection_recomputed": {
+    "date_buffered_two_fold": {
+      "scores": {
+        "hgb_sensor": 0.5783014987604237,
+        "hgb_sensor_context": 0.5214869430021978,
+        "rf_sensor": 0.5681824785311227,
+        "rf_sensor_context": 0.5432689597283906
+      },
+      "selected": "hgb_sensor"
+    },
+    "row_random_two_fold": {
+      "scores": {
+        "hgb_sensor": 0.855363121763218,
+        "hgb_sensor_context": 0.9598389437707757,
+        "rf_sensor": 0.8320421363164662,
+        "rf_sensor_context": 0.9330805716782126
+      },
+      "selected": "hgb_sensor_context"
+    }
+  },
+  "started_utc": "2026-11-03T04:46:24.027716+00:00",
+  "status": "passed",
+  "public_view_notice": "For result inspection only. Does not replace original authority inputs and does not claim one-click reproduction.",
+  "originalauthoritySHA256": "c025912aa262dec34861a62d0be38136e9454433f04c5f431815899c1438a6fb",
+  "original_authority_relative_path": "run_kit_v1/kit_run_verification.json"
+}

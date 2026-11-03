@@ -1,0 +1,21 @@
+\begin{table}[p]
+\centering
+\begin{singlespace}
+\small
+\caption{RF feature ablations: five-fold mean macro-F1, seed 42. Sensitivity denotes the blank-as-normal policy.}\label{tab:ablations}
+\begin{tabularx}{\linewidth}{XYYYYYY}
+\toprule
+\makecell[l]{Feature\\ group} & \makecell[r]{Primary\\ random} & \makecell[r]{Primary\\ temporal} & \makecell[r]{Primary\\ recording} & \makecell[r]{Sensitivity\\ random} & \makecell[r]{Sensitivity\\ temporal} & \makecell[r]{Sensitivity\\ recording} \\
+\midrule
+GPS values & 0.9985 & 0.8672 & 0.6984 & 0.9546 & 0.6180 & 0.3508 \\
+Weather & 0.5465 & 0.5138 & 0.2958 & 0.4082 & 0.3586 & 0.2279 \\
+GIS elevation & 0.6188 & 0.4354 & 0.3037 & 0.5533 & 0.4217 & 0.3888 \\
+Numeric minus context & 0.9362 & 0.6739 & 0.2905 & 0.7792 & 0.4431 & 0.3362 \\
+IMU + GPS & 0.9740 & 0.7953 & 0.7113 & 0.8398 & 0.5404 & 0.3929 \\
+IMU + weather & 0.7814 & 0.6120 & 0.3059 & 0.5993 & 0.4155 & 0.3149 \\
+GPS availability & 0.5233 & 0.5566 & 0.5431 & 0.2228 & 0.2310 & 0.2315 \\
+Numeric + availability & 0.9926 & 0.8003 & 0.6797 & 0.9175 & 0.5683 & 0.3885 \\
+\bottomrule
+\end{tabularx}
+\end{singlespace}
+\end{table}

@@ -1,0 +1,180 @@
+{
+  "total_annotation_intervals": 60,
+  "annotation_intervals_by_trip": {
+    "1": 11,
+    "2": 7,
+    "3": 2,
+    "4": 11,
+    "5": 7,
+    "6": 2,
+    "7": 11,
+    "8": 7,
+    "9": 2
+  },
+  "positive_alarm_clusters": {
+    "vehicle/vehicle_1/row_random": {
+      "1": 16,
+      "2": 16,
+      "3": 3
+    },
+    "vehicle/vehicle_1/leave_one_trip": {
+      "1": 16,
+      "2": 16,
+      "3": 3
+    },
+    "vehicle/vehicle_1/matched_factor": {
+      "1": 16,
+      "2": 16,
+      "3": 3
+    },
+    "vehicle/vehicle_2/row_random": {
+      "4": 26,
+      "5": 14,
+      "6": 3
+    },
+    "vehicle/vehicle_2/leave_one_trip": {
+      "4": 26,
+      "5": 14,
+      "6": 3
+    },
+    "vehicle/vehicle_2/matched_factor": {
+      "4": 26,
+      "5": 14,
+      "6": 3
+    },
+    "vehicle/vehicle_3/row_random": {
+      "7": 38,
+      "8": 16,
+      "9": 12
+    },
+    "vehicle/vehicle_3/leave_one_trip": {
+      "7": 38,
+      "8": 16,
+      "9": 12
+    },
+    "vehicle/vehicle_3/matched_factor": {
+      "7": 38,
+      "8": 16,
+      "9": 12
+    },
+    "scenario/scenario_1/row_random": {
+      "1": 6,
+      "4": 13,
+      "7": 13
+    },
+    "scenario/scenario_1/leave_one_trip": {
+      "1": 6,
+      "4": 13,
+      "7": 13
+    },
+    "scenario/scenario_1/matched_factor": {
+      "1": 14,
+      "4": 23,
+      "7": 23
+    },
+    "scenario/scenario_2/row_random": {
+      "2": 6,
+      "5": 9,
+      "8": 12
+    },
+    "scenario/scenario_2/leave_one_trip": {
+      "2": 6,
+      "5": 9,
+      "8": 12
+    },
+    "scenario/scenario_2/matched_factor": {
+      "2": 16,
+      "5": 16,
+      "8": 16
+    },
+    "scenario/scenario_3/row_random": {
+      "3": 5,
+      "6": 2,
+      "9": 4
+    },
+    "scenario/scenario_3/leave_one_trip": {
+      "3": 5,
+      "6": 2,
+      "9": 4
+    },
+    "scenario/scenario_3/matched_factor": {
+      "3": 3,
+      "6": 2,
+      "9": 8
+    }
+  },
+  "zero_tolerance_matched_counts": {
+    "vehicle/vehicle_1/row_random/1": 10,
+    "vehicle/vehicle_1/row_random/2": 7,
+    "vehicle/vehicle_1/row_random/3": 2,
+    "vehicle/vehicle_1/leave_one_trip/1": 10,
+    "vehicle/vehicle_1/leave_one_trip/2": 7,
+    "vehicle/vehicle_1/leave_one_trip/3": 2,
+    "vehicle/vehicle_1/matched_factor/1": 10,
+    "vehicle/vehicle_1/matched_factor/2": 7,
+    "vehicle/vehicle_1/matched_factor/3": 2,
+    "vehicle/vehicle_2/row_random/4": 11,
+    "vehicle/vehicle_2/row_random/5": 7,
+    "vehicle/vehicle_2/row_random/6": 2,
+    "vehicle/vehicle_2/leave_one_trip/4": 11,
+    "vehicle/vehicle_2/leave_one_trip/5": 7,
+    "vehicle/vehicle_2/leave_one_trip/6": 2,
+    "vehicle/vehicle_2/matched_factor/4": 11,
+    "vehicle/vehicle_2/matched_factor/5": 7,
+    "vehicle/vehicle_2/matched_factor/6": 2,
+    "vehicle/vehicle_3/row_random/7": 11,
+    "vehicle/vehicle_3/row_random/8": 7,
+    "vehicle/vehicle_3/row_random/9": 2,
+    "vehicle/vehicle_3/leave_one_trip/7": 11,
+    "vehicle/vehicle_3/leave_one_trip/8": 7,
+    "vehicle/vehicle_3/leave_one_trip/9": 2,
+    "vehicle/vehicle_3/matched_factor/7": 11,
+    "vehicle/vehicle_3/matched_factor/8": 7,
+    "vehicle/vehicle_3/matched_factor/9": 2,
+    "scenario/scenario_1/row_random/1": 4,
+    "scenario/scenario_1/row_random/4": 6,
+    "scenario/scenario_1/row_random/7": 5,
+    "scenario/scenario_1/leave_one_trip/1": 4,
+    "scenario/scenario_1/leave_one_trip/4": 6,
+    "scenario/scenario_1/leave_one_trip/7": 5,
+    "scenario/scenario_1/matched_factor/1": 7,
+    "scenario/scenario_1/matched_factor/4": 9,
+    "scenario/scenario_1/matched_factor/7": 9,
+    "scenario/scenario_2/row_random/2": 2,
+    "scenario/scenario_2/row_random/5": 5,
+    "scenario/scenario_2/row_random/8": 6,
+    "scenario/scenario_2/leave_one_trip/2": 2,
+    "scenario/scenario_2/leave_one_trip/5": 5,
+    "scenario/scenario_2/leave_one_trip/8": 6,
+    "scenario/scenario_2/matched_factor/2": 7,
+    "scenario/scenario_2/matched_factor/5": 7,
+    "scenario/scenario_2/matched_factor/8": 7,
+    "scenario/scenario_3/row_random/3": 2,
+    "scenario/scenario_3/row_random/6": 2,
+    "scenario/scenario_3/row_random/9": 2,
+    "scenario/scenario_3/leave_one_trip/3": 2,
+    "scenario/scenario_3/leave_one_trip/6": 2,
+    "scenario/scenario_3/leave_one_trip/9": 2,
+    "scenario/scenario_3/matched_factor/3": 2,
+    "scenario/scenario_3/matched_factor/6": 2,
+    "scenario/scenario_3/matched_factor/9": 2
+  },
+  "nonbump_exposure_hours_by_trip": {
+    "1": 0.39019722222222225,
+    "2": 0.34047222222222223,
+    "3": 0.29192222222222225,
+    "4": 0.3590055555555556,
+    "5": 0.36620277777777777,
+    "6": 0.2654722222222222,
+    "7": 0.34875,
+    "8": 0.33795555555555556,
+    "9": 0.25224444444444444
+  },
+  "nonbump_exposure_hours_total": 2.9522222222222223,
+  "historical_v1_fields_unchanged": true,
+  "changed_historical_fields": [],
+  "all_raw_anchor_labels_exact": true,
+  "public_view_notice": "For result inspection only. Does not replace original authority inputs and does not claim one-click reproduction.",
+  "originalauthoritySHA256": "b625a4996aceda72c2da8a93da4eb7136a3800752ff3e522493b7a10da1767e6",
+  "original_authority_relative_path": "verification.json"
+}

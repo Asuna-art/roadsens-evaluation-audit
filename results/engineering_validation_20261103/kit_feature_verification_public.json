@@ -1,0 +1,211 @@
+{
+  "rows": 5226,
+  "all_anchor_and_window_checks": true,
+  "random_recomputation_samples": [
+    {
+      "date": "2016-05-13",
+      "class": 0,
+      "feature_row": 0,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-05-13",
+      "class": 0,
+      "feature_row": 627,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-05-13",
+      "class": 0,
+      "feature_row": 1347,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-05-13",
+      "class": 0,
+      "feature_row": 1974,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-05-13",
+      "class": 0,
+      "feature_row": 2602,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-05-13",
+      "class": 1,
+      "feature_row": 1194,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-05-13",
+      "class": 1,
+      "feature_row": 1231,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-05-13",
+      "class": 1,
+      "feature_row": 1268,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-05-13",
+      "class": 1,
+      "feature_row": 2622,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-05-13",
+      "class": 1,
+      "feature_row": 2659,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-06-20",
+      "class": 0,
+      "feature_row": 2660,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-06-20",
+      "class": 0,
+      "feature_row": 3063,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-06-20",
+      "class": 0,
+      "feature_row": 3466,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-06-20",
+      "class": 0,
+      "feature_row": 3877,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-06-20",
+      "class": 0,
+      "feature_row": 4280,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-06-20",
+      "class": 1,
+      "feature_row": 3660,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-06-20",
+      "class": 1,
+      "feature_row": 4281,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-06-20",
+      "class": 1,
+      "feature_row": 4290,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-06-20",
+      "class": 1,
+      "feature_row": 4299,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-06-20",
+      "class": 1,
+      "feature_row": 4308,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-07-05",
+      "class": 0,
+      "feature_row": 4309,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-07-05",
+      "class": 0,
+      "feature_row": 4517,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-07-05",
+      "class": 0,
+      "feature_row": 4726,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-07-05",
+      "class": 0,
+      "feature_row": 4934,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-07-05",
+      "class": 0,
+      "feature_row": 5143,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-07-05",
+      "class": 1,
+      "feature_row": 5144,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-07-05",
+      "class": 1,
+      "feature_row": 5164,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-07-05",
+      "class": 1,
+      "feature_row": 5184,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-07-05",
+      "class": 1,
+      "feature_row": 5204,
+      "max_abs_error": 0.0
+    },
+    {
+      "date": "2016-07-05",
+      "class": 1,
+      "feature_row": 5225,
+      "max_abs_error": 0.0
+    }
+  ],
+  "date_class_counts": {
+    "2016-05-13": {
+      "0": 2511,
+      "1": 149
+    },
+    "2016-06-20": {
+      "0": 1613,
+      "1": 36
+    },
+    "2016-07-05": {
+      "0": 835,
+      "1": 82
+    }
+  },
+  "sha256_checks": {
+    "raw_arrays_manifest": true,
+    "group_audit_manifest": true,
+    "protocol_archive_equals_group_audit": true
+  },
+  "protocol_archive_sha256": "f7f7cc6b017977d2019f1eaaf9e90d6ad6132506965bafba03c12e6b053845d3",
+  "raw_archive_hash_note": "verified audit archive hash equals frozen protocol archive hash",
+  "scope": "independent data integrity and sampled feature recomputation; no split, fit, or model",
+  "public_view_notice": "For result inspection only. Does not replace original authority inputs and does not claim one-click reproduction.",
+  "originalauthoritySHA256": "d377451ecc9a9caaa2f356cd3a047ff03247f41f96f90fe9a91ae1e576e80b2a",
+  "original_authority_relative_path": "kit_feature_verification.json"
+}

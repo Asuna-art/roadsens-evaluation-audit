@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "scope": "saved split membership and spatial grouping/buffer audit only; model outcomes not read",
+  "split_maps_equal_old_incomplete": {
+    "outer_train": true,
+    "outer_test": true,
+    "inner_0_train": true,
+    "inner_1_train": true,
+    "inner_2_train": true,
+    "inner_3_train": true,
+    "inner_0_fit": true,
+    "inner_1_fit": true,
+    "inner_2_fit": true,
+    "inner_3_fit": true,
+    "inner_0_validation": true,
+    "inner_1_validation": true,
+    "inner_2_validation": true,
+    "inner_3_validation": true
+  },
+  "outer_train_rows": 4289,
+  "outer_test_rows": 917,
+  "outer_test_exactly_day2": true,
+  "outer_train_only_days_0_1": true,
+  "outer_train_min_full_window_to_test_anchor_m": 922.4266952096928,
+  "outer_invalid_coordinate_windows": 0,
+  "inner_common_fit_class_budget": [
+    1613,
+    17
+  ],
+  "inner_splits": [
+    {
+      "split": 0,
+      "selector": "row_random",
+      "train_rows": 2144,
+      "validation_rows": 2145,
+      "fit_class_counts": [
+        1613,
+        17
+      ],
+      "train_validation_file_disjoint": false,
+      "train_validation_date_disjoint": false,
+      "min_full_window_to_test_anchor_m": null
+    },
+    {
+      "split": 1,
+      "selector": "row_random",
+      "train_rows": 2145,
+      "validation_rows": 2144,
+      "fit_class_counts": [
+        1613,
+        17
+      ],
+      "train_validation_file_disjoint": false,
+      "train_validation_date_disjoint": false,
+      "min_full_window_to_test_anchor_m": null
+    },
+    {
+      "split": 2,
+      "selector": "date_buffered",
+      "train_rows": 1630,
+      "validation_rows": 2659,
+      "fit_class_counts": [
+        1613,
+        17
+      ],
+      "train_validation_file_disjoint": true,
+      "train_validation_date_disjoint": true,
+      "min_full_window_to_test_anchor_m": 2432.5558817061487
+    },
+    {
+      "split": 3,
+      "selector": "date_buffered",
+      "train_rows": 2659,
+      "validation_rows": 1630,
+      "fit_class_counts": [
+        1613,
+        17
+      ],
+      "train_validation_file_disjoint": true,
+      "train_validation_date_disjoint": true,
+      "min_full_window_to_test_anchor_m": 2432.5558817061487
+    }
+  ],
+  "validation_coverage": {
+    "row_random": {
+      "validation_rows_total": 4289,
+      "unique_rows": 4289,
+      "equals_outer_train": true
+    },
+    "date_buffered": {
+      "validation_rows_total": 4289,
+      "unique_rows": 4289,
+      "equals_outer_train": true
+    }
+  },
+  "hashes": {
+    "features_matches_preflight": true,
+    "protocol_matches_preflight": true
+  },
+  "raw_window_overlap_policy": "row-random selector permits overlap by design; no overlap prohibition asserted",
+  "previous_wrong_reference": true,
+  "correction_note": "Previous report computed inner buffer distances against outer-test anchors. Corrected to each split's validation anchors; split arrays were not changed.",
+  "protocol_archive_sha256": "f7f7cc6b017977d2019f1eaaf9e90d6ad6132506965bafba03c12e6b053845d3",
+  "public_view_notice": "For result inspection only. Does not replace original authority inputs and does not claim one-click reproduction.",
+  "originalauthoritySHA256": "8916bf6823048c7753ae043da9f863ccd1d8fe4fbc840360de38d2d7a064907f",
+  "original_authority_relative_path": "kit_split_verification.json"
+}

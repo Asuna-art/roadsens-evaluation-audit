@@ -1,0 +1,21 @@
+\begin{table}[p]
+\centering
+\begin{singlespace}
+\small
+\caption{Temporal-context comparison: five-fold mean macro-F1 with identical fit/test anchors. The one-second representation uses current and past input.}\label{tab:temporal}
+\begin{tabularx}{\linewidth}{XYYYY}
+\toprule
+Policy & Split & Model & \makecell[r]{Instantaneous\\ IMU12} & \makecell[r]{One-second\\ statistics60} \\
+\midrule
+Primary & Recording & RF100 & 0.3410 & 0.4072 \\
+Primary & Recording & HistGB & 0.3379 & 0.4173 \\
+Primary & Time-block & RF100 & 0.4454 & 0.5929 \\
+Primary & Time-block & HistGB & 0.4419 & 0.6015 \\
+Blank-as-normal & Recording & RF100 & 0.3448 & 0.4100 \\
+Blank-as-normal & Recording & HistGB & 0.3392 & 0.4023 \\
+Blank-as-normal & Time-block & RF100 & 0.3591 & 0.4256 \\
+Blank-as-normal & Time-block & HistGB & 0.3581 & 0.4294 \\
+\bottomrule
+\end{tabularx}
+\end{singlespace}
+\end{table}

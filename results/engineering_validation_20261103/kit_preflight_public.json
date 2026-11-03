@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "features_sha256": "972804e2ce9115faf2459240a582fea66e61e3a6bcd6158d8bc11193efacb671",
+  "manifest_sha256": "8796d0db86c83b09141cfb1776d1268fc20f0170044269c94ac8ad91d3da23a8",
+  "raw_sha256": "f2de91874759e1ba7e804cb0d5ff0422e877edea5755001d0018451b2a895d56",
+  "protocol_sha256": "2782b0f43fd442a408f9acb8e6521cf7e64432abec45172a800c3983bb9d9105",
+  "script_sha256": "dbbf0cf43aabd9b775b17ff582819347ebe4a944186687ba54c8e789c511a9a9",
+  "split_map_sha256": "e991e7e52d652974e3d7e2524b509a71a428d0e8790aa2f33a19b421d6654e06",
+  "train_rows": 4289,
+  "test_rows": 917,
+  "outer_train_class_counts": [
+    4123,
+    166
+  ],
+  "outer_test_class_counts": [
+    835,
+    82
+  ],
+  "outer_buffer_min_m": 922.4266952096928,
+  "common_inner_per_class_budget": [
+    1613,
+    17
+  ],
+  "development_rows_before_spatial_purge": 4309,
+  "inner_splits": [
+    {
+      "position": 0,
+      "scheme": "row_random_two_fold",
+      "train_rows": 2144,
+      "fit_rows": 1630,
+      "fit_class_counts": [
+        1613,
+        17
+      ],
+      "validation_rows": 2145,
+      "buffer_min_m": null
+    },
+    {
+      "position": 1,
+      "scheme": "row_random_two_fold",
+      "train_rows": 2145,
+      "fit_rows": 1630,
+      "fit_class_counts": [
+        1613,
+        17
+      ],
+      "validation_rows": 2144,
+      "buffer_min_m": null
+    },
+    {
+      "position": 2,
+      "scheme": "date_buffered_two_fold",
+      "train_rows": 1630,
+      "fit_rows": 1630,
+      "fit_class_counts": [
+        1613,
+        17
+      ],
+      "validation_rows": 2659,
+      "buffer_min_m": 2432.5558817061487
+    },
+    {
+      "position": 3,
+      "scheme": "date_buffered_two_fold",
+      "train_rows": 2659,
+      "fit_rows": 1630,
+      "fit_class_counts": [
+        1613,
+        17
+      ],
+      "validation_rows": 1630,
+      "buffer_min_m": 2432.5558817061487
+    }
+  ],
+  "originalauthoritySHA256": "7b40eae5425cfa9acf8a82075242bd9d4f85172791dda4935fc28a31144c9915",
+  "public_view_notice": "For result inspection only; split memberships are intentionally omitted. Does not replace authority inputs or claim one-click reproduction.",
+  "original_authority_relative_path": "run_kit_v1/preflight.json"
+}

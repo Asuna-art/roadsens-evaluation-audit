@@ -1,0 +1,19 @@
+\begin{table}[p]
+\centering
+\begin{singlespace}
+\small
+\caption{Primary PVS selector outcomes: three-domain means per axis. MAE compares each selected candidate's saved inner estimate with its own outer score; signed bias is outer minus inner F1.}\label{tab:pvs-selectors}
+\begin{tabularx}{\linewidth}{XYYYYY}
+\toprule
+Axis & Selector & \makecell[r]{Mean\\ estimate} & \makecell[r]{Mean\\ outer\\ F1} & MAE & \makecell[r]{Outer-minus-\\inner bias} \\
+\midrule
+Scenario & Trip & 0.8795 & 0.7640 & 0.1390 & -0.1155 \\
+Scenario & Matched & 0.7928 & 0.8359 & 0.1357 & 0.0431 \\
+Scenario & Random & 0.9336 & 0.7640 & 0.1696 & -0.1696 \\
+Vehicle & Trip & 0.8598 & 0.8679 & 0.0304 & 0.0081 \\
+Vehicle & Matched & 0.8318 & 0.8679 & 0.0445 & 0.0361 \\
+Vehicle & Random & 0.9210 & 0.8679 & 0.0530 & -0.0530 \\
+\bottomrule
+\end{tabularx}
+\end{singlespace}
+\end{table}

@@ -1,0 +1,27 @@
+\begin{table}[p]
+\centering
+\begin{singlespace}
+\small
+\caption{Post hoc PVS common-budget diagnostic: three-domain means. The common-budget and historical-full-budget outer targets describe different refitted systems.}\label{tab:budget}
+\begin{tabularx}{\linewidth}{XXYYY}
+\toprule
+Axis & Selector & Inner F1 & Outer F1 & MAE \\
+\midrule
+\multicolumn{5}{l}{\textit{Common budget outer target}} \\
+Vehicle & Random-window & 0.8581 & 0.8468 & 0.0140 \\
+Vehicle & Leave-one-trip & 0.8402 & 0.8468 & 0.0217 \\
+Vehicle & Matched & 0.8289 & 0.8526 & 0.0267 \\
+Scenario & Random-window & 0.8699 & 0.7083 & 0.1627 \\
+Scenario & Leave-one-trip & 0.8389 & 0.7141 & 0.1428 \\
+Scenario & Matched & 0.7740 & 0.6951 & 0.1724 \\
+\multicolumn{5}{l}{\textit{Historical full budget outer target}} \\
+Vehicle & Random-window & 0.8581 & 0.8485 & 0.0400 \\
+Vehicle & Leave-one-trip & 0.8402 & 0.8485 & 0.0477 \\
+Vehicle & Matched & 0.8289 & 0.8522 & 0.0390 \\
+Scenario & Random-window & 0.8699 & 0.7986 & 0.0941 \\
+Scenario & Leave-one-trip & 0.8389 & 0.8064 & 0.0768 \\
+Scenario & Matched & 0.7740 & 0.8168 & 0.1462 \\
+\bottomrule
+\end{tabularx}
+\end{singlespace}
+\end{table}

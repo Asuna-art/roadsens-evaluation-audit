@@ -1,50 +1,50 @@
-# RoadSens evaluation audit
+# Road-sensing evaluation audit
 
-Research artifacts for **Model selection and performance estimation can diverge: a RoadSens-4M audit and a nine-acquisition PVS case study**.
+Research artifacts for **Evaluating inertial road-surface classifiers for pavement screening: acquisition groups, model selection and performance estimation**.
 
-## Scientific status
+## Current evidence
 
-- Working manuscript v14 (3 November 2026), with source TeX and actually compiled PDFs: [main](manuscript/main.pdf), [supplement](manuscript/supplementary.pdf).
-- PVS has **nine acquisitions**. The original two-axis estimation-error criterion **failed** and remains reported. Fits, seeds and windows are not additional independent acquisitions.
-- Mexico/Puebla is a publisher-released subset with **two documentation-derived route families**. Both selectors chose the same RF. Route provenance/population mapping remains limited.
-- Indonesia original-label repair and KIT acquisition are **data preparation only**, not completed predictive replications. No unvalidated extra acquisition count is claimed.
-- This repository is an empirical evaluation audit, not a validated universal improvement algorithm. Author-contribution, funding and competing-interest declarations in the working manuscript remain to be completed before journal submission.
+The author-review manuscript is v18 (3 November 2026): [compiled main article](manuscript/main.pdf), [compiled supplement](manuscript/supplementary.pdf), and editable TeX in `manuscript/`. Anonymous review versions and separate author information are also supplied.
 
-## What is included
+- RoadSens is a version-specific audit of 101 source CSVs. Source files are not assumed to be independent roads.
+- PVS remains **nine acquisitions**, with inseparable vehicle/driver identities. Its original two-axis estimation-error criterion **failed** and remains reported. Windows, seeds, annotation intervals and fits do not increase this count.
+- Mexico/Puebla remains **two documentation-derived route families**; both selectors choose the same RF.
+- Karlsruhe (KIT) is now a **completed independent-source predictive test**. A verified public archive yields three recoverable GPS-date groups. The first two supply development data; 5 July 2016 is the frozen final test. Full-window spatial purging removes training observations within 100 m of eligible test anchors; the actual retained minimum is 922.43 m. The release uses one vehicle. Fifty-three IMU workbooks are not fifty-three independent drives or roads.
+- Indonesia's expanded label-version conflict remains unresolved and is excluded from reliable predictive validation.
 
-`research/` preserves the historical Python module topology and protocols. `results/` contains compact score tables, selections, source hashes and explicitly labelled public split/result views. `manuscript/` includes TeX, figures and the compiled PDFs. See `SOURCE_INVENTORY.json` for copied-file fingerprints and `RELEASE_AUDIT.json` for release checks.
+## New independent-source and engineering outcomes
 
-## Evaluation architecture and visual explanations
+The Karlsruhe final test has 917 windows (835 good, 82 pothole). Inner fit budgets are matched at 1,613 good and 17 pothole windows across validation schemes and fixed candidates. Buffered-date selection chooses inertial HGB; random-window selection chooses HGB with context. Full-development final macro-F1 is 0.7855 versus 0.6782, with absolute estimation errors 0.2072 versus 0.2817. Under the common-budget outer target, scores are 0.7595 versus 0.6699 and errors 0.1812 versus 0.2899. This is one final date, not a replicated multi-date mean.
 
-The main article includes an editable vector architecture of source auditing, feature representations, outer/inner validation, fixed candidates, selection/refitting, and distinct classification-performance and estimation-error endpoints. RoadSens, PVS and Mexico remain separate tasks. The PVS workflow and endpoint plots retain the failed primary criterion and contrary sensitivity outcomes. All 39 original numerical table blocks are unchanged. The architecture uses embedded Times New Roman regular/bold, centered symmetric output connectors, and reduced in-figure explanatory text; details remain in the caption. Figure 1 uses the same Times typography, equal-width modules, orthogonal connectors, and a distinct saved-inner-estimate path to the estimation endpoint. Its longer explanatory notes remain in the caption.
+Both selected systems detect **7/12 annotated pothole intervals**. The five intervals in workbook 50 are missed; hits occur in workbooks 51/52, which share a geographic neighbourhood. Zero non-event alarms are observed over only **3.47 minutes of explicit good-labelled exposure**, concentrated in one workbook. Unknown-labelled travel is outside the binary task. The event counts do not identify unique physical potholes.
 
-- [Standalone framework architecture](manuscript/framework_architecture.pdf)
-- [Editable architecture SVG](manuscript/figures/framework_architecture_v13.svg)
-- [Architecture source and compilation guide](manuscript/ARCHITECTURE_GUIDE_v13.txt)
-- [PVS grouping and nested-evaluation diagram](manuscript/pvs_evaluation_workflow.pdf)
-- [Editable PVS workflow SVG](manuscript/figures/pvs_evaluation_workflow_v14.svg)
-- [PVS workflow source and compilation guide](manuscript/PVS_FIGURE_GUIDE_v14.txt)
-- Diagram source: `manuscript/visual_source/draw_framework_v13.py`.
-- PVS endpoint plotting source and checked aggregate values: `manuscript/visual_source/` and `manuscript/figures/pvs_endpoints_v10.json`.
+The PVS scenario diagnostic changes from 34/60 to 52/60 detected annotation intervals while non-bump alarms rise from 7.45 to 17.28 per assessed non-bump hour. Event-associated duplicate notifications are reported separately. The frozen original predictions and nine acquisitions are reused. The post-hoc reporting amendment and original unmatched-notification results are preserved.
 
-## Reproduction scope
+These findings separate selected-model classification, score-estimation accuracy and event-screening behaviour. They do not establish a universal improvement rule or a field-ready detector.
 
-The exact historical environment was Windows, Python3.13.12, scikit-learn1.9.0, NumPy2.5.2, pandas3.0.5, SciPy1.18.0 and joblib1.5.3. Read `research/paper_expansion/runtime_lock_v1.md` and the relevant protocol before running anything. Historical scripts retain their original bytes, fixed interpreter paths and hash guards. This publication does **not** claim a tested one-command portable rerun. Do not regenerate frozen split maps from seeds or overwrite existing runs.
+## Inspecting and reproducing evidence
 
-Obtain source datasets from their authors and verify the recorded hashes. Local caches, raw feature matrices and full execution authorities are not published here. Public views omit direct signal/label arrays and coordinates; their original-authority hash is recorded. They are not substitutes for absent inputs in hash-guarded historical replay commands. Results can be inspected directly in the manuscript and compact tables without fitting models.
+- [New protocols and exact executed source](research/paper_expansion/engineering_validation_20261103/)
+- [Public compact outcomes, provenance and independent checks](results/engineering_validation_20261103/)
+- [Public evidence manifest](results/engineering_validation_20261103/PUBLIC_EVIDENCE_RELEASE.json)
+- [New-source replay notes](research/paper_expansion/engineering_validation_20261103/REPLAY_NOTES.txt)
 
-To compile the manuscript, first run `tectonic framework_architecture.tex`, then `tectonic main.tex` and `tectonic supplementary.tex` from `manuscript/` with the documented fonts available. These are compilation instructions; a new remote-machine build has not been tested.
+The original environment is Windows, Python 3.13.12, scikit-learn 1.9.0, NumPy 2.5.2, pandas 3.0.5, SciPy 1.18.0 and joblib 1.5.3. The research interpreter is `C:\Users\Administrator\miniconda3\python.exe`. Historical sources retain their actual executed bytes, absolute workspace paths and hash guards. No tested one-command portable replay is claimed. Obtain source inputs separately, verify fingerprints, preserve exact memberships and never overwrite frozen runs or reconstruct historical split maps from seeds alone.
+
+Public JSON views retain outcome counts and source fingerprints while omitting full inputs, arrays, models and coordinates. Each `originalauthoritySHA256` identifies the complete local JSON authority before those omissions. Public views are for result inspection and are not substitutes for hash-guarded execution authorities.
+
+Compile `main.tex` and `supplementary.tex` from `manuscript/` with Tectonic and Times New Roman available. Actually compiled author-inclusive and anonymous PDFs are included. Figure source and vector artwork are preserved. Historical numerical values and contrary findings remain; new source/event tables extend them.
 
 ## Source data and reuse
 
-- RoadSens: https://doi.org/10.6084/m9.figshare.30341143.v3
-- PVS: https://www.kaggle.com/datasets/jefmenegazzo/pvs-passive-vehicular-sensors-datasets (source CC BY-NC-ND4.0)
-- Mexico/Puebla: https://doi.org/10.3390/app151810203 and https://doi.org/10.3390/vehicles8010004
-- Indonesia: https://github.com/s-budidarma/dataset-smarphone-sensor-for-road-surface-monitoring
-- KIT: https://doi.org/10.5281/zenodo.1461243
+- [RoadSens v3](https://doi.org/10.6084/m9.figshare.30341143.v3)
+- [PVS](https://www.kaggle.com/datasets/jefmenegazzo/pvs-passive-vehicular-sensors-datasets), source CC BY-NC-ND 4.0
+- [Mexico/Puebla source article](https://doi.org/10.3390/app151810203) and [later source documentation](https://doi.org/10.3390/vehicles8010004)
+- [Karlsruhe data](https://doi.org/10.5281/zenodo.1461243), source CC BY 4.0; [original methods](https://doi.org/10.1155/2018/8647607)
+- [Indonesia source](https://github.com/s-budidarma/dataset-smarphone-sensor-for-road-surface-monitoring)
 
-Raw third-party data, fitted models, feature caches, credentials, video and download archives are excluded. No new license is granted to third-party source data. No permissive code license is assigned on behalf of the authors by this upload; contact the repository owner about reuse.
+Raw third-party signals, coordinates, video, download archives, full labels/predictions and fitted models are excluded. No new license is granted to source data, and no permissive code license is assigned on the authors' behalf. Funding, disclosure and contribution statements reflect author-supplied information. Final author consent and live journal submission checks remain with the authors; no journal submission is performed by this release.
 
 ## 中文说明
 
-本仓库发布关键代码、冻结方案、汇总结果与可编辑稿件。原双轴失败、小样本与来源限制均保留。新增数据准备不算已完成验证。公开视图省略原始信号、直接标签/预测数组和坐标，不替代原始冻结实验输入；完整复跑需要合法取得来源数据及对应输入。
+v18 增加了真正来自另一公开来源的 Karlsruhe 验证，按 GPS 日期留出完整最终测试组，并对重复地点做空间剔除；同时补充了事件漏检、非事件报警、重复通知及其暴露时长。PVS 仍是九次采集，原双轴失败保留。KIT 只使用单车、一个最终测试日期，事件为标注经过而非已确认独立物理坑洞；零误报只对应 3.47 分钟明确良好路面。原始数据、模型和完整数组不公开。当前稿定位为有工程指标的评估审计，不能据此声称检测算法已成熟。

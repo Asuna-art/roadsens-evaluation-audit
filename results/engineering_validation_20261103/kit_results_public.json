@@ -1,0 +1,152 @@
+{
+  "completed_utc": "2026-11-03T04:44:07.884276+00:00",
+  "expected_fit_count": 24,
+  "fit_count": 24,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
+  "selectors": {
+    "date_buffered_two_fold": {
+      "candidate_id": "hgb_sensor",
+      "targets": {
+        "common_inner_budget": {
+          "absolute_error": 0.18121781754569588,
+          "candidate_id": "hgb_sensor",
+          "inner_macro_f1": 0.5783014987604237,
+          "outer_test_metrics": {
+            "accuracy": 0.9443838604143948,
+            "balanced_accuracy": 0.6890243902439024,
+            "class_labels": [
+              0,
+              1
+            ],
+            "class_recalls": [
+              1.0,
+              0.3780487804878049
+            ],
+            "confusion_matrix_rows_true_columns_pred": [
+              [
+                835,
+                0
+              ],
+              [
+                51,
+                31
+              ]
+            ],
+            "macro_f1": 0.7595193163061196,
+            "macro_precision": 0.9712189616252822,
+            "macro_recall": 0.6890243902439024
+          }
+        },
+        "full_development": {
+          "absolute_error": 0.20715713760095,
+          "candidate_id": "hgb_sensor",
+          "inner_macro_f1": 0.5783014987604237,
+          "outer_test_metrics": {
+            "accuracy": 0.9487459105779716,
+            "balanced_accuracy": 0.7134146341463414,
+            "class_labels": [
+              0,
+              1
+            ],
+            "class_recalls": [
+              1.0,
+              0.4268292682926829
+            ],
+            "confusion_matrix_rows_true_columns_pred": [
+              [
+                835,
+                0
+              ],
+              [
+                47,
+                35
+              ]
+            ],
+            "macro_f1": 0.7854586363613737,
+            "macro_precision": 0.9733560090702948,
+            "macro_recall": 0.7134146341463414
+          }
+        }
+      }
+    },
+    "row_random_two_fold": {
+      "candidate_id": "hgb_sensor_context",
+      "targets": {
+        "common_inner_budget": {
+          "absolute_error": 0.28989670430736025,
+          "candidate_id": "hgb_sensor_context",
+          "inner_macro_f1": 0.9598389437707757,
+          "outer_test_metrics": {
+            "accuracy": 0.9312977099236641,
+            "balanced_accuracy": 0.6158536585365854,
+            "class_labels": [
+              0,
+              1
+            ],
+            "class_recalls": [
+              1.0,
+              0.23170731707317074
+            ],
+            "confusion_matrix_rows_true_columns_pred": [
+              [
+                835,
+                0
+              ],
+              [
+                63,
+                19
+              ]
+            ],
+            "macro_f1": 0.6699422394634155,
+            "macro_precision": 0.9649220489977728,
+            "macro_recall": 0.6158536585365854
+          }
+        },
+        "full_development": {
+          "absolute_error": 0.2816588957700512,
+          "candidate_id": "hgb_sensor_context",
+          "inner_macro_f1": 0.9598389437707757,
+          "outer_test_metrics": {
+            "accuracy": 0.9323882224645583,
+            "balanced_accuracy": 0.6219512195121951,
+            "class_labels": [
+              0,
+              1
+            ],
+            "class_recalls": [
+              1.0,
+              0.24390243902439024
+            ],
+            "confusion_matrix_rows_true_columns_pred": [
+              [
+                835,
+                0
+              ],
+              [
+                62,
+                20
+              ]
+            ],
+            "macro_f1": 0.6781800480007245,
+            "macro_precision": 0.9654403567447045,
+            "macro_recall": 0.6219512195121951
+          }
+        }
+      }
+    }
+  },
+  "source_hashes": {
+    "features": "972804e2ce9115faf2459240a582fea66e61e3a6bcd6158d8bc11193efacb671",
+    "fit_script": "50816818d4f58e291ab1a41cb96010449f6ab9b7c5f73a64c902faaaeee325e5",
+    "historical_script": "66a883964417aae1a1e21e5bbca3ccb47b3bd969796b70a06b6061a3e347615b",
+    "preflight": "7b40eae5425cfa9acf8a82075242bd9d4f85172791dda4935fc28a31144c9915",
+    "protocol": "2782b0f43fd442a408f9acb8e6521cf7e64432abec45172a800c3983bb9d9105",
+    "raw": "f2de91874759e1ba7e804cb0d5ff0422e877edea5755001d0018451b2a895d56",
+    "split_map": "e991e7e52d652974e3d7e2524b509a71a428d0e8790aa2f33a19b421d6654e06"
+  },
+  "started_utc": "2026-11-03T04:43:04.942737+00:00",
+  "originalauthoritySHA256": "62314a10be382a88d4c22dbde67e864704f6f20b012ff0c31bb78535257ca99b",
+  "public_view_notice": "For result inspection only. Does not replace original authority inputs and does not claim one-click reproduction.",
+  "original_authority_relative_path": "run_kit_v1/results.json"
+}

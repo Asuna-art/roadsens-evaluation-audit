@@ -1,28 +1,11 @@
 % !TEX program = tectonic
-\documentclass[11pt]{article}
-\usepackage{fontspec}
-\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
-\usepackage[letterpaper,margin=0.75in]{geometry}
-\usepackage{microtype}
-\usepackage{graphicx}
-\usepackage{booktabs}
-\usepackage{tabularx}
-\usepackage{makecell}
-\usepackage{array}
-\usepackage{longtable}
-\usepackage{enumitem}
-\setlist{nosep,leftmargin=1.6em}
-\usepackage{xurl}
-\usepackage[hidelinks]{hyperref}
-\usepackage{caption}
-\captionsetup{font=small,labelfont=bf,skip=5pt}
-\newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
-\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
-\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{5pt plus 1pt}
-\setlength{\emergencystretch}{2em}
-\clubpenalty=10000\widowpenalty=10000\displaywidowpenalty=10000
+\documentclass[12pt]{article}
+\newif\ifanonymous\anonymousfalse
+\input{preamble.tex}
 \begin{document}
+\begin{center}\singlespacing
+{\large\bfseries\articletitle\par}\medskip
+{\normalsize\authorblock\par}
+\end{center}\medskip
 \input{main_body.tex}
 \end{document}
