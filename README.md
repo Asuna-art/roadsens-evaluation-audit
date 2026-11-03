@@ -1,10 +1,12 @@
 # Road-sensing evaluation audit
 
-Research artifacts for **Evaluating inertial road-surface classifiers for pavement screening: acquisition groups, model selection and performance estimation**.
+Research artifacts for **Classifier selection, score estimation and event coverage in inertial pavement screening**.
 
 ## Current evidence
 
-The author-review manuscript is v18 (3 November 2026): [compiled main article](manuscript/main.pdf), [compiled supplement](manuscript/supplementary.pdf), and editable TeX in `manuscript/`. Anonymous review versions and separate author information are also supplied.
+The focused v19 main article foregrounds classifier selection, score-estimation accuracy and event coverage. Five core experiment tables remain in the main text; five supporting tables are collected in Supplementary Section S18. Every numerical table block is retained, and no model, split or experimental result was changed for this revision. The author-inclusive main PDF is 18 pages and the anonymous version is 17 pages; the complete supplement is 43 pages.
+
+The author-review manuscript is v19 (3 November 2026): [compiled main article](manuscript/main.pdf), [compiled supplement](manuscript/supplementary.pdf), and editable TeX in `manuscript/`. Anonymous review versions and separate author information are also supplied.
 
 - RoadSens is a version-specific audit of 101 source CSVs. Source files are not assumed to be independent roads.
 - PVS remains **nine acquisitions**, with inseparable vehicle/driver identities. Its original two-axis estimation-error criterion **failed** and remains reported. Windows, seeds, annotation intervals and fits do not increase this count.

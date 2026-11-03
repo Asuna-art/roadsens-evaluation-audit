@@ -989,12 +989,22 @@ GPS timestamps establish three usable date groups. Five workbooks without a reco
 
 The frozen protocol is \path{KIT-PUBLIC-INDEPENDENT-SOURCE-20261103-v1}, SHA-256 \path{2782b0f43fd442a408f9acb8e6521cf7e64432abec45172a800c3983bb9d9105}. Schema, date/class counts and geographic overlap were inspected before this protocol; all model outcomes followed its freeze. The final date is excluded from candidate selection. Training windows are spatially purged using every raw coordinate in their span against eligible held-out anchors, followed by fixed common per-class inner training counts. Exact split and fit arrays are retained. The two date validation pools partition the same development windows as the random folds. Their full-window minimum separations are both 2,432.56 m. The final test has 917 windows and a retained-training separation of at least 922.43 m.
 
-Independent checks confirm labels, sample features, full-window buffers, class budgets, candidate choice, all saved metrics, model reload predictions and selection-file precedence over final predictions. Twenty-four fit-folds implement the four fixed candidates across the two selectors and two outer refit targets; they introduce no additional candidate architectures.
+Independent checks confirm labels, sample features, full-window buffers, class budgets, candidate choice, all saved metrics, model reload predictions and selection-file precedence over final predictions. Twenty-four fit-folds implement the four fixed candidates across the two selectors and two outer refit targets.
 
 \input{tables/supp_new_kit.tex}
 
 The final engineering population comprises 12 evaluable pothole annotation intervals and 0.0578948 h of assessed good-labelled travel. Unknown and other event classes are outside the binary task, including their travel exposure. Alarm decisions use the 0.25-s decision grid; raw row differences vary with sensor cadence. A good-labelled raw row contributes its positive time increment capped at 0.1 s, with the final interval row using the median positive increment. Non-event alarms and redundant event-associated notifications are reported separately. No travelled-distance denominator or independently video-adjudicated impact time is available in this analysis. Both tolerance settings and all per-file counts are supplied below.
 \input{tables/supp_new_kit_events.tex}
+
+\clearpage
+\section*{S18. Supporting experimental comparisons}
+This section reports label populations, context-feature comparisons, the explicit bump/pothole task, count-matched PVS refits and Mexico/Puebla selections. Their protocols and domain-specific outcomes are given in Sections S2--S5 and S11--S15.
+
+\input{tables/main_01.tex}
+\input{tables/main_03.tex}
+\input{tables/main_04.tex}
+\input{tables/main_07.tex}
+\input{tables/main_08.tex}
 
 \clearpage
 \begin{singlespace}\small
