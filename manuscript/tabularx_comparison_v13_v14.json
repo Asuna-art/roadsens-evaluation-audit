@@ -1,0 +1,15 @@
+{
+  "comparison": "tabularx blocks extracted verbatim in order",
+  "files": {
+    "main_body.tex": {
+      "v13_count": 14,
+      "v14_count": 14,
+      "identical": true
+    },
+    "supplementary_body.tex": {
+      "v13_count": 25,
+      "v14_count": 25,
+      "identical": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+PVS evaluation workflow figure (v14)
+
+The standalone source pvs_evaluation_workflow.tex places the redrawn
+figures/pvs_evaluation_workflow_v14.pdf at 178 mm width with zero border.
+Compile with Tectonic from this directory:
+    tectonic pvs_evaluation_workflow.tex
+    tectonic main.tex
+
+The editable vector drawing is figures/pvs_evaluation_workflow_v14.svg.
+Its complete drawing source is visual_source/draw_pvs_workflow_v14.py.
+Redraw with the locked research Python (no experiments are executed):
+    C:\Users\Administrator\miniconda3\python.exe visual_source/draw_pvs_workflow_v14.py
+
+The existing framework architecture (v13) and supplementary evidence are
+unchanged in this visual update. Their sources and compiled PDFs are retained.
+
+The redrawn figure uses Times typography; Times font files are not distributed
+with this package. Redrawing requires a licensed local Times New Roman font.
+The distributed PDF already embeds the required glyph subsets; compiling the
+standalone figure does not require redrawing it.

@@ -1,0 +1,69 @@
+{
+  "version": 14,
+  "checks": {
+    "main_compile": {
+      "exit_code": 0,
+      "pdf_exists": true,
+      "receipt_pdf_exists": true,
+      "passed": true
+    },
+    "standalone_compile": {
+      "exit_code": 0,
+      "pdf_exists": true,
+      "receipt_pdf_exists": true,
+      "passed": true
+    },
+    "figure_vector": {
+      "fonts": [
+        "EJKOUB+TimesNewRomanPSMT",
+        "FNHUOB+TimesNewRomanPS-BoldMT"
+      ],
+      "only_times_new_roman_ps_regular_bold": true,
+      "embedded_raster_count": 0,
+      "minimum_font_pt": 9.0,
+      "minimum_font_pass": true,
+      "size_mm": [
+        178.0,
+        104.0
+      ],
+      "size_pass": true
+    },
+    "new_figure_labels": {
+      "Select 1 of 4 candidates": true,
+      "Save inner macro-F1": true
+    },
+    "main_page_count": 25,
+    "figure1_page": 10,
+    "main_pdf_text_bounds": {
+      "issues": [],
+      "passed": true
+    },
+    "caption": {
+      "contains_S_VD_definition": true,
+      "contains_pooled_oof_wording": true,
+      "passed": true
+    },
+    "tabularx": {
+      "main_body.tex": {
+        "v13_count": 14,
+        "v14_count": 14,
+        "identical": true
+      },
+      "supplementary_body.tex": {
+        "v13_count": 25,
+        "v14_count": 25,
+        "identical": true
+      }
+    },
+    "supplementary_unchanged": {
+      "body_sha256_equal": true,
+      "pdf_sha256_equal": true,
+      "body_sha256": "100fa13923b9a0078c98a9020b194b2957075421515bb0f3ed4291a610e2dae9",
+      "pdf_sha256": "e32f592eeb8d306bebaceb76fb859fa09cc92ba65ce386493ed2d58c5f548cba"
+    }
+  },
+  "manual_visual_inspection": "passed",
+  "render_review_status": "passed: final-size vector figure, grayscale and compiled manuscript Figure 1 inspected",
+  "reviewed_at_utc": "2026-11-03T01:07:41.331882+00:00",
+  "requested_style": "Times; planned arrows; balanced text and line spacing; fewer explanatory gray notes"
+}

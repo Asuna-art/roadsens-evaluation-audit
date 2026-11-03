@@ -1,0 +1,56 @@
+{
+  "version": 14,
+  "claim": "The same selected candidate supplies outer performance and an inner-versus-outer estimation error.",
+  "visual_form": "Acquisition matrix plus nested evaluation workflow",
+  "metric": [
+    "outer macro-F1",
+    "absolute inner minus outer macro-F1"
+  ],
+  "unit": "unitless",
+  "direction": [
+    "higher",
+    "lower"
+  ],
+  "focal_series": "Two separate evaluation endpoints",
+  "required_baselines": "Random-window, whole-trip and matched-domain inner selectors; same four candidates",
+  "category_order": [
+    "Development",
+    "Selection",
+    "Outer test",
+    "Refitting and prediction",
+    "Selection endpoint",
+    "Estimation endpoint"
+  ],
+  "dimensions_mm": [
+    178,
+    104
+  ],
+  "font": "Times New Roman",
+  "resolved_fonts": {
+    "normal": "C:\\Windows\\Fonts\\times.ttf",
+    "bold": "C:\\Windows\\Fonts\\timesbd.ttf"
+  },
+  "uncertainty": "No numerical results or intervals in this schematic",
+  "source": "tex_v13/main_body.tex Figure 1 caption; tex_v10/visual_source/make_summary_visuals.py workflow()",
+  "immutable_counts": {
+    "acquisitions": 9,
+    "development": 6,
+    "test": 3,
+    "candidates": 4,
+    "outer_domains_per_axis": 3
+  },
+  "annotation_plan": "No gray explanatory prose; definitions, repeated-use caveat and aggregation remain in caption",
+  "references": [
+    "OAI-VIS-005",
+    "OAI-VIS-052",
+    "OAI-VIS-106"
+  ],
+  "formats": [
+    "PDF",
+    "SVG",
+    "300-dpi PNG",
+    "grayscale PNG",
+    "editable Python",
+    "standalone TeX"
+  ]
+}
